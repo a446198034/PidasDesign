@@ -10,7 +10,7 @@ public class MachineHighLightController : MonoBehaviour {
     bool isDoingMeSelf = false; //用来检测我是否正在被操作
 	// Use this for initialization
 	void Start () {
-        hh = GetComponent<HighLighMaterial>();
+        
 	}
 
     #region 外部调用高亮方法
@@ -21,6 +21,7 @@ public class MachineHighLightController : MonoBehaviour {
     /// <param name="s"></param>
     public void OnShowHighLight(bool s)
     {
+        CheckMaterialValue();
         hh.onShowHighLight(s);
     }
 
@@ -53,55 +54,28 @@ public class MachineHighLightController : MonoBehaviour {
         }
     }
 
-    void OnMouseDown()
-    {
-        //isDoingMeSelf = true;
-        //isSlected = !isSlected;
-        //hh.onShowHighLight(isSlected);
-
-
-        //ClickCallBack();
-    }
+    void OnMouseDown() {}
 
   //  void OnMouseDrag(){}
 
-    void OnMouseUp(){
-        isDoingMeSelf = false;
-    }
+    void OnMouseUp(){}
 
     #endregion
 
     // Update is called once per frame
-    void Update () {
-
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    if (isDoingMeSelf) return;
-
-        //    //isSlected = false;
-        //    //hh.onShowHighLight(isSlected);
-
-        //    //GameObject.Find("Canvas").GetComponent<MenuManager>().CallDisableRightMenu();
-        //}
-
-	}
+    void Update () {}
 
 
     #region LocalFunction
 
     /// <summary>
-    /// 点击回调
+    /// 检测 hh的值
     /// </summary>
-    void ClickCallBack()
+    void CheckMaterialValue()
     {
-        MenuManager mm = GameObject.Find("Canvas").GetComponent<MenuManager>();
-        if (isSlected)
+        if (null == hh)
         {
-            mm.CallOnRightMenu(gameObject, MachineType.Camera);
-        }
-        else
-        {
-            mm.CallDisableRightMenu();
+            hh = GetComponent<HighLighMaterial>();
         }
     }
 

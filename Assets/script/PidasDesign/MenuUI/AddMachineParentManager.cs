@@ -11,7 +11,7 @@ public class AddMachineParentManager : MonoBehaviour {
     public GameObject MenuManagerObj;
     MenuManager mm;
 
-    [Header("存放相机的List")]
+    [Header("下面的不用赋值存放相机的List")]
     public List<GameObject> CameraObjList;
 
 
@@ -85,7 +85,7 @@ public class AddMachineParentManager : MonoBehaviour {
                 
                 res = true;
                 CurMachineType = MachineType.Camera;
-                return res;
+                
             }
         }
 

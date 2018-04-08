@@ -931,7 +931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 800}
   m_SizeDelta: {x: 0, y: 800}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &133687461
@@ -2799,7 +2799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e011b543fbadf4e9a58f22012d84e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MenuManagerObj: {fileID: 0}
+  MenuManagerObj: {fileID: 1316354466}
   CameraObjList: []
 --- !u!1 &565631974
 GameObject:
@@ -3293,7 +3293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f682f4bc98cec843a06d7e0ac6dd8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AddMachineParentObj: {fileID: 0}
+  AddMachineParentObj: {fileID: 514073520}
   JianTouButtonObj: {fileID: 1555200212}
   HK_DS2CD3T25I3_PreObj: {fileID: 1000011004968768, guid: 7b2b8fffa55391f4e9bc460c21009e3b,
     type: 2}
