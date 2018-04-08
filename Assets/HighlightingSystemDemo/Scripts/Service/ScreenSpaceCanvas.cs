@@ -43,7 +43,7 @@ public class ScreenSpaceCanvas : MonoBehaviour
 	// 
 	void LateUpdate()
 	{
-		bool vr = (VRSettings.loadedDevice != VRDeviceType.None);
+		bool vr = (VRSettings.loadedDeviceName != "");
 		if (_vr != vr)
 		{
 			_vr = vr;

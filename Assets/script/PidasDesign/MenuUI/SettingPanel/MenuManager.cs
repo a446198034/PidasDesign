@@ -25,8 +25,8 @@ public class MenuManager : MonoBehaviour {
         CurMachineType = my;
         MenuObj.SetActive(true);
 
-        Vector3 v = Camera.main.WorldToScreenPoint(go.transform.position);
-        MenuObj.transform.position = v;
+
+        MenuObj.transform.position = Input.mousePosition;
     }
 
 

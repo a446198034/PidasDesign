@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 /// <summary>
 /// 这个类是当设备创建的时候需要准备的事情
+/// 所有的类都有 
 /// </summary>
 public class MachineCreateInit : MonoBehaviour {
 

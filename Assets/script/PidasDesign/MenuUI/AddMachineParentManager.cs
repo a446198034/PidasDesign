@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
 /// <summary>
 /// 管理添加设备的父对象的管理
@@ -49,17 +50,26 @@ public class AddMachineParentManager : MonoBehaviour {
 
         if (Input.GetMouseButtonDown(0))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit rayhit;
-
-            if (Physics.Raycast(ray, out rayhit))
+            if (EventSystem.current.IsPointerOverGameObject())
             {
-                bool s = checkIfInList(rayhit.transform);
+                //UI
+            }
+            else
+            {
 
-                if (s)
-                    mm.CallOnRightMenu(rayhit.transform.gameObject,CurMachineType);
-                else
-                    mm.CallDisableRightMenu();
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit rayhit;
+
+                if (Physics.Raycast(ray, out rayhit))
+                {
+                    bool s = checkIfInList(rayhit.transform);
+
+                    if (s)
+                        mm.CallOnRightMenu(rayhit.transform.gameObject, CurMachineType);
+                    else
+                        mm.CallDisableRightMenu();
+                }
+
             }
         }
     }
@@ -82,7 +92,7 @@ public class AddMachineParentManager : MonoBehaviour {
             {
                 mhlc.OnShowHighLight(true);
                 mhlc.MyStateControl(true);
-                
+
                 res = true;
                 CurMachineType = MachineType.Camera;
                 
