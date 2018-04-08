@@ -72,7 +72,11 @@ public class AddMachineParentManager : MonoBehaviour {
 
             }
         }
+
     }
+
+
+    #region 本地方法
 
     /// <summary>
     /// 检测射线射到的物体是否在List里面
@@ -95,11 +99,14 @@ public class AddMachineParentManager : MonoBehaviour {
 
                 res = true;
                 CurMachineType = MachineType.Camera;
-                
+
             }
         }
 
         return res;
     }
+
+    #endregion
+
 
 }

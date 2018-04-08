@@ -54,7 +54,7 @@ public class PhotoreceptorManager : MonoBehaviour {
         MyCameraSettingPanelObj.GetComponent<CameraSettingPanelManager>().SetCurPhotoreceptorChiCun(f);
     }
 
-    float getChiCunByPhotoreceptor(Photoreceptor pp)
+    public float getChiCunByPhotoreceptor(Photoreceptor pp)
     {
         float res = 0;
         switch (pp)

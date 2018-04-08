@@ -39,6 +39,18 @@ public class GlogalData {
         return res;
     }
 
+    /// <summary>
+    /// 取小数点后N位
+    /// </summary>
+    /// <param name="t"></param>
+    /// <param name="acc"></param>
+    /// <returns></returns>
+    public static float getNumByFloat(float t, int acc)
+    {
+        float temp = t * Mathf.Pow(10, acc);
+        float fff = Mathf.Round(temp) / Mathf.Pow(10,acc);
+        return fff;
+    }
 
 }
 

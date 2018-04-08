@@ -28,6 +28,7 @@ public class MachineCreateInit : MonoBehaviour {
     /// </summary>
     public void CreateObjForFirst()
     {
+        GetComponent<EquipmentSelfDetail>().MyEquipmentDao.setANewGuid();
         OnShowCollider(false);
         StartCoroutine(OnMouseOverToMove());
     }

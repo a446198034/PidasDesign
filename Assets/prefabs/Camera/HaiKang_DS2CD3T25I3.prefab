@@ -155,6 +155,7 @@ MonoBehaviour:
   ChangPositionList:
   - {fileID: 4000012087416516}
   MachineRotatePoint: {fileID: 0}
+  InitRotation: {x: 0, y: 180, z: 0}
 --- !u!114 &114000012633568994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -181,6 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyEquipmentDao:
+    id: 
     HengRotate:
       RotateAxis: 1
       isNeedFuShu: 0
@@ -193,7 +195,7 @@ MonoBehaviour:
     CamPos: {x: 0, y: 0, z: 0}
     CamName: Camera
     MyPhotoreceptorType: 0
-    ValidDistance: 0
+    ValidDistance: 12
     isIamQiuJiCam: 0
     FOV_Value: 60
     IpAddressStr: 192.168.1.1

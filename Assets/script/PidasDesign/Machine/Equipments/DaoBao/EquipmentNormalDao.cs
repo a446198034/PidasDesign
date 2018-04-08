@@ -9,6 +9,11 @@ using System;
 public class EquipmentNormalDao  {
 
     /// <summary>
+    /// Guid
+    /// </summary>
+    public string id = "";
+
+    /// <summary>
     /// 横向旋转类
     /// </summary>
     [Header("横向旋转")]
@@ -34,4 +39,10 @@ public class EquipmentNormalDao  {
         res.ShuRotate = res.ShuRotate.getANewEquipmentRotationDao(edd.ShuRotate);
         return res;
     }
+
+    public void setANewGuid()
+    {
+        id = Guid.NewGuid().ToString();
+    }
+
 }

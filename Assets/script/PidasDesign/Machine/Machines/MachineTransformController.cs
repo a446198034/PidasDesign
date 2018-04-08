@@ -14,6 +14,9 @@ public class MachineTransformController : MonoBehaviour {
     public Transform MachineRotatePoint = null;
     Transform RotateTran = null;
 
+    [Header("初始旋转值")]
+    public Vector3 InitRotation;
+
     EquipmentRotationDao HengRotationDao = null;
     EquipmentRotationDao ShuRotationDao = null;
 
@@ -21,9 +24,29 @@ public class MachineTransformController : MonoBehaviour {
     void Start () {
         initHengShuRotateDoa();
     }
-	
+
 
     #region 公有方法
+
+    /// <summary>
+    /// 设置相机场的位置
+    /// </summary>
+    /// <param name="FirstCamTran"></param>
+    /// <param name="SecondCamTran"></param>
+    public void SetCamMesgPosition(Transform FirstCamTran, Transform SecondCamTran)
+    {
+        FirstCamTran.SetParent(ChangPositionList[0]);
+        FirstCamTran.localPosition = Vector3.zero;
+        FirstCamTran.localRotation = Quaternion.Euler(InitRotation);
+
+        if (ChangPositionList.Count > 1)
+        {
+            SecondCamTran.SetParent(ChangPositionList[1]);
+            SecondCamTran.localPosition = Vector3.zero;
+            SecondCamTran.localRotation = Quaternion.Euler(InitRotation);
+        }
+
+    }
 
     /// <summary>
     /// 设置横向旋转值
