@@ -23,6 +23,21 @@ public class MachineCreateInit : MonoBehaviour {
     #region 公有方法
 
     /// <summary>
+    /// 创建物体后的移动操作
+    /// </summary>
+    public void CreateObjForFirst()
+    {
+        OnShowCollider(false);
+        StartCoroutine(OnMouseOverToMove());
+    }
+
+
+
+    #endregion
+
+    #region 鼠标拖拽模块
+
+    /// <summary>
     /// 鼠标拖拽
     /// </summary>
     /// <returns></returns>
@@ -30,23 +45,62 @@ public class MachineCreateInit : MonoBehaviour {
     {
         while (Input.GetMouseButton(0))
         {
+            Vector3 v = Vector3.zero;
 
-            if (EventSystem.current.IsPointerOverGameObject())
-            {
-                //碰到UI了
-            }
-            else
-            {
-
-            }
+            v = getPositionByRay();
 
 
+            transform.position = v;
             yield return new WaitForFixedUpdate();
         }
+
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            Debug.Log("UIUI: I Should Do Delete");
+        }
+        else
+        {
+            Debug.Log("none");
+        }
+
+        OnShowCollider(true);
+    }
+
+
+    /// <summary>
+    /// 根据射线获取位置
+    /// </summary>
+    /// <returns></returns>
+    Vector3 getPositionByRay()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        Vector3 res = Vector3.zero;
+        if (Physics.Raycast(ray, out hit))
+        {
+            res = hit.point;
+        }
+        return res;
+    }
+
+    void OnShowCollider(bool s)
+    {
+        GetComponent<BoxCollider>().enabled = s;
     }
 
 
     #endregion
+
+
+    #region Local Function
+
+
+
+
+    #endregion
+
+
 
 
 }

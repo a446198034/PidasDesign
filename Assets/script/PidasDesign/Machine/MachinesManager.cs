@@ -6,6 +6,13 @@ using System.Collections;
 /// </summary>
 public class MachinesManager : MonoBehaviour {
 
+    [Header("添加设备的父对象")]
+    public GameObject AddMachineParentObj;
+    AddMachineParentManager ampm;
+
+    [Header("箭头按钮")]
+    public GameObject JianTouButtonObj;
+
     [Header("海康 DS-2CD3T25-I3 ")]
     public GameObject HK_DS2CD3T25I3_PreObj;
 
@@ -15,7 +22,7 @@ public class MachinesManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-	
+        ampm = AddMachineParentObj.GetComponent<AddMachineParentManager>();
 	}
 	
 	// Update is called once per frame
@@ -29,10 +36,16 @@ public class MachinesManager : MonoBehaviour {
     /// <param name="go"></param>
     public void CameraCreateBtncallback(GameObject go)
     {
+
+        JianTouButtonObj.GetComponent<LeftMenuJianTouControl>().OnShowMenu();
+
         UICameraMachineDetail ucm = go.GetComponent<UICameraMachineDetail>();
         GameObject CamGo = getCameraPrefabsByCheckMessage(ucm);
+        GameObject XinChuangJian = Instantiate(CamGo);
+        MachineCreateInit mc = XinChuangJian.GetComponent<MachineCreateInit>();
+        mc.CreateObjForFirst();
 
-
+        ampm.AddCameraObj(XinChuangJian);
     }
 
     #region LocalFunction
