@@ -22,7 +22,6 @@ GameObject:
   - 20: {fileID: 20000010144535790}
   - 124: {fileID: 124000011519952872}
   - 92: {fileID: 92000010950742656}
-  - 81: {fileID: 81000014212350646}
   m_Layer: 0
   m_Name: GodCamSecond
   m_TagString: Untagged
@@ -42,7 +41,7 @@ GameObject:
   - 114: {fileID: 114000010139442742}
   - 33: {fileID: 33000014070799290}
   - 23: {fileID: 23000014201164512}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: InsideCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +60,7 @@ GameObject:
   - 114: {fileID: 114000013539363252}
   - 23: {fileID: 23000011306902080}
   - 33: {fileID: 33000011824156266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: InsideCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +95,7 @@ GameObject:
   - 23: {fileID: 23000011491509448}
   - 114: {fileID: 114000012009781068}
   - 20: {fileID: 20000011350262042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CameraDrawViewObjSecond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +113,6 @@ GameObject:
   - 20: {fileID: 20000011868239698}
   - 124: {fileID: 124000010993574068}
   - 92: {fileID: 92000012091758598}
-  - 81: {fileID: 81000014154310632}
   m_Layer: 0
   m_Name: GodCam
   m_TagString: Untagged
@@ -133,9 +131,9 @@ GameObject:
   - 120: {fileID: 120000012238903822}
   - 33: {fileID: 33000010202608664}
   - 23: {fileID: 23000013740660990}
-  - 114: {fileID: 114000013465460794}
   - 20: {fileID: 20000011611525260}
-  m_Layer: 0
+  - 114: {fileID: 114000013465460794}
+  m_Layer: 8
   m_Name: CameraDrawViewObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,7 +454,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 7f5e62b47a5d97644a765f20161373fd, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -514,7 +512,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 7f5e62b47a5d97644a765f20161373fd, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -587,20 +585,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010250123618}
   m_Mesh: {fileID: 0}
---- !u!81 &81000014154310632
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012447897630}
-  m_Enabled: 1
---- !u!81 &81000014212350646
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010206427836}
-  m_Enabled: 1
 --- !u!92 &92000010950742656
 Behaviour:
   m_ObjectHideFlags: 1

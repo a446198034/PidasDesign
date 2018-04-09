@@ -14,35 +14,28 @@ public class HighLighMaterial : HighlighterInteractive
     public void onShowHighLight(bool s)
     {
         isShow = s;
+
+       
     }
 
     #endregion
 
 
-    #region MonoBehaviour
-    // 
     protected override void Awake()
     {
         base.Awake();
-
-
     }
 
-    // 
     protected override void Update()
     {
-
         if (isShow)
         {
-            //  h.ConstantOnImmediate(showcc);
             h.ConstantOn(ShowColor);
         }
         else
         {
             h.ConstantOff();
         }
-
     }
-    #endregion
 
 }

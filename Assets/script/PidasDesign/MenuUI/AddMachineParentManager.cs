@@ -15,7 +15,8 @@ public class AddMachineParentManager : MonoBehaviour {
     [Header("下面的不用赋值存放相机的List")]
     public List<GameObject> CameraObjList;
 
-
+    GameObject CurLeftControlObj;
+    GameObject CurRightControlObj;
     /// <summary>
     /// 当前控制的设备类型
     /// </summary>
@@ -40,6 +41,10 @@ public class AddMachineParentManager : MonoBehaviour {
         CameraObjList.Add(go);
     }
 
+    public GameObject getCurLeftControlObj()
+    {
+        return CurLeftControlObj;
+    }
 
     #endregion
 
@@ -47,6 +52,8 @@ public class AddMachineParentManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+
+        if (Input.GetKey(KeyCode.LeftAlt)) return;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -65,13 +72,54 @@ public class AddMachineParentManager : MonoBehaviour {
                     bool s = checkIfInList(rayhit.transform);
 
                     if (s)
-                        mm.CallOnRightMenu(rayhit.transform.gameObject, CurMachineType);
-                    else
+                    {
+                        CurLeftControlObj = rayhit.transform.gameObject;
+                        //关掉东西
                         mm.CallDisableRightMenu();
+                    }
+                    else
+                    {
+                        CurLeftControlObj = null;
+                        //关掉东西
+                        mm.CallDisableRightMenu();
+                    }
                 }
 
             }
         }
+
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            if (EventSystem.current.IsPointerOverGameObject())
+            {
+                //UI
+            }
+            else
+            {
+
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit rayhit;
+
+                if (Physics.Raycast(ray, out rayhit))
+                {
+                    bool s = checkIfInList(rayhit.transform);
+
+                    if (s)
+                    {
+                        CurRightControlObj = rayhit.transform.gameObject;
+                        mm.CallOnRightMenu(rayhit.transform.gameObject, CurMachineType);
+                    }
+                    else
+                    {
+                        CurRightControlObj = null;
+                        mm.CallDisableRightMenu();
+                    }
+                }
+
+            }
+        }
+
 
     }
 

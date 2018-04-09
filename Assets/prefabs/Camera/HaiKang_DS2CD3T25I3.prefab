@@ -155,7 +155,7 @@ MonoBehaviour:
   ChangPositionList:
   - {fileID: 4000012087416516}
   MachineRotatePoint: {fileID: 0}
-  InitRotation: {x: 0, y: 180, z: 0}
+  InitRotation: {x: 0, y: 90, z: 0}
 --- !u!114 &114000012633568994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seeThrough: 1
   isShow: 0
-  ShowColor: {r: 0, g: 1, b: 0.21379304, a: 1}
+  ShowColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &114000013659852984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -188,20 +188,20 @@ MonoBehaviour:
       isNeedFuShu: 0
       RotateValue: 0
     ShuRotate:
-      RotateAxis: 1
-      isNeedFuShu: 0
+      RotateAxis: 2
+      isNeedFuShu: 1
       RotateValue: 0
   MyCamdao:
     CamPos: {x: 0, y: 0, z: 0}
     CamName: Camera
     MyPhotoreceptorType: 0
-    ValidDistance: 12
+    ValidDistance: 8
     isIamQiuJiCam: 0
     FOV_Value: 60
     IpAddressStr: 192.168.1.1
     Port: 8080
     CamFactorytype: 0
-    CameraVertion: DS-2CD3T25-I3
+    CameraVersion: DS-2CD3T25-I3
   CamType: 0
 --- !u!114 &114000013701211378
 MonoBehaviour:

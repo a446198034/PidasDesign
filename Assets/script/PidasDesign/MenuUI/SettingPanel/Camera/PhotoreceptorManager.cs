@@ -50,19 +50,9 @@ public class PhotoreceptorManager : MonoBehaviour {
     /// <param name="p"></param>
     public void setCurPhotoreceptorByChiCun(Photoreceptor p)
     {
-        float f = getChiCunByPhotoreceptor(p);
+        float f = GlogalData.getChiCunByPhotoreceptor(p);
         MyCameraSettingPanelObj.GetComponent<CameraSettingPanelManager>().SetCurPhotoreceptorChiCun(f);
     }
 
-    public float getChiCunByPhotoreceptor(Photoreceptor pp)
-    {
-        float res = 0;
-        switch (pp)
-        {
-            case Photoreceptor.TwoOfOne: res = GlogalData.Photoreceptor_Two_One;break;
-            case Photoreceptor.ThreeOfOne: res = GlogalData.Photoreceptor_Three_One;break;
-            case Photoreceptor.FourOfOne: res = GlogalData.Photoreceptor_Four_One;break;
-        }
-        return res;
-    }
+    
 }

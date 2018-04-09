@@ -53,7 +53,7 @@ public class CameraDao  {
     /// <summary>
     /// 摄像机型号
     /// </summary>
-    public string CameraVertion = "ABCD";
+    public string CameraVersion = "ABCD";
 
     public CameraDao(){
         
@@ -72,7 +72,7 @@ public class CameraDao  {
         res.IpAddressStr = cd.IpAddressStr;
         res.Port = cd.Port;
         res.CamFactorytype = cd.CamFactorytype;
-        res.CameraVertion = cd.CameraVertion;
+        res.CameraVersion = cd.CameraVersion;
 
         return res;
     }

@@ -28,9 +28,11 @@ public class MachineCreateInit : MonoBehaviour {
     /// </summary>
     public void CreateObjForFirst()
     {
+
         GetComponent<EquipmentSelfDetail>().MyEquipmentDao.setANewGuid();
         OnShowCollider(false);
         StartCoroutine(OnMouseOverToMove());
+
     }
 
 
@@ -66,6 +68,7 @@ public class MachineCreateInit : MonoBehaviour {
         }
 
         OnShowCollider(true);
+        
     }
 
 
@@ -75,6 +78,9 @@ public class MachineCreateInit : MonoBehaviour {
     /// <returns></returns>
     Vector3 getPositionByRay()
     {
+        Vector3 screenSpace = Camera.main.WorldToScreenPoint(transform.position);
+        Vector3 offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenSpace.z));
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
@@ -83,12 +89,19 @@ public class MachineCreateInit : MonoBehaviour {
         {
             res = hit.point;
         }
+        else
+        {
+            Vector3 CurScreenSpace = new Vector3(Input.mousePosition.x, Input.mousePosition.y,screenSpace.z);
+            Vector3 Curposition = Camera.main.ScreenToWorldPoint(CurScreenSpace) + offset;
+            res = Curposition;
+        }
         return res;
     }
 
     void OnShowCollider(bool s)
     {
         GetComponent<BoxCollider>().enabled = s;
+        
     }
 
 

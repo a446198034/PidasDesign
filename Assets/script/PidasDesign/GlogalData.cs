@@ -40,6 +40,47 @@ public class GlogalData {
     }
 
     /// <summary>
+    /// 通过感光元器件获取尺寸
+    /// </summary>
+    /// <param name="pp"></param>
+    /// <returns></returns>
+    public static float getChiCunByPhotoreceptor(Photoreceptor pp)
+    {
+        float res = 0;
+        switch (pp)
+        {
+            case Photoreceptor.TwoOfOne: res = Photoreceptor_Two_One; break;
+            case Photoreceptor.ThreeOfOne: res = Photoreceptor_Three_One; break;
+            case Photoreceptor.FourOfOne: res = Photoreceptor_Four_One; break;
+        }
+        return res;
+    }
+
+    /// <summary>
+    /// 根据Photoreceptor值 获取类型
+    /// </summary>
+    /// <param name="f"></param>
+    /// <returns></returns>
+    public static Photoreceptor getPhotoreceptorType(float f)
+    {
+        Photoreceptor p = Photoreceptor.TwoOfOne;
+        if (f == Photoreceptor_Two_One)
+        {
+            p = Photoreceptor.TwoOfOne;
+        }
+        else if (f == Photoreceptor_Three_One)
+        {
+            p = Photoreceptor.ThreeOfOne;
+        }
+        else if (f == Photoreceptor_Four_One)
+        {
+            p = Photoreceptor.FourOfOne;
+        }
+
+        return p;
+    }
+
+    /// <summary>
     /// 取小数点后N位
     /// </summary>
     /// <param name="t"></param>
