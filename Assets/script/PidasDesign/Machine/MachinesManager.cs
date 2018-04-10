@@ -42,6 +42,7 @@ public class MachinesManager : MonoBehaviour {
         UICameraMachineDetail ucm = go.GetComponent<UICameraMachineDetail>();
         GameObject CamGo = getCameraPrefabsByCheckMessage(ucm);
         GameObject XinChuangJian = Instantiate(CamGo);
+
         MachineCreateInit mc = XinChuangJian.GetComponent<MachineCreateInit>();
         mc.CreateObjForFirst();
 

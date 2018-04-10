@@ -116,6 +116,16 @@ public enum MachineType
     Radar
 }
 
+/// <summary>
+/// 物体的Transform类型
+/// 用于设置Transform面板
+/// </summary>
+public enum TransformType
+{
+    T_position,
+    T_rotation,
+    T_scale
+}
 
 #region Camera
 

@@ -12,7 +12,7 @@ public class SettingPanelManager : MonoBehaviour {
 	}
 
 
-    #region Public Function
+    #region Camera
 
     /// <summary>
     /// 显示摄像机的设置 页面

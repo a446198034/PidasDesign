@@ -36,8 +36,18 @@ public class MouseXunYouController : MonoBehaviour {
 
         float mx = Input.GetAxis("Horizontal");
         float my = Input.GetAxis("Vertical");
-        float s = Input.GetKey(KeyCode.LeftShift) ? 10 : 2;
+        float s = Input.GetKey(KeyCode.LeftShift) ? 20 : 5;
         transform.Translate(new Vector3(mx * Time.deltaTime * s, 0, my * Time.deltaTime * s));
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            transform.Translate(Vector3.down * Time.deltaTime * s);
+        }
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            transform.Translate(Vector3.up * Time.deltaTime * s);
+        }
 
 
         //滚轮键拖动相机
@@ -52,6 +62,10 @@ public class MouseXunYouController : MonoBehaviour {
             float x = Input.GetAxis("Mouse X") * 2;
             float y = Input.GetAxis("Mouse Y") * 2;
             transform.Rotate(-y , x , 0);
+
+            Vector3 vv = transform.rotation.eulerAngles;
+            vv.z = 0;
+            transform.rotation = Quaternion.Euler(vv);
         }
 
         if (Input.GetKey(KeyCode.LeftAlt))
@@ -119,17 +133,12 @@ public class MouseXunYouController : MonoBehaviour {
                 CamFlyTargetTran = adpm.getCurLeftControlObj().transform;
                 isFly = true;
             }
-            else
-            {
-                CamFlyTargetTran = null;
-            }   
+            
         }
 
         if (isFly)
         {
-            Quaternion qua = Quaternion.LookRotation(CamFlyTargetTran.position);
-
-            transform.rotation = Quaternion.Lerp(transform.rotation,qua,Time.deltaTime * FlySpeed);
+            transform.LookAt(CamFlyTargetTran);
             transform.position = Vector3.Lerp(transform.position, CamFlyTargetTran.position, Time.deltaTime * FlySpeed);
 
             if (Vector3.Distance(transform.position, CamFlyTargetTran.position) < 10)

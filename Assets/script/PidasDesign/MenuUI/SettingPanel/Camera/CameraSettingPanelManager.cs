@@ -141,6 +141,15 @@ public class CameraSettingPanelManager : MonoBehaviour {
 
     }
 
+    /// <summary>
+    /// 关闭按钮回调事件
+    /// </summary>
+    public void CloseBtnCallBack()
+    {
+        CameraFieldObj.SetActive(false);
+        CameraSecondFieldObj.SetActive(false);
+        gameObject.SetActive(false);
+    }
 
     #region Local Function
 

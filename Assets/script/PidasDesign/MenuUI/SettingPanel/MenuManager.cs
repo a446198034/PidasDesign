@@ -6,13 +6,19 @@ public class MenuManager : MonoBehaviour {
     [Header("操作的页面")]
     public GameObject MenuObj;
 
+    [Header("显示Transform面板的物体")]
+    public GameObject TranformShowControlObj;
+    TransformMessageController ttmc;
+
     SettingPanelManager spm;
     GameObject CurControl;
     MachineType CurMachineType;
 	// Use this for initialization
 	void Start () {
         spm = GetComponent<SettingPanelManager>();
+        ttmc = TranformShowControlObj.GetComponent<TransformMessageController>();
 
+        TranformShowControlObj.SetActive(false);
         MenuObj.SetActive(false);
 	}
 
@@ -29,8 +35,9 @@ public class MenuManager : MonoBehaviour {
         CurMachineType = my;
         MenuObj.SetActive(true);
 
-
         MenuObj.transform.position = Input.mousePosition;
+
+
     }
 
 
@@ -44,6 +51,31 @@ public class MenuManager : MonoBehaviour {
 
     #endregion
 
+    #region TransformController面板控制
+
+    /// <summary>
+    /// 显示transform面板
+    /// </summary>
+    /// <param name="go"></param>
+    public void CallOnTransformMessagePanel()
+    {
+        TranformShowControlObj.SetActive(true);
+
+        ttmc.CallOnTransformControllerPanel(CurControl);
+    }
+
+    /// <summary>
+    /// 在UI关掉
+    /// 关闭transform面板
+    /// </summary>
+    public void CallDisableTransformControlPanel()
+    {
+        TranformShowControlObj.SetActive(false);
+    }
+
+    #endregion
+
+
 
     #region UI Event
 
@@ -56,7 +88,7 @@ public class MenuManager : MonoBehaviour {
     }
 
     /// <summary>
-    /// 替换    按钮回调事件
+    /// 查看场    按钮回调事件
     /// </summary>
     public void BtnCallback_Replace()
     {
@@ -82,12 +114,15 @@ public class MenuManager : MonoBehaviour {
     {
         switch (CurMachineType)
         {
-            case MachineType.Camera: spm.CallOnCameraSetting(CurControl);break;
+            case MachineType.Camera:
+                spm.CallOnCameraSetting(CurControl);
+                break;
             case MachineType.Infrared: break;
             case MachineType.Radar:break;
             case MachineType.Microwave:break;
         }
         MenuObj.SetActive(false);
+        CallOnTransformMessagePanel();
     }
 
 
