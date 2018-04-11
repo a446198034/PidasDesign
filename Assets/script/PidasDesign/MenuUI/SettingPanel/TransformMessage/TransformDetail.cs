@@ -103,7 +103,6 @@ public class TransformDetail : MonoBehaviour {
 
     void X_InputFiled_EndEdit(InputField iiiii)
     {
-
         float temp;
         if (!float.TryParse(iiiii.text, out temp))
         {
@@ -199,8 +198,6 @@ public class TransformDetail : MonoBehaviour {
     }
 
     #endregion
-
-
 
 
 }

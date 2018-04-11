@@ -10,6 +10,10 @@ public class MenuManager : MonoBehaviour {
     public GameObject TranformShowControlObj;
     TransformMessageController ttmc;
 
+    [Header("AddMachineParentManager")]
+    public GameObject AddGameObjParentObj;
+    AddMachineParentManager ampm;
+
     SettingPanelManager spm;
     GameObject CurControl;
     MachineType CurMachineType;
@@ -17,7 +21,7 @@ public class MenuManager : MonoBehaviour {
 	void Start () {
         spm = GetComponent<SettingPanelManager>();
         ttmc = TranformShowControlObj.GetComponent<TransformMessageController>();
-
+        ampm = AddGameObjParentObj.GetComponent<AddMachineParentManager>();
         TranformShowControlObj.SetActive(false);
         MenuObj.SetActive(false);
 	}
@@ -105,7 +109,25 @@ public class MenuManager : MonoBehaviour {
     /// 删除  按钮回调事件
     /// </summary>
     public void BtnCallBack_Delete()
-    { }
+    {
+        switch (CurMachineType)
+        {
+            case MachineType.Camera:
+
+                if (CurControl == spm.getCameraSettingPanelObj())
+                {
+                    spm.DisableCameraSetting();
+                    CallDisableTransformControlPanel();
+                }
+                        
+                break;
+            case MachineType.Infrared: break;
+            case MachineType.Radar: break;
+            case MachineType.Microwave: break;
+        }
+        MenuObj.SetActive(false);
+        ampm.RemoveObjInScene(CurControl,CurMachineType);
+    }
 
     /// <summary>
     /// 属性  按钮回调事件

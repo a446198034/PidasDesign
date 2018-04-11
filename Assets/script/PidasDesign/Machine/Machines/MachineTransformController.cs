@@ -128,12 +128,12 @@ public class MachineTransformController : MonoBehaviour {
     {
         if (null == HengRotationDao)
         {
-            HengRotationDao = GetComponent<Equipment_Camera_Qiangji>().MyEquipmentDao.HengRotate;
+            HengRotationDao = GetComponent<EquipmentSelfDetail>().MyEquipmentDao.HengRotate;
         }
 
         if (null == ShuRotationDao)
         {
-            ShuRotationDao = GetComponent<Equipment_Camera_Qiangji>().MyEquipmentDao.ShuRotate;
+            ShuRotationDao = GetComponent<EquipmentSelfDetail>().MyEquipmentDao.ShuRotate;
         }
     }
 

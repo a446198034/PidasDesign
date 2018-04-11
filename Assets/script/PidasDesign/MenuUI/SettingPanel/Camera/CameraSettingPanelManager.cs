@@ -6,6 +6,9 @@ public class CameraSettingPanelManager : MonoBehaviour {
     [Multiline]
     public string Introduction = "";
 
+    [Header("相机场原来的父对象")]
+    public Transform ChangInitFatherTran;
+
     [Header("相机的场一")]
     public GameObject CameraFieldObj;
     TestDrawCam tdc;
@@ -105,6 +108,8 @@ public class CameraSettingPanelManager : MonoBehaviour {
 
     #endregion
 
+    #region Public Function
+
     /// <summary>
     /// 呼叫显示相机设置页面
     /// </summary>
@@ -123,7 +128,7 @@ public class CameraSettingPanelManager : MonoBehaviour {
         IF_Name.text = CurMC.MyCamdao.CamName;
         IF_IpAddress.text = CurMC.MyCamdao.IpAddressStr;
         IF_Port.text = CurMC.MyCamdao.Port;
-        
+
         CurSelectPhotoreceptor = GlogalData.getChiCunByPhotoreceptor(CurMC.MyCamdao.MyPhotoreceptorType);
         curSelectValidDistance = CurMC.MyCamdao.ValidDistance;
         SetCurPhotoreceptorChiCun(CurSelectPhotoreceptor);
@@ -146,10 +151,24 @@ public class CameraSettingPanelManager : MonoBehaviour {
     /// </summary>
     public void CloseBtnCallBack()
     {
+        CameraFieldObj.transform.SetParent(ChangInitFatherTran);
+        CameraSecondFieldObj.transform.SetParent(ChangInitFatherTran);
+
         CameraFieldObj.SetActive(false);
         CameraSecondFieldObj.SetActive(false);
         gameObject.SetActive(false);
     }
+
+    /// <summary>
+    /// 获取当前操作的对象
+    /// </summary>
+    /// <returns></returns>
+    public GameObject getCurControlObj()
+    {
+        return CurControlObj;
+    }
+
+    #endregion
 
     #region Local Function
 
@@ -213,8 +232,6 @@ public class CameraSettingPanelManager : MonoBehaviour {
 
 
     #endregion
-
-
 
 
 }

@@ -13,10 +13,13 @@ public class TransformMessageController : MonoBehaviour {
     [Header("Scale")]
     public TransformDetail TD_Scale;
 
+    [Header("Canvas")]
+    public GameObject CanvasObj;
+    SettingPanelConnectWithTransform spcwt;
     GameObject CurControlObj;
     // Use this for initialization
     void Start() {
-
+        spcwt = CanvasObj.GetComponent<SettingPanelConnectWithTransform>();
     }
 
     /// <summary>
@@ -94,9 +97,24 @@ public class TransformMessageController : MonoBehaviour {
 
         switch (ca)
         {
-            case ControlAxis.Axis_X: q.x = f; break;
-            case ControlAxis.Axis_Y: q.y = f; break;
-            case ControlAxis.Axis_Z: q.z = f; break;
+            case ControlAxis.Axis_X:
+                //if (!spcwt.IsChangeRotationAxisValueBySlider(ca, f))
+                //{
+                q.x = f;
+                //}
+                break;
+            case ControlAxis.Axis_Y:
+                //if (!spcwt.IsChangeRotationAxisValueBySlider(ca, f))
+                //{
+                q.y = f;
+                //}
+                break;
+            case ControlAxis.Axis_Z:
+                //if (!spcwt.IsChangeRotationAxisValueBySlider(ca, f))
+                //{
+                q.z = f;
+                //}
+                break;
         }
 
         CurControlObj.transform.rotation = Quaternion.Euler(q);

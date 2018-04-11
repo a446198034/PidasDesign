@@ -41,6 +41,26 @@ public class AddMachineParentManager : MonoBehaviour {
         CameraObjList.Add(go);
     }
 
+    /// <summary>
+    /// 从场景中删除物体
+    /// </summary>
+    /// <param name="go"></param>
+    /// <param name="mt"></param>
+    public void RemoveObjInScene(GameObject go, MachineType mt)
+    {
+        switch (mt)
+        {
+            case MachineType.Camera:
+                CameraObjList.Remove(go);
+                Destroy(go);
+                break;
+            case MachineType.Infrared: break;
+            case MachineType.Microwave: break;
+            case MachineType.Radar: break;
+        }
+    }
+
+
     public GameObject getCurLeftControlObj()
     {
         return CurLeftControlObj;
