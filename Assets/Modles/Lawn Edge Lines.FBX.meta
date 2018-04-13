@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 6d2b768815793fb47815830a01f60a07
+timeCreated: 1468983051
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Lawn Edge Line01
+    100002: Lawn Edge Line02
+    100004: Lawn Edge Line03
+    100006: Lawn Edge Line04
+    100008: Lawn Edge Line05
+    100010: Lawn Edge Line06
+    100012: Lawn Edge Line07
+    100014: Lawn Edge Line08
+    100016: //RootNode
+    400000: Lawn Edge Line01
+    400002: Lawn Edge Line02
+    400004: Lawn Edge Line03
+    400006: Lawn Edge Line04
+    400008: Lawn Edge Line05
+    400010: Lawn Edge Line06
+    400012: Lawn Edge Line07
+    400014: Lawn Edge Line08
+    400016: //RootNode
+    2300000: Lawn Edge Line01
+    2300002: Lawn Edge Line02
+    2300004: Lawn Edge Line03
+    2300006: Lawn Edge Line04
+    2300008: Lawn Edge Line05
+    2300010: Lawn Edge Line06
+    2300012: Lawn Edge Line07
+    2300014: Lawn Edge Line08
+    3300000: Lawn Edge Line01
+    3300002: Lawn Edge Line02
+    3300004: Lawn Edge Line03
+    3300006: Lawn Edge Line04
+    3300008: Lawn Edge Line05
+    3300010: Lawn Edge Line06
+    3300012: Lawn Edge Line07
+    3300014: Lawn Edge Line08
+    4300000: Lawn Edge Line01
+    4300002: Lawn Edge Line02
+    4300004: Lawn Edge Line03
+    4300006: Lawn Edge Line04
+    4300008: Lawn Edge Line05
+    4300010: Lawn Edge Line06
+    4300012: Lawn Edge Line07
+    4300014: Lawn Edge Line08
+    6400000: Lawn Edge Line01
+    6400002: Lawn Edge Line02
+    6400004: Lawn Edge Line03
+    6400006: Lawn Edge Line04
+    6400008: Lawn Edge Line05
+    6400010: Lawn Edge Line06
+    6400012: Lawn Edge Line07
+    6400014: Lawn Edge Line08
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

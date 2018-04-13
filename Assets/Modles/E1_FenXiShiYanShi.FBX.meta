@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: ce3c324967e02db44a957d2450d85a30
+timeCreated: 1469002401
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box717
+    100002: COE_LOGO
+    100004: //RootNode
+    100006: E1_FenXiShiYanShi
+    100008: Text034
+    100010: Text035
+    100012: Text036
+    100014: Text037
+    100016: Text043
+    100018: Text044
+    100020: Text045
+    100022: Text046
+    400000: Box717
+    400002: COE_LOGO
+    400004: //RootNode
+    400006: E1_FenXiShiYanShi
+    400008: Text034
+    400010: Text035
+    400012: Text036
+    400014: Text037
+    400016: Text043
+    400018: Text044
+    400020: Text045
+    400022: Text046
+    2300000: Box717
+    2300002: COE_LOGO
+    2300004: E1_FenXiShiYanShi
+    2300006: Text034
+    2300008: Text035
+    2300010: Text036
+    2300012: Text037
+    2300014: Text043
+    2300016: Text044
+    2300018: Text045
+    2300020: Text046
+    3300000: Box717
+    3300002: COE_LOGO
+    3300004: E1_FenXiShiYanShi
+    3300006: Text034
+    3300008: Text035
+    3300010: Text036
+    3300012: Text037
+    3300014: Text043
+    3300016: Text044
+    3300018: Text045
+    3300020: Text046
+    4300000: E1_FenXiShiYanShi
+    4300002: Text034
+    4300004: Text035
+    4300006: Text036
+    4300008: Text037
+    4300010: COE_LOGO
+    4300012: Text043
+    4300014: Text044
+    4300016: Text045
+    4300018: Text046
+    4300020: Box717
+    6400000: Box717
+    6400002: COE_LOGO
+    6400004: E1_FenXiShiYanShi
+    6400006: Text034
+    6400008: Text035
+    6400010: Text036
+    6400012: Text037
+    6400014: Text043
+    6400016: Text044
+    6400018: Text045
+    6400020: Text046
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

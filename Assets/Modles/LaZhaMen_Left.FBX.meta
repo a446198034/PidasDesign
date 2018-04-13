@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 1efed11ce8b7dd444a7ed66d55d7f761
+timeCreated: 1468985291
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane044
+    100004: Rectangle145
+    100006: Rectangle146
+    100008: Rectangle147
+    100010: Rectangle148
+    100012: Rectangle149
+    100014: Rectangle150
+    100016: Rectangle151
+    100018: Rectangle152
+    100020: Rectangle153
+    100022: Rectangle154
+    100024: Rectangle155
+    100026: Rectangle162
+    100028: Rectangle163
+    100030: Rectangle164
+    100032: Rectangle165
+    100034: Rectangle166
+    100036: Rectangle167
+    100038: Rectangle168
+    100040: Rectangle169
+    100042: Rectangle170
+    400000: //RootNode
+    400002: Plane044
+    400004: Rectangle145
+    400006: Rectangle146
+    400008: Rectangle147
+    400010: Rectangle148
+    400012: Rectangle149
+    400014: Rectangle150
+    400016: Rectangle151
+    400018: Rectangle152
+    400020: Rectangle153
+    400022: Rectangle154
+    400024: Rectangle155
+    400026: Rectangle162
+    400028: Rectangle163
+    400030: Rectangle164
+    400032: Rectangle165
+    400034: Rectangle166
+    400036: Rectangle167
+    400038: Rectangle168
+    400040: Rectangle169
+    400042: Rectangle170
+    2300000: Plane044
+    2300002: Rectangle145
+    2300004: Rectangle146
+    2300006: Rectangle147
+    2300008: Rectangle148
+    2300010: Rectangle149
+    2300012: Rectangle150
+    2300014: Rectangle151
+    2300016: Rectangle152
+    2300018: Rectangle153
+    2300020: Rectangle154
+    2300022: Rectangle155
+    2300024: Rectangle162
+    2300026: Rectangle163
+    2300028: Rectangle164
+    2300030: Rectangle165
+    2300032: Rectangle166
+    2300034: Rectangle167
+    2300036: Rectangle168
+    2300038: Rectangle169
+    2300040: Rectangle170
+    3300000: Plane044
+    3300002: Rectangle145
+    3300004: Rectangle146
+    3300006: Rectangle147
+    3300008: Rectangle148
+    3300010: Rectangle149
+    3300012: Rectangle150
+    3300014: Rectangle151
+    3300016: Rectangle152
+    3300018: Rectangle153
+    3300020: Rectangle154
+    3300022: Rectangle155
+    3300024: Rectangle162
+    3300026: Rectangle163
+    3300028: Rectangle164
+    3300030: Rectangle165
+    3300032: Rectangle166
+    3300034: Rectangle167
+    3300036: Rectangle168
+    3300038: Rectangle169
+    3300040: Rectangle170
+    4300000: Plane044
+    4300002: Rectangle145
+    6400000: Plane044
+    6400002: Rectangle145
+    6400004: Rectangle146
+    6400006: Rectangle147
+    6400008: Rectangle148
+    6400010: Rectangle149
+    6400012: Rectangle150
+    6400014: Rectangle151
+    6400016: Rectangle152
+    6400018: Rectangle153
+    6400020: Rectangle154
+    6400022: Rectangle155
+    6400024: Rectangle162
+    6400026: Rectangle163
+    6400028: Rectangle164
+    6400030: Rectangle165
+    6400032: Rectangle166
+    6400034: Rectangle167
+    6400036: Rectangle168
+    6400038: Rectangle169
+    6400040: Rectangle170
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 6a80e2230d3fb334493bf448f4064ba0
+timeCreated: 1469166971
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: SheXiangJi_ZhouJie01
+    100002: SheXiangJi_ZhouJie02
+    100004: SheXiangJi_ZhouJie03
+    100006: SheXiangJi_ZhouJie04
+    100008: SheXiangJi_ZhouJie05
+    100010: SheXiangJi_ZhouJie06
+    100012: SheXiangJi_ZhouJie07
+    100014: SheXiangJi_ZhouJie08
+    100016: SheXiangJi_ZhouJie09
+    100018: SheXiangJi_ZhouJie10
+    100020: SheXiangJi_ZhouJie11
+    100022: SheXiangJi_ZhouJie12
+    100024: SheXiangJi_ZhouJie13
+    100026: SheXiangJi_ZhouJie14
+    100028: SheXiangJi_ZhouJie15
+    100030: SheXiangJi_ZhouJie16
+    100032: SheXiangJi_ZhouJie17
+    100034: //RootNode
+    400000: SheXiangJi_ZhouJie01
+    400002: SheXiangJi_ZhouJie02
+    400004: SheXiangJi_ZhouJie03
+    400006: SheXiangJi_ZhouJie04
+    400008: SheXiangJi_ZhouJie05
+    400010: SheXiangJi_ZhouJie06
+    400012: SheXiangJi_ZhouJie07
+    400014: SheXiangJi_ZhouJie08
+    400016: SheXiangJi_ZhouJie09
+    400018: SheXiangJi_ZhouJie10
+    400020: SheXiangJi_ZhouJie11
+    400022: SheXiangJi_ZhouJie12
+    400024: SheXiangJi_ZhouJie13
+    400026: SheXiangJi_ZhouJie14
+    400028: SheXiangJi_ZhouJie15
+    400030: SheXiangJi_ZhouJie16
+    400032: SheXiangJi_ZhouJie17
+    400034: //RootNode
+    2300000: SheXiangJi_ZhouJie01
+    2300002: SheXiangJi_ZhouJie02
+    2300004: SheXiangJi_ZhouJie03
+    2300006: SheXiangJi_ZhouJie04
+    2300008: SheXiangJi_ZhouJie05
+    2300010: SheXiangJi_ZhouJie06
+    2300012: SheXiangJi_ZhouJie07
+    2300014: SheXiangJi_ZhouJie08
+    2300016: SheXiangJi_ZhouJie09
+    2300018: SheXiangJi_ZhouJie10
+    2300020: SheXiangJi_ZhouJie11
+    2300022: SheXiangJi_ZhouJie12
+    2300024: SheXiangJi_ZhouJie13
+    2300026: SheXiangJi_ZhouJie14
+    2300028: SheXiangJi_ZhouJie15
+    2300030: SheXiangJi_ZhouJie16
+    2300032: SheXiangJi_ZhouJie17
+    3300000: SheXiangJi_ZhouJie01
+    3300002: SheXiangJi_ZhouJie02
+    3300004: SheXiangJi_ZhouJie03
+    3300006: SheXiangJi_ZhouJie04
+    3300008: SheXiangJi_ZhouJie05
+    3300010: SheXiangJi_ZhouJie06
+    3300012: SheXiangJi_ZhouJie07
+    3300014: SheXiangJi_ZhouJie08
+    3300016: SheXiangJi_ZhouJie09
+    3300018: SheXiangJi_ZhouJie10
+    3300020: SheXiangJi_ZhouJie11
+    3300022: SheXiangJi_ZhouJie12
+    3300024: SheXiangJi_ZhouJie13
+    3300026: SheXiangJi_ZhouJie14
+    3300028: SheXiangJi_ZhouJie15
+    3300030: SheXiangJi_ZhouJie16
+    3300032: SheXiangJi_ZhouJie17
+    4300000: SheXiangJi_ZhouJie02
+    4300002: SheXiangJi_ZhouJie11
+    4300004: SheXiangJi_ZhouJie12
+    6400000: SheXiangJi_ZhouJie01
+    6400002: SheXiangJi_ZhouJie02
+    6400004: SheXiangJi_ZhouJie03
+    6400006: SheXiangJi_ZhouJie04
+    6400008: SheXiangJi_ZhouJie05
+    6400010: SheXiangJi_ZhouJie06
+    6400012: SheXiangJi_ZhouJie07
+    6400014: SheXiangJi_ZhouJie08
+    6400016: SheXiangJi_ZhouJie09
+    6400018: SheXiangJi_ZhouJie10
+    6400020: SheXiangJi_ZhouJie11
+    6400022: SheXiangJi_ZhouJie12
+    6400024: SheXiangJi_ZhouJie13
+    6400026: SheXiangJi_ZhouJie14
+    6400028: SheXiangJi_ZhouJie15
+    6400030: SheXiangJi_ZhouJie16
+    6400032: SheXiangJi_ZhouJie17
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

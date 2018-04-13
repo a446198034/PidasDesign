@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 96ed2c342c3df32458c4c165a6cf94a9
+timeCreated: 1469070772
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: C1_ECP_OBJ33
+    100002: C1_ECP_OBJ34
+    100004: C1_ECP_OBJ35
+    100006: C1_ECP_OBJ38
+    100008: C1_ECP_OBJ39
+    100010: C1_ECP_OBJ40
+    100012: C1_ECP_OBJ42
+    100014: C1_ECP_OBJ43
+    100016: C1_ECP_OBJ44
+    100018: C1_ECP_OBJ45
+    100020: C1_ECP_OBJ46
+    100022: C1_ECP_OBJ47
+    100024: C1_ECP_OBJ48
+    100026: C1_ECP_OBJ49
+    100028: //RootNode
+    400000: C1_ECP_OBJ33
+    400002: C1_ECP_OBJ34
+    400004: C1_ECP_OBJ35
+    400006: C1_ECP_OBJ38
+    400008: C1_ECP_OBJ39
+    400010: C1_ECP_OBJ40
+    400012: C1_ECP_OBJ42
+    400014: C1_ECP_OBJ43
+    400016: C1_ECP_OBJ44
+    400018: C1_ECP_OBJ45
+    400020: C1_ECP_OBJ46
+    400022: C1_ECP_OBJ47
+    400024: C1_ECP_OBJ48
+    400026: C1_ECP_OBJ49
+    400028: //RootNode
+    2300000: C1_ECP_OBJ33
+    2300002: C1_ECP_OBJ34
+    2300004: C1_ECP_OBJ35
+    2300006: C1_ECP_OBJ38
+    2300008: C1_ECP_OBJ39
+    2300010: C1_ECP_OBJ40
+    2300012: C1_ECP_OBJ42
+    2300014: C1_ECP_OBJ43
+    2300016: C1_ECP_OBJ44
+    2300018: C1_ECP_OBJ45
+    2300020: C1_ECP_OBJ46
+    2300022: C1_ECP_OBJ47
+    2300024: C1_ECP_OBJ48
+    2300026: C1_ECP_OBJ49
+    3300000: C1_ECP_OBJ33
+    3300002: C1_ECP_OBJ34
+    3300004: C1_ECP_OBJ35
+    3300006: C1_ECP_OBJ38
+    3300008: C1_ECP_OBJ39
+    3300010: C1_ECP_OBJ40
+    3300012: C1_ECP_OBJ42
+    3300014: C1_ECP_OBJ43
+    3300016: C1_ECP_OBJ44
+    3300018: C1_ECP_OBJ45
+    3300020: C1_ECP_OBJ46
+    3300022: C1_ECP_OBJ47
+    3300024: C1_ECP_OBJ48
+    3300026: C1_ECP_OBJ49
+    4300000: C1_ECP_OBJ33
+    4300002: C1_ECP_OBJ34
+    4300004: C1_ECP_OBJ35
+    4300006: C1_ECP_OBJ38
+    4300008: C1_ECP_OBJ39
+    4300010: C1_ECP_OBJ40
+    4300012: C1_ECP_OBJ42
+    4300014: C1_ECP_OBJ43
+    4300016: C1_ECP_OBJ44
+    4300018: C1_ECP_OBJ45
+    4300020: C1_ECP_OBJ46
+    4300022: C1_ECP_OBJ47
+    4300024: C1_ECP_OBJ48
+    4300026: C1_ECP_OBJ49
+    6400000: C1_ECP_OBJ33
+    6400002: C1_ECP_OBJ34
+    6400004: C1_ECP_OBJ35
+    6400006: C1_ECP_OBJ38
+    6400008: C1_ECP_OBJ39
+    6400010: C1_ECP_OBJ40
+    6400012: C1_ECP_OBJ42
+    6400014: C1_ECP_OBJ43
+    6400016: C1_ECP_OBJ44
+    6400018: C1_ECP_OBJ45
+    6400020: C1_ECP_OBJ46
+    6400022: C1_ECP_OBJ47
+    6400024: C1_ECP_OBJ48
+    6400026: C1_ECP_OBJ49
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

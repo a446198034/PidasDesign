@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: a7555cbba5de0d948b867f91827926b5
+timeCreated: 1469079183
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ECP_Door005
+    100004: ECP_Door006
+    100006: ECP_Door001
+    100008: ECP_Door002
+    100010: ECP_Door003
+    100012: ECP_Door004
+    100014: ECP_Door007
+    100016: ECP_Door008
+    100018: ECP_Door009
+    100020: ECP_Door010
+    100022: ECP_Door011
+    100024: ECP_Door012
+    100026: ECP_Door013
+    100028: ECP_Door014
+    100030: ECP_Door015
+    100032: ECP_Door016
+    100034: ECP_Door017
+    100036: ECP_Door018
+    400000: //RootNode
+    400002: ECP_Door005
+    400004: ECP_Door006
+    400006: ECP_Door001
+    400008: ECP_Door002
+    400010: ECP_Door003
+    400012: ECP_Door004
+    400014: ECP_Door007
+    400016: ECP_Door008
+    400018: ECP_Door009
+    400020: ECP_Door010
+    400022: ECP_Door011
+    400024: ECP_Door012
+    400026: ECP_Door013
+    400028: ECP_Door014
+    400030: ECP_Door015
+    400032: ECP_Door016
+    400034: ECP_Door017
+    400036: ECP_Door018
+    2300000: //RootNode
+    2300002: ECP_Door005
+    2300004: ECP_Door006
+    2300006: ECP_Door001
+    2300008: ECP_Door002
+    2300010: ECP_Door003
+    2300012: ECP_Door004
+    2300014: ECP_Door007
+    2300016: ECP_Door008
+    2300018: ECP_Door009
+    2300020: ECP_Door010
+    2300022: ECP_Door011
+    2300024: ECP_Door012
+    2300026: ECP_Door013
+    2300028: ECP_Door014
+    2300030: ECP_Door015
+    2300032: ECP_Door016
+    2300034: ECP_Door017
+    2300036: ECP_Door018
+    3300000: //RootNode
+    3300002: ECP_Door005
+    3300004: ECP_Door006
+    3300006: ECP_Door001
+    3300008: ECP_Door002
+    3300010: ECP_Door003
+    3300012: ECP_Door004
+    3300014: ECP_Door007
+    3300016: ECP_Door008
+    3300018: ECP_Door009
+    3300020: ECP_Door010
+    3300022: ECP_Door011
+    3300024: ECP_Door012
+    3300026: ECP_Door013
+    3300028: ECP_Door014
+    3300030: ECP_Door015
+    3300032: ECP_Door016
+    3300034: ECP_Door017
+    3300036: ECP_Door018
+    4300000: ECP_Door006
+    4300002: ECP_Door005
+    4300004: ECP_Door001
+    4300006: ECP_Door004
+    4300008: ECP_Door009
+    4300010: ECP_Door011
+    4300012: ECP_Door015
+    4300014: ECP_Door016
+    4300016: ECP_Door002
+    4300018: ECP_Door007
+    4300020: ECP_Door008
+    4300022: ECP_Door010
+    4300024: ECP_Door012
+    4300026: ECP_Door013
+    4300028: ECP_Door014
+    4300030: ECP_Door018
+    6400000: ECP_Door001
+    6400002: ECP_Door002
+    6400004: ECP_Door004
+    6400006: ECP_Door005
+    6400008: ECP_Door006
+    6400010: ECP_Door007
+    6400012: ECP_Door008
+    6400014: ECP_Door009
+    6400016: ECP_Door010
+    6400018: ECP_Door011
+    6400020: ECP_Door012
+    6400022: ECP_Door013
+    6400024: ECP_Door014
+    6400026: ECP_Door015
+    6400028: ECP_Door016
+    6400030: ECP_Door018
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

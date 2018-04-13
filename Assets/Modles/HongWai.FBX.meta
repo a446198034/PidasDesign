@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: 03ec107c18a6b8f44963e3d25daa5576
+timeCreated: 1469158513
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: HongWai001
+    100004: HongWai002
+    100006: HongWai003
+    100008: HongWai004
+    100010: HongWai005
+    100012: HongWai006
+    100014: HongWai007
+    100016: HongWai008
+    100018: HongWai_ZiShouFa01
+    100020: HongWai_ZiShouFa02
+    100022: HongWai_ZiShouFa03
+    400000: //RootNode
+    400002: HongWai001
+    400004: HongWai002
+    400006: HongWai003
+    400008: HongWai004
+    400010: HongWai005
+    400012: HongWai006
+    400014: HongWai007
+    400016: HongWai008
+    400018: HongWai_ZiShouFa01
+    400020: HongWai_ZiShouFa02
+    400022: HongWai_ZiShouFa03
+    2300000: HongWai001
+    2300002: HongWai002
+    2300004: HongWai003
+    2300006: HongWai004
+    2300008: HongWai005
+    2300010: HongWai006
+    2300012: HongWai007
+    2300014: HongWai008
+    2300016: HongWai_ZiShouFa01
+    2300018: HongWai_ZiShouFa02
+    2300020: HongWai_ZiShouFa03
+    3300000: HongWai001
+    3300002: HongWai002
+    3300004: HongWai003
+    3300006: HongWai004
+    3300008: HongWai005
+    3300010: HongWai006
+    3300012: HongWai007
+    3300014: HongWai008
+    3300016: HongWai_ZiShouFa01
+    3300018: HongWai_ZiShouFa02
+    3300020: HongWai_ZiShouFa03
+    4300000: HongWai001
+    4300002: HongWai_ZiShouFa01
+    6400000: HongWai001
+    6400002: HongWai002
+    6400004: HongWai003
+    6400006: HongWai004
+    6400008: HongWai005
+    6400010: HongWai006
+    6400012: HongWai007
+    6400014: HongWai008
+    6400016: HongWai_ZiShouFa01
+    6400018: HongWai_ZiShouFa02
+    6400020: HongWai_ZiShouFa03
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

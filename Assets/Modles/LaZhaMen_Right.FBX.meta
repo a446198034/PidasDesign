@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 97acdb9344778e74aad2c016214698b2
+timeCreated: 1468985292
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane010
+    100004: Rectangle130
+    100006: Rectangle131
+    100008: Rectangle132
+    100010: Rectangle133
+    100012: Rectangle134
+    100014: Rectangle135
+    100016: Rectangle136
+    100018: Rectangle137
+    100020: Rectangle138
+    100022: Rectangle139
+    100024: Rectangle140
+    100026: Rectangle141
+    100028: Rectangle142
+    100030: Rectangle143
+    100032: Rectangle144
+    100034: Rectangle156
+    100036: Rectangle157
+    100038: Rectangle158
+    100040: Rectangle159
+    100042: Rectangle160
+    100044: Rectangle161
+    400000: //RootNode
+    400002: Plane010
+    400004: Rectangle130
+    400006: Rectangle131
+    400008: Rectangle132
+    400010: Rectangle133
+    400012: Rectangle134
+    400014: Rectangle135
+    400016: Rectangle136
+    400018: Rectangle137
+    400020: Rectangle138
+    400022: Rectangle139
+    400024: Rectangle140
+    400026: Rectangle141
+    400028: Rectangle142
+    400030: Rectangle143
+    400032: Rectangle144
+    400034: Rectangle156
+    400036: Rectangle157
+    400038: Rectangle158
+    400040: Rectangle159
+    400042: Rectangle160
+    400044: Rectangle161
+    2300000: Plane010
+    2300002: Rectangle130
+    2300004: Rectangle131
+    2300006: Rectangle132
+    2300008: Rectangle133
+    2300010: Rectangle134
+    2300012: Rectangle135
+    2300014: Rectangle136
+    2300016: Rectangle137
+    2300018: Rectangle138
+    2300020: Rectangle139
+    2300022: Rectangle140
+    2300024: Rectangle141
+    2300026: Rectangle142
+    2300028: Rectangle143
+    2300030: Rectangle144
+    2300032: Rectangle156
+    2300034: Rectangle157
+    2300036: Rectangle158
+    2300038: Rectangle159
+    2300040: Rectangle160
+    2300042: Rectangle161
+    3300000: Plane010
+    3300002: Rectangle130
+    3300004: Rectangle131
+    3300006: Rectangle132
+    3300008: Rectangle133
+    3300010: Rectangle134
+    3300012: Rectangle135
+    3300014: Rectangle136
+    3300016: Rectangle137
+    3300018: Rectangle138
+    3300020: Rectangle139
+    3300022: Rectangle140
+    3300024: Rectangle141
+    3300026: Rectangle142
+    3300028: Rectangle143
+    3300030: Rectangle144
+    3300032: Rectangle156
+    3300034: Rectangle157
+    3300036: Rectangle158
+    3300038: Rectangle159
+    3300040: Rectangle160
+    3300042: Rectangle161
+    4300000: Rectangle130
+    4300002: Plane010
+    4300004: Rectangle137
+    6400000: Plane010
+    6400002: Rectangle130
+    6400004: Rectangle131
+    6400006: Rectangle132
+    6400008: Rectangle133
+    6400010: Rectangle134
+    6400012: Rectangle135
+    6400014: Rectangle136
+    6400016: Rectangle137
+    6400018: Rectangle138
+    6400020: Rectangle139
+    6400022: Rectangle140
+    6400024: Rectangle141
+    6400026: Rectangle142
+    6400028: Rectangle143
+    6400030: Rectangle144
+    6400032: Rectangle156
+    6400034: Rectangle157
+    6400036: Rectangle158
+    6400038: Rectangle159
+    6400040: Rectangle160
+    6400042: Rectangle161
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

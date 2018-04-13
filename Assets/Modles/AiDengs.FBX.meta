@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: c36756292830336488004e238e715881
+timeCreated: 1468998565
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AiDeng
+    100002: AiDeng001
+    100004: AiDeng002
+    100006: AiDeng003
+    100008: AiDeng004
+    100010: AiDeng005
+    100012: AiDeng006
+    100014: AiDeng007
+    100016: AiDeng008
+    100018: AiDeng009
+    100020: AiDeng010
+    100022: AiDeng011
+    100024: AiDeng012
+    100026: AiDeng013
+    100028: AiDeng014
+    100030: AiDeng015
+    100032: AiDeng016
+    100034: AiDeng017
+    100036: AiDeng018
+    100038: AiDeng019
+    100040: AiDeng020
+    100042: AiDeng021
+    100044: //RootNode
+    400000: AiDeng
+    400002: AiDeng001
+    400004: AiDeng002
+    400006: AiDeng003
+    400008: AiDeng004
+    400010: AiDeng005
+    400012: AiDeng006
+    400014: AiDeng007
+    400016: AiDeng008
+    400018: AiDeng009
+    400020: AiDeng010
+    400022: AiDeng011
+    400024: AiDeng012
+    400026: AiDeng013
+    400028: AiDeng014
+    400030: AiDeng015
+    400032: AiDeng016
+    400034: AiDeng017
+    400036: AiDeng018
+    400038: AiDeng019
+    400040: AiDeng020
+    400042: AiDeng021
+    400044: //RootNode
+    2300000: AiDeng
+    2300002: AiDeng001
+    2300004: AiDeng002
+    2300006: AiDeng003
+    2300008: AiDeng004
+    2300010: AiDeng005
+    2300012: AiDeng006
+    2300014: AiDeng007
+    2300016: AiDeng008
+    2300018: AiDeng009
+    2300020: AiDeng010
+    2300022: AiDeng011
+    2300024: AiDeng012
+    2300026: AiDeng013
+    2300028: AiDeng014
+    2300030: AiDeng015
+    2300032: AiDeng016
+    2300034: AiDeng017
+    2300036: AiDeng018
+    2300038: AiDeng019
+    2300040: AiDeng020
+    2300042: AiDeng021
+    3300000: AiDeng
+    3300002: AiDeng001
+    3300004: AiDeng002
+    3300006: AiDeng003
+    3300008: AiDeng004
+    3300010: AiDeng005
+    3300012: AiDeng006
+    3300014: AiDeng007
+    3300016: AiDeng008
+    3300018: AiDeng009
+    3300020: AiDeng010
+    3300022: AiDeng011
+    3300024: AiDeng012
+    3300026: AiDeng013
+    3300028: AiDeng014
+    3300030: AiDeng015
+    3300032: AiDeng016
+    3300034: AiDeng017
+    3300036: AiDeng018
+    3300038: AiDeng019
+    3300040: AiDeng020
+    3300042: AiDeng021
+    4300000: AiDeng
+    6400000: AiDeng
+    6400002: AiDeng001
+    6400004: AiDeng002
+    6400006: AiDeng003
+    6400008: AiDeng004
+    6400010: AiDeng005
+    6400012: AiDeng006
+    6400014: AiDeng007
+    6400016: AiDeng008
+    6400018: AiDeng009
+    6400020: AiDeng010
+    6400022: AiDeng011
+    6400024: AiDeng012
+    6400026: AiDeng013
+    6400028: AiDeng014
+    6400030: AiDeng015
+    6400032: AiDeng016
+    6400034: AiDeng017
+    6400036: AiDeng018
+    6400038: AiDeng019
+    6400040: AiDeng020
+    6400042: AiDeng021
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

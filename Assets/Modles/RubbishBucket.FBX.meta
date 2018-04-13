@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: cfd6dadfd4d74ba438bd5545d0c5d201
+timeCreated: 1468983571
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: RubbishBucket
+    100002: //RootNode
+    100004: RubbishBucket001
+    100006: RubbishBucket002
+    100008: RubbishBucket003
+    100010: RubbishBucket004
+    100012: RubbishBucket005
+    100014: RubbishBucket006
+    100016: RubbishBucket007
+    400000: RubbishBucket
+    400002: //RootNode
+    400004: RubbishBucket001
+    400006: RubbishBucket002
+    400008: RubbishBucket003
+    400010: RubbishBucket004
+    400012: RubbishBucket005
+    400014: RubbishBucket006
+    400016: RubbishBucket007
+    2300000: RubbishBucket
+    2300002: RubbishBucket001
+    2300004: RubbishBucket002
+    2300006: RubbishBucket003
+    2300008: RubbishBucket004
+    2300010: RubbishBucket005
+    2300012: RubbishBucket006
+    2300014: RubbishBucket007
+    3300000: RubbishBucket
+    3300002: RubbishBucket001
+    3300004: RubbishBucket002
+    3300006: RubbishBucket003
+    3300008: RubbishBucket004
+    3300010: RubbishBucket005
+    3300012: RubbishBucket006
+    3300014: RubbishBucket007
+    4300000: RubbishBucket
+    6400000: RubbishBucket
+    6400002: RubbishBucket001
+    6400004: RubbishBucket002
+    6400006: RubbishBucket003
+    6400008: RubbishBucket004
+    6400010: RubbishBucket005
+    6400012: RubbishBucket006
+    6400014: RubbishBucket007
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

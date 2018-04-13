@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 0eb4d995924febf469c8916231d14d7f
+timeCreated: 1468998328
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ShuiNi WeiQiang01
+    100004: ShuiNi WeiQiang02
+    100006: ShuiNi WeiQiang03
+    100008: ShuiNi WeiQiang04
+    100010: ShuiNi WeiQiang05
+    100012: ShuiNi WeiQiang06
+    100014: ShuiNi WeiQiang07
+    100016: ShuiNi WeiQiang08
+    100018: ShuiNi WeiQiang09
+    100020: ShuiNi WeiQiang10
+    100022: ShuiNi WeiQiang11
+    100024: ShuiNi WeiQiang12
+    100026: ShuiNi WeiQiang13
+    100028: ShuiNi WeiQiang14
+    100030: ShuiNi WeiQiang15
+    100032: ShuiNi WeiQiang16
+    100034: ShuiNi WeiQiang17
+    100036: ShuiNi WeiQiang18
+    100038: ShuiNi WeiQiang19
+    100040: ShuiNi WeiQiang20
+    400000: //RootNode
+    400002: ShuiNi WeiQiang01
+    400004: ShuiNi WeiQiang02
+    400006: ShuiNi WeiQiang03
+    400008: ShuiNi WeiQiang04
+    400010: ShuiNi WeiQiang05
+    400012: ShuiNi WeiQiang06
+    400014: ShuiNi WeiQiang07
+    400016: ShuiNi WeiQiang08
+    400018: ShuiNi WeiQiang09
+    400020: ShuiNi WeiQiang10
+    400022: ShuiNi WeiQiang11
+    400024: ShuiNi WeiQiang12
+    400026: ShuiNi WeiQiang13
+    400028: ShuiNi WeiQiang14
+    400030: ShuiNi WeiQiang15
+    400032: ShuiNi WeiQiang16
+    400034: ShuiNi WeiQiang17
+    400036: ShuiNi WeiQiang18
+    400038: ShuiNi WeiQiang19
+    400040: ShuiNi WeiQiang20
+    2300000: ShuiNi WeiQiang01
+    2300002: ShuiNi WeiQiang02
+    2300004: ShuiNi WeiQiang03
+    2300006: ShuiNi WeiQiang04
+    2300008: ShuiNi WeiQiang05
+    2300010: ShuiNi WeiQiang06
+    2300012: ShuiNi WeiQiang07
+    2300014: ShuiNi WeiQiang08
+    2300016: ShuiNi WeiQiang09
+    2300018: ShuiNi WeiQiang10
+    2300020: ShuiNi WeiQiang11
+    2300022: ShuiNi WeiQiang12
+    2300024: ShuiNi WeiQiang13
+    2300026: ShuiNi WeiQiang14
+    2300028: ShuiNi WeiQiang15
+    2300030: ShuiNi WeiQiang16
+    2300032: ShuiNi WeiQiang17
+    2300034: ShuiNi WeiQiang18
+    2300036: ShuiNi WeiQiang19
+    2300038: ShuiNi WeiQiang20
+    3300000: ShuiNi WeiQiang01
+    3300002: ShuiNi WeiQiang02
+    3300004: ShuiNi WeiQiang03
+    3300006: ShuiNi WeiQiang04
+    3300008: ShuiNi WeiQiang05
+    3300010: ShuiNi WeiQiang06
+    3300012: ShuiNi WeiQiang07
+    3300014: ShuiNi WeiQiang08
+    3300016: ShuiNi WeiQiang09
+    3300018: ShuiNi WeiQiang10
+    3300020: ShuiNi WeiQiang11
+    3300022: ShuiNi WeiQiang12
+    3300024: ShuiNi WeiQiang13
+    3300026: ShuiNi WeiQiang14
+    3300028: ShuiNi WeiQiang15
+    3300030: ShuiNi WeiQiang16
+    3300032: ShuiNi WeiQiang17
+    3300034: ShuiNi WeiQiang18
+    3300036: ShuiNi WeiQiang19
+    3300038: ShuiNi WeiQiang20
+    4300000: ShuiNi WeiQiang04
+    4300002: ShuiNi WeiQiang01
+    4300004: ShuiNi WeiQiang07
+    6400000: ShuiNi WeiQiang01
+    6400002: ShuiNi WeiQiang02
+    6400004: ShuiNi WeiQiang03
+    6400006: ShuiNi WeiQiang04
+    6400008: ShuiNi WeiQiang05
+    6400010: ShuiNi WeiQiang06
+    6400012: ShuiNi WeiQiang07
+    6400014: ShuiNi WeiQiang08
+    6400016: ShuiNi WeiQiang09
+    6400018: ShuiNi WeiQiang10
+    6400020: ShuiNi WeiQiang11
+    6400022: ShuiNi WeiQiang12
+    6400024: ShuiNi WeiQiang13
+    6400026: ShuiNi WeiQiang14
+    6400028: ShuiNi WeiQiang15
+    6400030: ShuiNi WeiQiang16
+    6400032: ShuiNi WeiQiang17
+    6400034: ShuiNi WeiQiang18
+    6400036: ShuiNi WeiQiang19
+    6400038: ShuiNi WeiQiang20
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

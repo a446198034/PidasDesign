@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: cb735989a72e35046a93fb977fdcd416
+timeCreated: 1469417465
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: C3_Window001
+    100002: C3_Window002
+    100004: C3_Window003
+    100006: C3_Window004
+    100008: C3_Window005
+    100010: C3_Window006
+    100012: C3_Window006 1
+    100014: C3_Window007
+    100016: C3_Window008
+    100018: C3_Window009
+    100020: C3_Window010
+    100022: C3_Window011
+    100024: C3_Window012
+    100026: C3_Window013
+    100028: C3_Window014
+    100030: C3_Window015
+    100032: C3_Window016
+    100034: C3_Window017
+    100036: C3_Window018
+    100038: C3_Window019
+    100040: C3_Window020
+    100042: C3_Window021
+    100044: C3_Window022
+    100046: C3_Window023
+    100048: C3_Window024
+    100050: C3_Window025
+    100052: C3_Window026
+    100054: C3_Window027
+    100056: C3_Window028
+    100058: //RootNode
+    100060: C3_Window029
+    400000: C3_Window001
+    400002: C3_Window002
+    400004: C3_Window003
+    400006: C3_Window004
+    400008: C3_Window005
+    400010: C3_Window006
+    400012: C3_Window006 1
+    400014: C3_Window007
+    400016: C3_Window008
+    400018: C3_Window009
+    400020: C3_Window010
+    400022: C3_Window011
+    400024: C3_Window012
+    400026: C3_Window013
+    400028: C3_Window014
+    400030: C3_Window015
+    400032: C3_Window016
+    400034: C3_Window017
+    400036: C3_Window018
+    400038: C3_Window019
+    400040: C3_Window020
+    400042: C3_Window021
+    400044: C3_Window022
+    400046: C3_Window023
+    400048: C3_Window024
+    400050: C3_Window025
+    400052: C3_Window026
+    400054: C3_Window027
+    400056: C3_Window028
+    400058: //RootNode
+    400060: C3_Window029
+    2300000: C3_Window001
+    2300002: C3_Window002
+    2300004: C3_Window003
+    2300006: C3_Window004
+    2300008: C3_Window005
+    2300010: C3_Window006
+    2300012: C3_Window006 1
+    2300014: C3_Window007
+    2300016: C3_Window008
+    2300018: C3_Window009
+    2300020: C3_Window010
+    2300022: C3_Window011
+    2300024: C3_Window012
+    2300026: C3_Window013
+    2300028: C3_Window014
+    2300030: C3_Window015
+    2300032: C3_Window016
+    2300034: C3_Window017
+    2300036: C3_Window018
+    2300038: C3_Window019
+    2300040: C3_Window020
+    2300042: C3_Window021
+    2300044: C3_Window022
+    2300046: C3_Window023
+    2300048: C3_Window024
+    2300050: C3_Window025
+    2300052: C3_Window026
+    2300054: C3_Window027
+    2300056: C3_Window028
+    2300058: C3_Window029
+    3300000: C3_Window001
+    3300002: C3_Window002
+    3300004: C3_Window003
+    3300006: C3_Window004
+    3300008: C3_Window005
+    3300010: C3_Window006
+    3300012: C3_Window006 1
+    3300014: C3_Window007
+    3300016: C3_Window008
+    3300018: C3_Window009
+    3300020: C3_Window010
+    3300022: C3_Window011
+    3300024: C3_Window012
+    3300026: C3_Window013
+    3300028: C3_Window014
+    3300030: C3_Window015
+    3300032: C3_Window016
+    3300034: C3_Window017
+    3300036: C3_Window018
+    3300038: C3_Window019
+    3300040: C3_Window020
+    3300042: C3_Window021
+    3300044: C3_Window022
+    3300046: C3_Window023
+    3300048: C3_Window024
+    3300050: C3_Window025
+    3300052: C3_Window026
+    3300054: C3_Window027
+    3300056: C3_Window028
+    3300058: C3_Window029
+    4300000: C3_Window027
+    4300002: C3_Window028
+    4300004: C3_Window003
+    4300006: C3_Window006
+    4300008: C3_Window007
+    4300010: C3_Window019
+    4300012: C3_Window022
+    4300014: C3_Window023
+    4300016: C3_Window029
+    6400000: C3_Window001
+    6400002: C3_Window002
+    6400004: C3_Window003
+    6400006: C3_Window004
+    6400008: C3_Window005
+    6400010: C3_Window006
+    6400012: C3_Window006 1
+    6400014: C3_Window007
+    6400016: C3_Window008
+    6400018: C3_Window009
+    6400020: C3_Window010
+    6400022: C3_Window011
+    6400024: C3_Window012
+    6400026: C3_Window013
+    6400028: C3_Window014
+    6400030: C3_Window015
+    6400032: C3_Window016
+    6400034: C3_Window017
+    6400036: C3_Window018
+    6400038: C3_Window019
+    6400040: C3_Window020
+    6400042: C3_Window021
+    6400044: C3_Window022
+    6400046: C3_Window023
+    6400048: C3_Window024
+    6400050: C3_Window025
+    6400052: C3_Window026
+    6400054: C3_Window027
+    6400056: C3_Window028
+    6400058: C3_Window029
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

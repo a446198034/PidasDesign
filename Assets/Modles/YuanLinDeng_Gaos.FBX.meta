@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 66f6aeed6247b864d9398480e87507e2
+timeCreated: 1468983373
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: YuanLinDeng_Gao
+    100002: YuanLinDeng_Gao001
+    100004: YuanLinDeng_Gao002
+    100006: YuanLinDeng_Gao003
+    100008: YuanLinDeng_Gao004
+    100010: YuanLinDeng_Gao005
+    100012: YuanLinDeng_Gao006
+    100014: YuanLinDeng_Gao007
+    100016: YuanLinDeng_Gao008
+    100018: YuanLinDeng_Gao009
+    100020: YuanLinDeng_Gao010
+    100022: YuanLinDeng_Gao011
+    100024: YuanLinDeng_Gao012
+    100026: YuanLinDeng_Gao013
+    100028: YuanLinDeng_Gao014
+    100030: YuanLinDeng_Gao015
+    100032: YuanLinDeng_Gao016
+    100034: YuanLinDeng_Gao017
+    100036: YuanLinDeng_Gao018
+    100038: YuanLinDeng_Gao019
+    100040: YuanLinDeng_Gao020
+    100042: YuanLinDeng_Gao021
+    100044: //RootNode
+    400000: YuanLinDeng_Gao
+    400002: YuanLinDeng_Gao001
+    400004: YuanLinDeng_Gao002
+    400006: YuanLinDeng_Gao003
+    400008: YuanLinDeng_Gao004
+    400010: YuanLinDeng_Gao005
+    400012: YuanLinDeng_Gao006
+    400014: YuanLinDeng_Gao007
+    400016: YuanLinDeng_Gao008
+    400018: YuanLinDeng_Gao009
+    400020: YuanLinDeng_Gao010
+    400022: YuanLinDeng_Gao011
+    400024: YuanLinDeng_Gao012
+    400026: YuanLinDeng_Gao013
+    400028: YuanLinDeng_Gao014
+    400030: YuanLinDeng_Gao015
+    400032: YuanLinDeng_Gao016
+    400034: YuanLinDeng_Gao017
+    400036: YuanLinDeng_Gao018
+    400038: YuanLinDeng_Gao019
+    400040: YuanLinDeng_Gao020
+    400042: YuanLinDeng_Gao021
+    400044: //RootNode
+    2300000: YuanLinDeng_Gao
+    2300002: YuanLinDeng_Gao001
+    2300004: YuanLinDeng_Gao002
+    2300006: YuanLinDeng_Gao003
+    2300008: YuanLinDeng_Gao004
+    2300010: YuanLinDeng_Gao005
+    2300012: YuanLinDeng_Gao006
+    2300014: YuanLinDeng_Gao007
+    2300016: YuanLinDeng_Gao008
+    2300018: YuanLinDeng_Gao009
+    2300020: YuanLinDeng_Gao010
+    2300022: YuanLinDeng_Gao011
+    2300024: YuanLinDeng_Gao012
+    2300026: YuanLinDeng_Gao013
+    2300028: YuanLinDeng_Gao014
+    2300030: YuanLinDeng_Gao015
+    2300032: YuanLinDeng_Gao016
+    2300034: YuanLinDeng_Gao017
+    2300036: YuanLinDeng_Gao018
+    2300038: YuanLinDeng_Gao019
+    2300040: YuanLinDeng_Gao020
+    2300042: YuanLinDeng_Gao021
+    3300000: YuanLinDeng_Gao
+    3300002: YuanLinDeng_Gao001
+    3300004: YuanLinDeng_Gao002
+    3300006: YuanLinDeng_Gao003
+    3300008: YuanLinDeng_Gao004
+    3300010: YuanLinDeng_Gao005
+    3300012: YuanLinDeng_Gao006
+    3300014: YuanLinDeng_Gao007
+    3300016: YuanLinDeng_Gao008
+    3300018: YuanLinDeng_Gao009
+    3300020: YuanLinDeng_Gao010
+    3300022: YuanLinDeng_Gao011
+    3300024: YuanLinDeng_Gao012
+    3300026: YuanLinDeng_Gao013
+    3300028: YuanLinDeng_Gao014
+    3300030: YuanLinDeng_Gao015
+    3300032: YuanLinDeng_Gao016
+    3300034: YuanLinDeng_Gao017
+    3300036: YuanLinDeng_Gao018
+    3300038: YuanLinDeng_Gao019
+    3300040: YuanLinDeng_Gao020
+    3300042: YuanLinDeng_Gao021
+    4300000: YuanLinDeng_Gao
+    6400000: YuanLinDeng_Gao
+    6400002: YuanLinDeng_Gao001
+    6400004: YuanLinDeng_Gao002
+    6400006: YuanLinDeng_Gao003
+    6400008: YuanLinDeng_Gao004
+    6400010: YuanLinDeng_Gao005
+    6400012: YuanLinDeng_Gao006
+    6400014: YuanLinDeng_Gao007
+    6400016: YuanLinDeng_Gao008
+    6400018: YuanLinDeng_Gao009
+    6400020: YuanLinDeng_Gao010
+    6400022: YuanLinDeng_Gao011
+    6400024: YuanLinDeng_Gao012
+    6400026: YuanLinDeng_Gao013
+    6400028: YuanLinDeng_Gao014
+    6400030: YuanLinDeng_Gao015
+    6400032: YuanLinDeng_Gao016
+    6400034: YuanLinDeng_Gao017
+    6400036: YuanLinDeng_Gao018
+    6400038: YuanLinDeng_Gao019
+    6400040: YuanLinDeng_Gao020
+    6400042: YuanLinDeng_Gao021
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

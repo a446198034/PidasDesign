@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: 06d4ddb11289ecf4181c957ef36518ff
+timeCreated: 1468997342
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Wai WeiLan01
+    100004: Wai WeiLan02
+    100006: Wai WeiLan03
+    100008: Wai WeiLan04
+    100010: Wai WeiLan05
+    100012: Wai WeiLan053
+    100014: Wai WeiLan054
+    100016: Wai WeiLan055
+    100018: Wai WeiLan056
+    100020: Wai WeiLan057
+    100022: Wai WeiLan058
+    100024: Wai WeiLan059
+    100026: Wai WeiLan06
+    100028: Wai WeiLan060
+    100030: Wai WeiLan061
+    100032: Wai WeiLan062
+    100034: Wai WeiLan063
+    100036: Wai WeiLan064
+    100038: Wai WeiLan065
+    100040: Wai WeiLan066
+    100042: Wai WeiLan067
+    100044: Wai WeiLan068
+    100046: Wai WeiLan069
+    100048: Wai WeiLan07
+    100050: Wai WeiLan070
+    100052: Wai WeiLan071
+    100054: Wai WeiLan072
+    100056: Wai WeiLan073
+    100058: Wai WeiLan074
+    100060: Wai WeiLan075
+    100062: Wai WeiLan076
+    100064: Wai WeiLan077
+    100066: Wai WeiLan078
+    100068: Wai WeiLan079
+    100070: Wai WeiLan08
+    100072: Wai WeiLan080
+    100074: Wai WeiLan081
+    100076: Wai WeiLan082
+    100078: Wai WeiLan083
+    100080: Wai WeiLan084
+    100082: Wai WeiLan085
+    100084: Wai WeiLan086
+    100086: Wai WeiLan087
+    100088: Wai WeiLan088
+    100090: Wai WeiLan089
+    100092: Wai WeiLan09
+    100094: Wai WeiLan090
+    100096: Wai WeiLan091
+    100098: Wai WeiLan092
+    100100: Wai WeiLan093
+    100102: Wai WeiLan094
+    100104: Wai WeiLan095
+    100106: Wai WeiLan096
+    100108: Wai WeiLan097
+    100110: Wai WeiLan098
+    100112: Wai WeiLan099
+    100114: Wai WeiLan10
+    100116: Wai WeiLan100
+    100118: Wai WeiLan101
+    100120: Wai WeiLan102
+    100122: Wai WeiLan103
+    100124: Wai WeiLan104
+    100126: Wai WeiLan105
+    100128: Wai WeiLan106
+    100130: Wai WeiLan107
+    100132: Wai WeiLan108
+    100134: Wai WeiLan11
+    100136: Wai WeiLan12
+    100138: Wai WeiLan13
+    100140: Wai WeiLan14
+    100142: Wai WeiLan15
+    100144: Wai WeiLan16
+    100146: Wai WeiLan17
+    100148: Wai WeiLan18
+    100150: Wai WeiLan19
+    100152: Wai WeiLan20
+    100154: Wai WeiLan21
+    100156: Wai WeiLan22
+    100158: Wai WeiLan23
+    100160: Wai WeiLan24
+    100162: Wai WeiLan25
+    100164: Wai WeiLan26
+    100166: Wai WeiLan27
+    100168: Wai WeiLan28
+    100170: Wai WeiLan29
+    100172: Wai WeiLan30
+    100174: Wai WeiLan31
+    100176: Wai WeiLan32
+    100178: Wai WeiLan33
+    100180: Wai WeiLan34
+    100182: Wai WeiLan35
+    100184: Wai WeiLan36
+    100186: Wai WeiLan37
+    100188: Wai WeiLan38
+    100190: Wai WeiLan39
+    100192: Wai WeiLan40
+    100194: Wai WeiLan41
+    100196: Wai WeiLan42
+    100198: Wai WeiLan43
+    100200: Wai WeiLan44
+    100202: Wai WeiLan45
+    100204: Wai WeiLan46
+    100206: Wai WeiLan47
+    100208: Wai WeiLan48
+    100210: Wai WeiLan49
+    100212: Wai WeiLan50
+    100214: Wai WeiLan51
+    100216: Wai WeiLan52
+    400000: //RootNode
+    400002: Wai WeiLan01
+    400004: Wai WeiLan02
+    400006: Wai WeiLan03
+    400008: Wai WeiLan04
+    400010: Wai WeiLan05
+    400012: Wai WeiLan053
+    400014: Wai WeiLan054
+    400016: Wai WeiLan055
+    400018: Wai WeiLan056
+    400020: Wai WeiLan057
+    400022: Wai WeiLan058
+    400024: Wai WeiLan059
+    400026: Wai WeiLan06
+    400028: Wai WeiLan060
+    400030: Wai WeiLan061
+    400032: Wai WeiLan062
+    400034: Wai WeiLan063
+    400036: Wai WeiLan064
+    400038: Wai WeiLan065
+    400040: Wai WeiLan066
+    400042: Wai WeiLan067
+    400044: Wai WeiLan068
+    400046: Wai WeiLan069
+    400048: Wai WeiLan07
+    400050: Wai WeiLan070
+    400052: Wai WeiLan071
+    400054: Wai WeiLan072
+    400056: Wai WeiLan073
+    400058: Wai WeiLan074
+    400060: Wai WeiLan075
+    400062: Wai WeiLan076
+    400064: Wai WeiLan077
+    400066: Wai WeiLan078
+    400068: Wai WeiLan079
+    400070: Wai WeiLan08
+    400072: Wai WeiLan080
+    400074: Wai WeiLan081
+    400076: Wai WeiLan082
+    400078: Wai WeiLan083
+    400080: Wai WeiLan084
+    400082: Wai WeiLan085
+    400084: Wai WeiLan086
+    400086: Wai WeiLan087
+    400088: Wai WeiLan088
+    400090: Wai WeiLan089
+    400092: Wai WeiLan09
+    400094: Wai WeiLan090
+    400096: Wai WeiLan091
+    400098: Wai WeiLan092
+    400100: Wai WeiLan093
+    400102: Wai WeiLan094
+    400104: Wai WeiLan095
+    400106: Wai WeiLan096
+    400108: Wai WeiLan097
+    400110: Wai WeiLan098
+    400112: Wai WeiLan099
+    400114: Wai WeiLan10
+    400116: Wai WeiLan100
+    400118: Wai WeiLan101
+    400120: Wai WeiLan102
+    400122: Wai WeiLan103
+    400124: Wai WeiLan104
+    400126: Wai WeiLan105
+    400128: Wai WeiLan106
+    400130: Wai WeiLan107
+    400132: Wai WeiLan108
+    400134: Wai WeiLan11
+    400136: Wai WeiLan12
+    400138: Wai WeiLan13
+    400140: Wai WeiLan14
+    400142: Wai WeiLan15
+    400144: Wai WeiLan16
+    400146: Wai WeiLan17
+    400148: Wai WeiLan18
+    400150: Wai WeiLan19
+    400152: Wai WeiLan20
+    400154: Wai WeiLan21
+    400156: Wai WeiLan22
+    400158: Wai WeiLan23
+    400160: Wai WeiLan24
+    400162: Wai WeiLan25
+    400164: Wai WeiLan26
+    400166: Wai WeiLan27
+    400168: Wai WeiLan28
+    400170: Wai WeiLan29
+    400172: Wai WeiLan30
+    400174: Wai WeiLan31
+    400176: Wai WeiLan32
+    400178: Wai WeiLan33
+    400180: Wai WeiLan34
+    400182: Wai WeiLan35
+    400184: Wai WeiLan36
+    400186: Wai WeiLan37
+    400188: Wai WeiLan38
+    400190: Wai WeiLan39
+    400192: Wai WeiLan40
+    400194: Wai WeiLan41
+    400196: Wai WeiLan42
+    400198: Wai WeiLan43
+    400200: Wai WeiLan44
+    400202: Wai WeiLan45
+    400204: Wai WeiLan46
+    400206: Wai WeiLan47
+    400208: Wai WeiLan48
+    400210: Wai WeiLan49
+    400212: Wai WeiLan50
+    400214: Wai WeiLan51
+    400216: Wai WeiLan52
+    2300000: Wai WeiLan01
+    2300002: Wai WeiLan02
+    2300004: Wai WeiLan03
+    2300006: Wai WeiLan04
+    2300008: Wai WeiLan05
+    2300010: Wai WeiLan053
+    2300012: Wai WeiLan054
+    2300014: Wai WeiLan055
+    2300016: Wai WeiLan056
+    2300018: Wai WeiLan057
+    2300020: Wai WeiLan058
+    2300022: Wai WeiLan059
+    2300024: Wai WeiLan06
+    2300026: Wai WeiLan060
+    2300028: Wai WeiLan061
+    2300030: Wai WeiLan062
+    2300032: Wai WeiLan063
+    2300034: Wai WeiLan064
+    2300036: Wai WeiLan065
+    2300038: Wai WeiLan066
+    2300040: Wai WeiLan067
+    2300042: Wai WeiLan068
+    2300044: Wai WeiLan069
+    2300046: Wai WeiLan07
+    2300048: Wai WeiLan070
+    2300050: Wai WeiLan071
+    2300052: Wai WeiLan072
+    2300054: Wai WeiLan073
+    2300056: Wai WeiLan074
+    2300058: Wai WeiLan075
+    2300060: Wai WeiLan076
+    2300062: Wai WeiLan077
+    2300064: Wai WeiLan078
+    2300066: Wai WeiLan079
+    2300068: Wai WeiLan08
+    2300070: Wai WeiLan080
+    2300072: Wai WeiLan081
+    2300074: Wai WeiLan082
+    2300076: Wai WeiLan083
+    2300078: Wai WeiLan084
+    2300080: Wai WeiLan085
+    2300082: Wai WeiLan086
+    2300084: Wai WeiLan087
+    2300086: Wai WeiLan088
+    2300088: Wai WeiLan089
+    2300090: Wai WeiLan09
+    2300092: Wai WeiLan090
+    2300094: Wai WeiLan091
+    2300096: Wai WeiLan092
+    2300098: Wai WeiLan093
+    2300100: Wai WeiLan094
+    2300102: Wai WeiLan095
+    2300104: Wai WeiLan096
+    2300106: Wai WeiLan097
+    2300108: Wai WeiLan098
+    2300110: Wai WeiLan099
+    2300112: Wai WeiLan10
+    2300114: Wai WeiLan100
+    2300116: Wai WeiLan101
+    2300118: Wai WeiLan102
+    2300120: Wai WeiLan103
+    2300122: Wai WeiLan104
+    2300124: Wai WeiLan105
+    2300126: Wai WeiLan106
+    2300128: Wai WeiLan107
+    2300130: Wai WeiLan108
+    2300132: Wai WeiLan11
+    2300134: Wai WeiLan12
+    2300136: Wai WeiLan13
+    2300138: Wai WeiLan14
+    2300140: Wai WeiLan15
+    2300142: Wai WeiLan16
+    2300144: Wai WeiLan17
+    2300146: Wai WeiLan18
+    2300148: Wai WeiLan19
+    2300150: Wai WeiLan20
+    2300152: Wai WeiLan21
+    2300154: Wai WeiLan22
+    2300156: Wai WeiLan23
+    2300158: Wai WeiLan24
+    2300160: Wai WeiLan25
+    2300162: Wai WeiLan26
+    2300164: Wai WeiLan27
+    2300166: Wai WeiLan28
+    2300168: Wai WeiLan29
+    2300170: Wai WeiLan30
+    2300172: Wai WeiLan31
+    2300174: Wai WeiLan32
+    2300176: Wai WeiLan33
+    2300178: Wai WeiLan34
+    2300180: Wai WeiLan35
+    2300182: Wai WeiLan36
+    2300184: Wai WeiLan37
+    2300186: Wai WeiLan38
+    2300188: Wai WeiLan39
+    2300190: Wai WeiLan40
+    2300192: Wai WeiLan41
+    2300194: Wai WeiLan42
+    2300196: Wai WeiLan43
+    2300198: Wai WeiLan44
+    2300200: Wai WeiLan45
+    2300202: Wai WeiLan46
+    2300204: Wai WeiLan47
+    2300206: Wai WeiLan48
+    2300208: Wai WeiLan49
+    2300210: Wai WeiLan50
+    2300212: Wai WeiLan51
+    2300214: Wai WeiLan52
+    3300000: Wai WeiLan01
+    3300002: Wai WeiLan02
+    3300004: Wai WeiLan03
+    3300006: Wai WeiLan04
+    3300008: Wai WeiLan05
+    3300010: Wai WeiLan053
+    3300012: Wai WeiLan054
+    3300014: Wai WeiLan055
+    3300016: Wai WeiLan056
+    3300018: Wai WeiLan057
+    3300020: Wai WeiLan058
+    3300022: Wai WeiLan059
+    3300024: Wai WeiLan06
+    3300026: Wai WeiLan060
+    3300028: Wai WeiLan061
+    3300030: Wai WeiLan062
+    3300032: Wai WeiLan063
+    3300034: Wai WeiLan064
+    3300036: Wai WeiLan065
+    3300038: Wai WeiLan066
+    3300040: Wai WeiLan067
+    3300042: Wai WeiLan068
+    3300044: Wai WeiLan069
+    3300046: Wai WeiLan07
+    3300048: Wai WeiLan070
+    3300050: Wai WeiLan071
+    3300052: Wai WeiLan072
+    3300054: Wai WeiLan073
+    3300056: Wai WeiLan074
+    3300058: Wai WeiLan075
+    3300060: Wai WeiLan076
+    3300062: Wai WeiLan077
+    3300064: Wai WeiLan078
+    3300066: Wai WeiLan079
+    3300068: Wai WeiLan08
+    3300070: Wai WeiLan080
+    3300072: Wai WeiLan081
+    3300074: Wai WeiLan082
+    3300076: Wai WeiLan083
+    3300078: Wai WeiLan084
+    3300080: Wai WeiLan085
+    3300082: Wai WeiLan086
+    3300084: Wai WeiLan087
+    3300086: Wai WeiLan088
+    3300088: Wai WeiLan089
+    3300090: Wai WeiLan09
+    3300092: Wai WeiLan090
+    3300094: Wai WeiLan091
+    3300096: Wai WeiLan092
+    3300098: Wai WeiLan093
+    3300100: Wai WeiLan094
+    3300102: Wai WeiLan095
+    3300104: Wai WeiLan096
+    3300106: Wai WeiLan097
+    3300108: Wai WeiLan098
+    3300110: Wai WeiLan099
+    3300112: Wai WeiLan10
+    3300114: Wai WeiLan100
+    3300116: Wai WeiLan101
+    3300118: Wai WeiLan102
+    3300120: Wai WeiLan103
+    3300122: Wai WeiLan104
+    3300124: Wai WeiLan105
+    3300126: Wai WeiLan106
+    3300128: Wai WeiLan107
+    3300130: Wai WeiLan108
+    3300132: Wai WeiLan11
+    3300134: Wai WeiLan12
+    3300136: Wai WeiLan13
+    3300138: Wai WeiLan14
+    3300140: Wai WeiLan15
+    3300142: Wai WeiLan16
+    3300144: Wai WeiLan17
+    3300146: Wai WeiLan18
+    3300148: Wai WeiLan19
+    3300150: Wai WeiLan20
+    3300152: Wai WeiLan21
+    3300154: Wai WeiLan22
+    3300156: Wai WeiLan23
+    3300158: Wai WeiLan24
+    3300160: Wai WeiLan25
+    3300162: Wai WeiLan26
+    3300164: Wai WeiLan27
+    3300166: Wai WeiLan28
+    3300168: Wai WeiLan29
+    3300170: Wai WeiLan30
+    3300172: Wai WeiLan31
+    3300174: Wai WeiLan32
+    3300176: Wai WeiLan33
+    3300178: Wai WeiLan34
+    3300180: Wai WeiLan35
+    3300182: Wai WeiLan36
+    3300184: Wai WeiLan37
+    3300186: Wai WeiLan38
+    3300188: Wai WeiLan39
+    3300190: Wai WeiLan40
+    3300192: Wai WeiLan41
+    3300194: Wai WeiLan42
+    3300196: Wai WeiLan43
+    3300198: Wai WeiLan44
+    3300200: Wai WeiLan45
+    3300202: Wai WeiLan46
+    3300204: Wai WeiLan47
+    3300206: Wai WeiLan48
+    3300208: Wai WeiLan49
+    3300210: Wai WeiLan50
+    3300212: Wai WeiLan51
+    3300214: Wai WeiLan52
+    4300000: Wai WeiLan01
+    4300002: Wai WeiLan053
+    4300004: Wai WeiLan054
+    6400000: Wai WeiLan01
+    6400002: Wai WeiLan02
+    6400004: Wai WeiLan03
+    6400006: Wai WeiLan04
+    6400008: Wai WeiLan05
+    6400010: Wai WeiLan053
+    6400012: Wai WeiLan054
+    6400014: Wai WeiLan055
+    6400016: Wai WeiLan056
+    6400018: Wai WeiLan057
+    6400020: Wai WeiLan058
+    6400022: Wai WeiLan059
+    6400024: Wai WeiLan06
+    6400026: Wai WeiLan060
+    6400028: Wai WeiLan061
+    6400030: Wai WeiLan062
+    6400032: Wai WeiLan063
+    6400034: Wai WeiLan064
+    6400036: Wai WeiLan065
+    6400038: Wai WeiLan066
+    6400040: Wai WeiLan067
+    6400042: Wai WeiLan068
+    6400044: Wai WeiLan069
+    6400046: Wai WeiLan07
+    6400048: Wai WeiLan070
+    6400050: Wai WeiLan071
+    6400052: Wai WeiLan072
+    6400054: Wai WeiLan073
+    6400056: Wai WeiLan074
+    6400058: Wai WeiLan075
+    6400060: Wai WeiLan076
+    6400062: Wai WeiLan077
+    6400064: Wai WeiLan078
+    6400066: Wai WeiLan079
+    6400068: Wai WeiLan08
+    6400070: Wai WeiLan080
+    6400072: Wai WeiLan081
+    6400074: Wai WeiLan082
+    6400076: Wai WeiLan083
+    6400078: Wai WeiLan084
+    6400080: Wai WeiLan085
+    6400082: Wai WeiLan086
+    6400084: Wai WeiLan087
+    6400086: Wai WeiLan088
+    6400088: Wai WeiLan089
+    6400090: Wai WeiLan09
+    6400092: Wai WeiLan090
+    6400094: Wai WeiLan091
+    6400096: Wai WeiLan092
+    6400098: Wai WeiLan093
+    6400100: Wai WeiLan094
+    6400102: Wai WeiLan095
+    6400104: Wai WeiLan096
+    6400106: Wai WeiLan097
+    6400108: Wai WeiLan098
+    6400110: Wai WeiLan099
+    6400112: Wai WeiLan10
+    6400114: Wai WeiLan100
+    6400116: Wai WeiLan101
+    6400118: Wai WeiLan102
+    6400120: Wai WeiLan103
+    6400122: Wai WeiLan104
+    6400124: Wai WeiLan105
+    6400126: Wai WeiLan106
+    6400128: Wai WeiLan107
+    6400130: Wai WeiLan108
+    6400132: Wai WeiLan11
+    6400134: Wai WeiLan12
+    6400136: Wai WeiLan13
+    6400138: Wai WeiLan14
+    6400140: Wai WeiLan15
+    6400142: Wai WeiLan16
+    6400144: Wai WeiLan17
+    6400146: Wai WeiLan18
+    6400148: Wai WeiLan19
+    6400150: Wai WeiLan20
+    6400152: Wai WeiLan21
+    6400154: Wai WeiLan22
+    6400156: Wai WeiLan23
+    6400158: Wai WeiLan24
+    6400160: Wai WeiLan25
+    6400162: Wai WeiLan26
+    6400164: Wai WeiLan27
+    6400166: Wai WeiLan28
+    6400168: Wai WeiLan29
+    6400170: Wai WeiLan30
+    6400172: Wai WeiLan31
+    6400174: Wai WeiLan32
+    6400176: Wai WeiLan33
+    6400178: Wai WeiLan34
+    6400180: Wai WeiLan35
+    6400182: Wai WeiLan36
+    6400184: Wai WeiLan37
+    6400186: Wai WeiLan38
+    6400188: Wai WeiLan39
+    6400190: Wai WeiLan40
+    6400192: Wai WeiLan41
+    6400194: Wai WeiLan42
+    6400196: Wai WeiLan43
+    6400198: Wai WeiLan44
+    6400200: Wai WeiLan45
+    6400202: Wai WeiLan46
+    6400204: Wai WeiLan47
+    6400206: Wai WeiLan48
+    6400208: Wai WeiLan49
+    6400210: Wai WeiLan50
+    6400212: Wai WeiLan51
+    6400214: Wai WeiLan52
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

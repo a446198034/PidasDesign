@@ -8,6 +8,9 @@ using UnityEngine.EventSystems;
 /// </summary>
 public class AddMachineParentManager : MonoBehaviour {
 
+    public GameObject ZhouBiaoXiObj;
+    CoordinateSystem ccss;
+
     [Header("存放右键菜单的物体")]
     public GameObject MenuManagerObj;
     MenuManager mm;
@@ -24,7 +27,7 @@ public class AddMachineParentManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         CameraObjList = new List<GameObject>();
-
+        ccss = ZhouBiaoXiObj.GetComponent<CoordinateSystem>();
         mm = MenuManagerObj.GetComponent<MenuManager>();
 
 	}

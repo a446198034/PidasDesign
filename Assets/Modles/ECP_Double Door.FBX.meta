@@ -1,0 +1,91 @@
+fileFormatVersion: 2
+guid: 4114686aed4b2514dbbca45a459a7a59
+timeCreated: 1469064504
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: C1_ECP_OBJ53
+    100002: C1_ECP_OBJ54
+    100004: C1_ECP_OBJ55
+    100006: //RootNode
+    400000: C1_ECP_OBJ53
+    400002: C1_ECP_OBJ54
+    400004: C1_ECP_OBJ55
+    400006: //RootNode
+    2300000: C1_ECP_OBJ53
+    2300002: C1_ECP_OBJ54
+    2300004: C1_ECP_OBJ55
+    3300000: C1_ECP_OBJ53
+    3300002: C1_ECP_OBJ54
+    3300004: C1_ECP_OBJ55
+    4300000: C1_ECP_OBJ53
+    4300002: C1_ECP_OBJ54
+    4300004: C1_ECP_OBJ55
+    6400000: C1_ECP_OBJ53
+    6400002: C1_ECP_OBJ54
+    6400004: C1_ECP_OBJ55
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
