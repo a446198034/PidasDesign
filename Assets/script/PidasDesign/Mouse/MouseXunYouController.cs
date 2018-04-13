@@ -9,6 +9,9 @@ public class MouseXunYouController : MonoBehaviour {
     public GameObject AddMachineParentObj;
     AddMachineParentManager adpm;
 
+    public GameObject ZuoBiaoZhou;
+    CoordinateSystem cs;
+
     #region F Fly
     public float FlySpeed = 5;
     bool isFly = false;
@@ -22,10 +25,11 @@ public class MouseXunYouController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         adpm = AddMachineParentObj.GetComponent<AddMachineParentManager>();
+        cs = ZuoBiaoZhou.GetComponent<CoordinateSystem>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
 
         //滚轮进行缩放
         if (Input.GetAxis("Mouse ScrollWheel") != 0)
@@ -34,21 +38,23 @@ public class MouseXunYouController : MonoBehaviour {
             transform.Translate(0, 0, -z);
         }
 
-        float mx = Input.GetAxis("Horizontal");
-        float my = Input.GetAxis("Vertical");
-        float s = Input.GetKey(KeyCode.LeftShift) ? 20 : 5;
-        transform.Translate(new Vector3(mx * Time.deltaTime * s, 0, my * Time.deltaTime * s));
-
-        if (Input.GetKey(KeyCode.Q))
+        if (!cs.getIfZuoBiaoZhouActive() || Input.GetMouseButton(1))
         {
-            transform.Translate(Vector3.down * Time.deltaTime * s);
-        }
+            float mx = Input.GetAxis("Horizontal");
+            float my = Input.GetAxis("Vertical");
+            float s = Input.GetKey(KeyCode.LeftShift) ? 20 : 5;
+            transform.Translate(new Vector3(mx * Time.deltaTime * s, 0, my * Time.deltaTime * s));
 
-        if (Input.GetKey(KeyCode.E))
-        {
-            transform.Translate(Vector3.up * Time.deltaTime * s);
-        }
+            if (Input.GetKey(KeyCode.Q))
+            {
+                transform.Translate(Vector3.down * Time.deltaTime * s);
+            }
 
+            if (Input.GetKey(KeyCode.E))
+            {
+                transform.Translate(Vector3.up * Time.deltaTime * s);
+            }
+        }//if (!adpm.ZhouBiaoXiObj.activeSelf)
 
         //滚轮键拖动相机
         if (Input.GetMouseButton(2))
@@ -128,9 +134,9 @@ public class MouseXunYouController : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            if (null != adpm.getCurLeftControlObj())
+            if (null != adpm.getCurControlObj())
             {
-                CamFlyTargetTran = adpm.getCurLeftControlObj().transform;
+                CamFlyTargetTran = adpm.getCurControlObj().transform;
                 isFly = true;
             }
             
@@ -141,7 +147,7 @@ public class MouseXunYouController : MonoBehaviour {
             transform.LookAt(CamFlyTargetTran);
             transform.position = Vector3.Lerp(transform.position, CamFlyTargetTran.position, Time.deltaTime * FlySpeed);
 
-            if (Vector3.Distance(transform.position, CamFlyTargetTran.position) < 10)
+            if (Vector3.Distance(transform.position, CamFlyTargetTran.position) < 5)
             {
                 isFly = false;
             }

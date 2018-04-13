@@ -8,6 +8,7 @@ using UnityEngine.EventSystems;
 /// </summary>
 public class AddMachineParentManager : MonoBehaviour {
 
+    [Header("坐标系")]
     public GameObject ZhouBiaoXiObj;
     CoordinateSystem ccss;
 
@@ -64,9 +65,14 @@ public class AddMachineParentManager : MonoBehaviour {
     }
 
 
-    public GameObject getCurLeftControlObj()
+    public GameObject getCurControlObj()
     {
-        return CurLeftControlObj;
+        GameObject go = CurLeftControlObj;
+        if (null != ccss.getCurControlTran())
+        {
+            go = ccss.getCurControlTran().gameObject;
+        }
+        return go;
     }
 
     #endregion
@@ -102,6 +108,7 @@ public class AddMachineParentManager : MonoBehaviour {
                     }
                     else
                     {
+                        ccss.CheckisHitTranIsControlAxis(rayhit.transform);
                         CurLeftControlObj = null;
                         //关掉东西
                         mm.CallDisableRightMenu();
@@ -112,7 +119,7 @@ public class AddMachineParentManager : MonoBehaviour {
         }
 
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonUp(1))
         {
             if (EventSystem.current.IsPointerOverGameObject())
             {
@@ -135,8 +142,10 @@ public class AddMachineParentManager : MonoBehaviour {
                     }
                     else
                     {
+                        ccss.CheckisHitTranIsControlAxis(rayhit.transform);
                         CurRightControlObj = null;
                         mm.CallDisableRightMenu();
+                    
                     }
                 }
 
@@ -165,12 +174,12 @@ public class AddMachineParentManager : MonoBehaviour {
             mhlc.MyStateControl(false);
             if (CameraObjList[i].transform == tt)
             {
+
                 mhlc.OnShowHighLight(true);
                 mhlc.MyStateControl(true);
-
+                ccss.CallOnZhouBiaoZhou(CameraObjList[i].transform);
                 res = true;
                 CurMachineType = MachineType.Camera;
-
             }
         }
 

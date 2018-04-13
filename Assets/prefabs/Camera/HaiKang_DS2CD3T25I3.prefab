@@ -27,7 +27,7 @@ GameObject:
   - 114: {fileID: 114000010282056534}
   - 114: {fileID: 114000013701211378}
   - 54: {fileID: 54000010414768098}
-  - 65: {fileID: 65000010114857054}
+  - 65: {fileID: 65000011789867450}
   m_Layer: 0
   m_Name: HaiKang_DS2CD3T25I3
   m_TagString: Untagged
@@ -129,7 +129,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!65 &65000010114857054
+--- !u!65 &65000011789867450
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -139,8 +139,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 0.6, z: 0.6}
-  m_Center: {x: 0.23106971, y: 0.17100796, z: -0.00031683594}
+  m_Size: {x: 0.30432063, y: 0.113869876, z: 0.113134205}
+  m_Center: {x: 0.06932092, y: 0.05130239, z: -0.00009504892}
 --- !u!114 &114000010282056534
 MonoBehaviour:
   m_ObjectHideFlags: 1

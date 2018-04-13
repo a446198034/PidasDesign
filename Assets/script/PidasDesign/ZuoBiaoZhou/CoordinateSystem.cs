@@ -13,8 +13,10 @@ public class CoordinateSystem : MonoBehaviour {
     [Header("旋转")]
     public GameObject RotateAxisObj;
 
-    Transform CurControlTran;
+    public float DistanceTemp = 3;
 
+    Transform CurControlTran;
+    ControlAxis CurControlAxis = ControlAxis.Axis_X;
 	// Use this for initialization
 	void Start () {
 	
@@ -29,143 +31,108 @@ public class CoordinateSystem : MonoBehaviour {
     /// <param name="tf"></param>
     public void CallOnZhouBiaoZhou(Transform tf)
     {
+        transform.position = tf.position;
         CurControlTran = tf;
-           
+        MoveAxisObj.SetActive(true);
+        PanelAxisObj.SetActive(true);
+        RotateAxisObj.SetActive(false);
+        CurControlTran.gameObject.GetComponent<Rigidbody>().isKinematic = true;
     }
-
+    /// <summary>
+    /// 隐藏所有的轴
+    /// </summary>
     public void CallDisableZuoBiaoZhou()
     {
+        if (null != CurControlTran)
+        {
+            CurControlTran.gameObject.GetComponent<Rigidbody>().isKinematic = false;
+        }
         MoveAxisObj.SetActive(false);
         PanelAxisObj.SetActive(false);
         RotateAxisObj.SetActive(false);
     }
 
-    #endregion
-
-
-    #region XYZ 三轴移动
-
-    //XYZ 三轴移动
-    //下面函数是当鼠标触碰到碰转体或者刚体的时候被调用  
-    //现在可以用  如果添加物理的话会自动掉落
-    public IEnumerator OnMouseDownToMove()
+    /// <summary>
+    /// 判断点到的物体的Tag是不是轴的tag  ControlAxis
+    /// </summary>
+    /// <param name="tt"></param>
+    /// <returns></returns>
+    public void CheckisHitTranIsControlAxis(Transform tt)
     {
-
-        //将物体由世界坐标系转化为屏幕坐标系， 有vector3 结构体变量ScreenSpace 存储，以用来明确屏幕坐标系Z轴的位置
-        Vector3 ScreenSpace = Camera.main.WorldToScreenPoint(CurControlTran.position);
-        // Vector3 ScreenSpace = Camera.main.WorldToScreenPoint(transform.position);
-
-        //完成了两个步骤  1是鼠标的坐标是二维的 需要转化为三维的世界坐标系   
-        //                2是只有三维的情况才能计算鼠标位置和物体的距离  offset是两者的距离
-        Vector3 offset = CurControlTran.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, ScreenSpace.z));
-
-
-        while (Input.GetMouseButton(0))
+        if (!tt.tag.Contains("ControlAxis"))
         {
-            //得到现在鼠标的二维坐标系位置
-            Vector3 curScreenSpace = new Vector3(Input.mousePosition.x, Input.mousePosition.y, ScreenSpace.z);
-            //将当前鼠标的二维位置转化成三维的位置  再加上鼠标的移动量
-            Vector3 CurPosition = Camera.main.ScreenToWorldPoint(curScreenSpace) + offset;
-            //CurPosition就是这个物体应该的移动向量赋给 transform 的position属性
-            CurControlTran.position = MovePathByTransform(CurPosition);
-            //MyGrandFatherObj.position = CurPosition;
-
-            //这个很重要
-            yield return new WaitForFixedUpdate();
+            CallDisableZuoBiaoZhou();
         }
     }
 
-    //根据点击的XYZ三条轴控制物体的方向
-    Vector3 MovePathByTransform(Vector3 CurPosition)
+    /// <summary>
+    /// 平行轴控制物体移动
+    /// </summary>
+    /// <param name="v"></param>
+    public void setControlObjPosition(Vector3 v)
     {
-        string name = transform.name;
-        Vector3 pos = new Vector3(name == "X_Axis" ? CurPosition.x : CurControlTran.position.x,
-                                  name == "Y_Axis" ? CurPosition.y : CurControlTran.position.y,
-                                  name == "Z_Axis" ? CurPosition.z : CurControlTran.position.z);
+        CurControlTran.position = v;
+        transform.position = v;
+    }
 
-        // Debug.Log("  x " + pos.x + " y " + pos.y + " z " + pos.z);
+    public Transform getCurControlTran()
+    {
+        return CurControlTran;
+    }
 
-        return pos;
+    /// <summary>
+    /// 获取现在坐标轴的显示状态
+    /// </summary>
+    /// <returns>true 坐标轴显示</returns>
+    public bool getIfZuoBiaoZhouActive()
+    {
+        return MoveAxisObj.activeSelf || RotateAxisObj.activeSelf;
     }
 
     #endregion
 
 
-    #region XYZ三个平面移动
-
-
-    //XYZ三平面移动
-    IEnumerator OnMouseDownToMovePlane()
+    void Update()
     {
-
-        //将物体由世界坐标系转化为屏幕坐标系， 有vector3 结构体变量ScreenSpace 存储，以用来明确屏幕坐标系Z轴的位置
-        Vector3 ScreenSpace = Camera.main.WorldToScreenPoint(CurControlTran.position);
-        // Vector3 ScreenSpace = Camera.main.WorldToScreenPoint(transform.position);
-
-        //完成了两个步骤  1是鼠标的坐标是二维的 需要转化为三维的世界坐标系   
-        //                2是只有三维的情况才能计算鼠标位置和物体的距离  offset是两者的距离
-        Vector3 offset = CurControlTran.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, ScreenSpace.z));
-
-
-        while (Input.GetMouseButton(0))
+        if (Input.GetAxis("Mouse ScrollWheel") != 0 || Input.GetKeyDown(KeyCode.F))
         {
-            //得到现在鼠标的二维坐标系位置
-            Vector3 curScreenSpace = new Vector3(Input.mousePosition.x, Input.mousePosition.y, ScreenSpace.z);
-            //将当前鼠标的二维位置转化成三维的位置  再加上鼠标的移动量
-            Vector3 CurPosition = Camera.main.ScreenToWorldPoint(curScreenSpace) + offset;
-            //CurPosition就是这个物体应该的移动向量赋给 transform 的position属性
-            CurControlTran.position = MovePlaneByTransform(CurPosition);
-            //MyGrandFatherObj.position = CurPosition;
+            float f = Vector3.Distance(Camera.main.transform.position,transform.position);
+            float temp = f / DistanceTemp;
 
-            //这个很重要
-            yield return new WaitForFixedUpdate();
+            Vector3 v = Vector3.one;
+            if (temp > 1)
+            {
+                v *= temp / 2.0f;
+            }
+
+            transform.localScale = v;
         }
-    }
-
-    //根据点击的XYZ三条轴控制物体的方向
-    Vector3 MovePlaneByTransform(Vector3 CurPosition)
-    {
-        string name = transform.name;
-        Vector3 pos = new Vector3(name == "X_Plane" ? CurControlTran.position.x : CurPosition.x,
-                                  name == "Y_Plane" ? CurControlTran.position.y : CurPosition.y,
-                                  name == "Z_Plane" ? CurControlTran.position.z : CurPosition.z);
-
-        // Debug.Log("  x " + pos.x + " y " + pos.y + " z " + pos.z);
-
-        return pos;
-    }
-
-    #endregion
 
 
-    #region XYZ 三轴旋转
+        if (!getIfZuoBiaoZhouActive()) return;
 
-    //XYZ 三轴旋转
-    IEnumerator OnMouseDownToRotate()
-    {
-
-        while (Input.GetMouseButton(0))
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            CurControlTran.GetChild(CurControlTran.childCount - 1).Rotate(RotatePathByTransform());
-
-            //这个很重要
-            yield return new WaitForFixedUpdate();
+            RotateAxisObj.SetActive(false);
+            MoveAxisObj.SetActive(true);
+            PanelAxisObj.SetActive(true);
         }
+
+        if (Input.GetMouseButton(1)) return;
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            RotateAxisObj.SetActive(true);
+            MoveAxisObj.SetActive(false);
+            PanelAxisObj.SetActive(false);
+        }
+
     }
 
-    //XYZ 三轴旋转
-    Vector3 RotatePathByTransform()
-    {
-        string name = transform.name;
-        Vector3 pos = new Vector3(name == "XRotate" ? -Input.GetAxis("Mouse Y") * Time.deltaTime * 10 : 0,
-                                  name == "YRotate" ? -Input.GetAxis("Mouse X") * Time.deltaTime * 10 : 0,
-                                  name == "ZRotate" ? -Input.GetAxis("Mouse Y") * Time.deltaTime * 10 : 0);
 
-        // Debug.Log("  x " + pos.x + " y " + pos.y + " z " + pos.z);
+    
 
-        return pos;
-    }
 
-    #endregion
+    
 
 }
