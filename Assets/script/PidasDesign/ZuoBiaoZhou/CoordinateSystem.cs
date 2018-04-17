@@ -13,13 +13,16 @@ public class CoordinateSystem : MonoBehaviour {
     [Header("旋转")]
     public GameObject RotateAxisObj;
 
-    public float DistanceTemp = 3;
+    public GameObject MessageLiandongObj;
+    LianDongFromTransfromAndAxisAndSlider liandongff;
+
+    float DistanceTemp = 3;
 
     Transform CurControlTran;
     ControlAxis CurControlAxis = ControlAxis.Axis_X;
 	// Use this for initialization
 	void Start () {
-	
+        liandongff = MessageLiandongObj.GetComponent<LianDongFromTransfromAndAxisAndSlider>();
 	}
 
 
@@ -38,6 +41,7 @@ public class CoordinateSystem : MonoBehaviour {
         RotateAxisObj.SetActive(false);
         CurControlTran.gameObject.GetComponent<Rigidbody>().isKinematic = true;
     }
+
     /// <summary>
     /// 隐藏所有的轴
     /// </summary>
@@ -73,6 +77,28 @@ public class CoordinateSystem : MonoBehaviour {
     {
         CurControlTran.position = v;
         transform.position = v;
+        liandongff.LianDongCallWithCoordinateSystem(false);
+    }
+
+
+    /// <summary>
+    /// 旋转物体
+    /// </summary>
+    /// <param name="v"></param>
+    public void setControlObjRotation(Vector3 v)
+    {
+        CurControlTran.Rotate(v);
+        transform.Rotate(v);
+        liandongff.LianDongCallWithCoordinateSystem(true);
+    }
+
+    /// <summary>
+    /// 更新坐标轴与物体的位置关系
+    /// </summary>
+    public void UpdateZuoBiaoZhouPosAndQua()
+    {
+        transform.position = CurControlTran.position;
+        transform.rotation = CurControlTran.rotation;
     }
 
     public Transform getCurControlTran()
@@ -94,7 +120,7 @@ public class CoordinateSystem : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") != 0 || Input.GetKeyDown(KeyCode.F))
+        if (Input.GetAxis("Mouse ScrollWheel") != 0 || Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.LeftAlt))
         {
             float f = Vector3.Distance(Camera.main.transform.position,transform.position);
             float temp = f / DistanceTemp;

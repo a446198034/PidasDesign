@@ -77,8 +77,8 @@ public class TransformDragController : MonoBehaviour {
         float x = Input.GetAxis("Mouse X") * 2;
         CurValue += x;
 
+        tdd.DealWithInputValue(MyAxis,CurValue);
         tdd.setInputValue(MyAxis,CurValue);
-        tdd.InitInputValue(MyAxis,CurValue);
     }
 
     void MouseEndDragCallBack(PointerEventData data)

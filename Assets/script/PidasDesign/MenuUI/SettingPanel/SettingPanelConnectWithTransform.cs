@@ -4,6 +4,10 @@ using UnityEngine.UI;
 
 public class SettingPanelConnectWithTransform : MonoBehaviour {
 
+    public GameObject LianDongObj;
+    LianDongFromTransfromAndAxisAndSlider liandongff;
+
+    
     GameObject CurControlObj;
 
     Slider CurHorzonialSlider;
@@ -12,7 +16,7 @@ public class SettingPanelConnectWithTransform : MonoBehaviour {
     EquipmentRotationDao VerticalDao;
     // Use this for initialization
     void Start () {
-	
+        liandongff = LianDongObj.GetComponent<LianDongFromTransfromAndAxisAndSlider>();
 	}
 
     public void InitMySelf(GameObject go,  Slider h, Slider v)
@@ -54,5 +58,37 @@ public class SettingPanelConnectWithTransform : MonoBehaviour {
         return res;
     }
 
+    /// <summary>
+    /// 更新Slider 的值
+    /// </summary>
+    public void UpdateSliderValue()
+    {
+        Vector3 v = CurControlObj.transform.rotation.eulerAngles;
+
+        setRotationDao(HorizontalDao,v);
+        setRotationDao(VerticalDao,v);
+
+        CurHorzonialSlider.value = HorizontalDao.RotateValue;
+        CUrVerticalSlider.value = VerticalDao.RotateValue;
+        
+    }
+
+    void setRotationDao(EquipmentRotationDao erd,Vector3 v)
+    {
+        switch (erd.RotateAxis)
+        {
+            case ControlAxis.Axis_X: erd.RotateValue = erd.isNeedFuShu ? v.x * -1 : v.x; break;
+            case ControlAxis.Axis_Y: erd.RotateValue = erd.isNeedFuShu ? v.y * -1 : v.y; break;
+            case ControlAxis.Axis_Z: erd.RotateValue = erd.isNeedFuShu ? v.z * -1 : v.z; break;
+        }
+    }
+
+    /// <summary>
+    /// 设置面板里面Slider 值变化的时候同步面板
+    /// </summary>
+    public void SettingPanelSliderValueChanged()
+    {
+        liandongff.LianDongCallWithPanelSlider();
+    }
 
 }

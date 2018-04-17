@@ -16,10 +16,16 @@ public class TransformMessageController : MonoBehaviour {
     [Header("Canvas")]
     public GameObject CanvasObj;
     SettingPanelConnectWithTransform spcwt;
+
+    [Header("联动物体")]
+    public GameObject LianDongObj;
+    LianDongFromTransfromAndAxisAndSlider liandongtff;
+
     GameObject CurControlObj;
     // Use this for initialization
     void Start() {
         spcwt = CanvasObj.GetComponent<SettingPanelConnectWithTransform>();
+        liandongtff = LianDongObj.GetComponent<LianDongFromTransfromAndAxisAndSlider>();
     }
 
     /// <summary>
@@ -30,21 +36,32 @@ public class TransformMessageController : MonoBehaviour {
     {
         CurControlObj = go;
 
+        UpdateTransformPanel();
+    }
+
+    /// <summary>
+    /// 更新面板中物体的属性值
+    /// </summary>
+    public void UpdateTransformPanel()
+    {
+        if (null == CurControlObj)
+            return;
+        
+
         Vector3 v = CurControlObj.transform.position;
-        TD_Position.InitInputValue(ControlAxis.Axis_X,v.x);
-        TD_Position.InitInputValue(ControlAxis.Axis_Y,v.y);
-        TD_Position.InitInputValue(ControlAxis.Axis_Z,v.z);
+        TD_Position.setInputValue(ControlAxis.Axis_X, v.x);
+        TD_Position.setInputValue(ControlAxis.Axis_Y, v.y);
+        TD_Position.setInputValue(ControlAxis.Axis_Z, v.z);
 
         Vector3 q = CurControlObj.transform.rotation.eulerAngles;
-        TD_Rotation.InitInputValue(ControlAxis.Axis_X,q.x);
-        TD_Rotation.InitInputValue(ControlAxis.Axis_Y,q.y);
-        TD_Rotation.InitInputValue(ControlAxis.Axis_Z,q.z);
+        TD_Rotation.setInputValue(ControlAxis.Axis_X, q.x);
+        TD_Rotation.setInputValue(ControlAxis.Axis_Y, q.y);
+        TD_Rotation.setInputValue(ControlAxis.Axis_Z, q.z);
 
         Vector3 s = CurControlObj.transform.localScale;
-        TD_Scale.InitInputValue(ControlAxis.Axis_X, s.x);
-        TD_Scale.InitInputValue(ControlAxis.Axis_Y, s.y);
-        TD_Scale.InitInputValue(ControlAxis.Axis_Z, s.z);
-
+        TD_Scale.setInputValue(ControlAxis.Axis_X, s.x);
+        TD_Scale.setInputValue(ControlAxis.Axis_Y, s.y);
+        TD_Scale.setInputValue(ControlAxis.Axis_Z, s.z);
     }
 
     /// <summary>
@@ -81,6 +98,7 @@ public class TransformMessageController : MonoBehaviour {
         }
 
         CurControlObj.transform.position = v;
+        liandongtff.LianDongCallWithTransformMessageDrag();
     }
 
     /// <summary>
@@ -118,7 +136,7 @@ public class TransformMessageController : MonoBehaviour {
         }
 
         CurControlObj.transform.rotation = Quaternion.Euler(q);
-
+        liandongtff.LianDongCallWithTransformMessageDrag();
     }
 
     /// <summary>

@@ -127,6 +127,7 @@ public class MenuManager : MonoBehaviour {
         }
         MenuObj.SetActive(false);
         ampm.RemoveObjInScene(CurControl,CurMachineType);
+
     }
 
     /// <summary>

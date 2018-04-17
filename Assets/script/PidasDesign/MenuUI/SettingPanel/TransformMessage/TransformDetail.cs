@@ -77,7 +77,7 @@ public class TransformDetail : MonoBehaviour {
     /// </summary>
     /// <param name="ca"></param>
     /// <param name="f"></param>
-    public void InitInputValue(ControlAxis ca, float f)
+    public void setInputValue(ControlAxis ca, float f)
     {
         f = GlogalData.getNumByFloat(f,3);
         switch (ca)
@@ -93,7 +93,7 @@ public class TransformDetail : MonoBehaviour {
     /// </summary>
     /// <param name="ca"></param>
     /// <param name="f"></param>
-    public void setInputValue(ControlAxis ca, float f)
+    public void DealWithInputValue(ControlAxis ca, float f)
     {
         ttmc.DealWithInputValue(MyDetail, ca, f);
     }
@@ -123,7 +123,7 @@ public class TransformDetail : MonoBehaviour {
 
         res = GlogalData.getNumByFloat(res,3);
 
-        setInputValue(ControlAxis.Axis_X,res);
+        DealWithInputValue(ControlAxis.Axis_X,res);
 
     }
     void X_input_Changed()
@@ -157,7 +157,7 @@ public class TransformDetail : MonoBehaviour {
         isInputY = false;
         res = GlogalData.getNumByFloat(res, 3);
 
-        setInputValue(ControlAxis.Axis_Y,res);
+        DealWithInputValue(ControlAxis.Axis_Y,res);
     }
     void Y_input_Changed()
     {
@@ -190,7 +190,7 @@ public class TransformDetail : MonoBehaviour {
         isInputZ = false;
         res = GlogalData.getNumByFloat(res, 3);
 
-        setInputValue(ControlAxis.Axis_Z,res);
+        DealWithInputValue(ControlAxis.Axis_Z,res);
     }
     void Z_input_Changed()
     {

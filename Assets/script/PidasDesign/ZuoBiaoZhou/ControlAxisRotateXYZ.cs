@@ -54,8 +54,8 @@ public class ControlAxisRotateXYZ : MonoBehaviour {
 
         while (Input.GetMouseButton(0))
         {
-              CurControlTran.Rotate(RotatePathByTransform());
-            transform.parent.Rotate(RotatePathByTransform());
+            cs.setControlObjRotation(RotatePathByTransform());
+            
             //这个很重要
             yield return new WaitForFixedUpdate();
         }

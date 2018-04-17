@@ -62,6 +62,7 @@ public class AddMachineParentManager : MonoBehaviour {
             case MachineType.Microwave: break;
             case MachineType.Radar: break;
         }
+        ccss.CallDisableZuoBiaoZhou();
     }
 
 
