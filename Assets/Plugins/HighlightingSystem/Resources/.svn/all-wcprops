@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/Plugins/HighlightingSystem/Resources
+END
+HighlightingBlur.shader
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/Plugins/HighlightingSystem/Resources/HighlightingBlur.shader
+END
+HighlightingOpaque.shader
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/Plugins/HighlightingSystem/Resources/HighlightingOpaque.shader
+END
+HighlightingCut.shader
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/Plugins/HighlightingSystem/Resources/HighlightingCut.shader
+END
+HighlightingTransparent.shader
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/Plugins/HighlightingSystem/Resources/HighlightingTransparent.shader
+END
+HighlightingComposite.shader
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/Plugins/HighlightingSystem/Resources/HighlightingComposite.shader
+END

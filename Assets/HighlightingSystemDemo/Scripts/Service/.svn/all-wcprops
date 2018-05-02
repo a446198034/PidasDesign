@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Service
+END
+ColorTool.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Service/ColorTool.cs
+END
+WorldSpaceCanvas.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Service/WorldSpaceCanvas.cs
+END
+PresetSelector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Service/PresetSelector.cs
+END
+SceneLoader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Service/SceneLoader.cs
+END
+CameraFlyController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Service/CameraFlyController.cs
+END
+ScreenSpaceCanvas.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Service/ScreenSpaceCanvas.cs
+END
+FPSCounter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Service/FPSCounter.cs
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Helpers
+END
+MovementController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Helpers/MovementController.cs
+END
+CompoundObjectController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Helpers/CompoundObjectController.cs
+END
+GameObjectToggle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Helpers/GameObjectToggle.cs
+END
+RotationController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Helpers/RotationController.cs
+END
+BehaviourToggle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Helpers/BehaviourToggle.cs
+END

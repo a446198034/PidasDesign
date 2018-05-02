@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced
+END
+HighlighterInteractive.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/HighlighterInteractive.cs
+END
+CameraTargeting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/CameraTargeting.cs
+END
+HighlighterItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/HighlighterItem.cs
+END
+HighlighterOccluder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/HighlighterOccluder.cs
+END
+HighlighterToggle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/HighlighterToggle.cs
+END
+HighlighterSpectrum.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/HighlighterSpectrum.cs
+END
+HighlighterRevealer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/HighlighterRevealer.cs
+END
+HighlighterConstant.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/HighlighterConstant.cs
+END
+HighlighterBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/HighlighterBase.cs
+END
+HighlighterFlashing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scripts/Advanced/HighlighterFlashing.cs
+END

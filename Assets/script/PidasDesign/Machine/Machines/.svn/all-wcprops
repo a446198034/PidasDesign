@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Machines
+END
+MachineCreateInit.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Machines/MachineCreateInit.cs
+END
+MachineHighLightController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Machines/MachineHighLightController.cs
+END
+HighLighMaterial.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Machines/HighLighMaterial.cs
+END
+MachineTransformController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Machines/MachineTransformController.cs
+END

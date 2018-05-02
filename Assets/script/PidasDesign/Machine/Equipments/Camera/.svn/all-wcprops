@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Camera
+END
+CameraDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Camera/CameraDao.cs
+END
+Machine_Camera.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Camera/Machine_Camera.cs
+END
+Equipment_Camera_Qiu.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Camera/Equipment_Camera_Qiu.cs
+END
+Equipment_Camera_Banqiu.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Camera/Equipment_Camera_Banqiu.cs
+END
+UICameraMachineDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Camera/UICameraMachineDetail.cs
+END
+Equipment_Camera_Qiangji.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Camera/Equipment_Camera_Qiangji.cs
+END
