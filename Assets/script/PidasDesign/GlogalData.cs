@@ -113,7 +113,8 @@ public enum MachineType
     Camera,
     Microwave,
     Infrared,
-    Radar
+    Radar,
+    WeiLan
 }
 
 /// <summary>

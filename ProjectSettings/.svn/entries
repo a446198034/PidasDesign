@@ -264,40 +264,6 @@ zhangguixin
 
 884
 
-GraphicsSettings.asset
-file
-
-
-
-
-2018-04-19T09:45:28.524258Z
-3eeef80c6acfbc05842f6d72ad09cd72
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2421
-
 UnityAdsSettings.asset
 file
 
@@ -331,6 +297,40 @@ zhangguixin
 
 
 223
+
+GraphicsSettings.asset
+file
+
+
+
+
+2018-05-02T02:11:11.180526Z
+3eeef80c6acfbc05842f6d72ad09cd72
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2421
 
 NetworkManager.asset
 file
@@ -366,6 +366,40 @@ zhangguixin
 
 151
 
+ProjectSettings.asset
+file
+
+
+
+
+2018-05-02T02:11:11.160525Z
+a88c01c6ba4b444aaaf49395baddb726
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14345
+
 EditorBuildSettings.asset
 file
 
@@ -400,14 +434,14 @@ zhangguixin
 
 196
 
-ProjectSettings.asset
+TimeManager.asset
 file
 
 
 
 
-2018-04-19T09:45:28.480256Z
-a88c01c6ba4b444aaaf49395baddb726
+2018-04-08T07:10:06.165408Z
+7545bd393c5d08ca8ab1e934bb40827d
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -432,7 +466,7 @@ zhangguixin
 
 
 
-14345
+168
 
 Physics2DSettings.asset
 file
@@ -467,40 +501,6 @@ zhangguixin
 
 
 1250
-
-TimeManager.asset
-file
-
-
-
-
-2018-04-08T07:10:06.165408Z
-7545bd393c5d08ca8ab1e934bb40827d
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-168
 
 InputManager.asset
 file

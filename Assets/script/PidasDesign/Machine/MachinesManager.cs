@@ -10,6 +10,8 @@ public class MachinesManager : MonoBehaviour {
     public GameObject AddMachineParentObj;
     AddMachineParentManager ampm;
 
+    
+
     [Header("箭头按钮")]
     public GameObject JianTouButtonObj;
 
@@ -19,6 +21,8 @@ public class MachinesManager : MonoBehaviour {
     [Header("海康 DS-2CE16D1T-IT3F ")]
     public GameObject HK_DS2CE16D1TIT3F_PreObj;
 
+    [Header("围栏")]
+    public GameObject WeiLanObj;
 
     // Use this for initialization
     void Start () {
@@ -49,6 +53,37 @@ public class MachinesManager : MonoBehaviour {
         ampm.AddCameraObj(XinChuangJian);
     }
 
+    /// <summary>
+    /// 根据两个点击的点的向量创建围栏
+    /// </summary>
+    /// <param name="FirstPoint"></param>
+    /// <param name="SecondPoint"></param>
+    public void WeiLanCreateBtnCallback(Transform FirstPoint,Transform SecondPoint)
+    {
+        Vector3 offsetPos = SecondPoint.position - FirstPoint.position;
+        float DistanceWithTwoPoint = Vector3.Distance(SecondPoint.position,FirstPoint.position);
+        float Width = WeiLanObj.GetComponent<Renderer>().bounds.size.x * WeiLanObj.transform.localScale.x;
+
+        int count = (int)GlogalData.getNumByFloat(DistanceWithTwoPoint / Width,0);
+
+        for (int i = 0; i < count; i++)
+        {
+            GameObject go = Instantiate(WeiLanObj);
+            Vector3 pos = FirstPoint.position + offsetPos / count * 1.0f * i;
+            go.transform.position = pos;
+
+            Quaternion lookQua = Quaternion.LookRotation(offsetPos);
+            go.transform.rotation = lookQua;
+            Vector3 r = go.transform.rotation.eulerAngles;
+            r.x = -90;
+            r.z = 180;
+            go.transform.rotation = Quaternion.Euler(r);
+            
+
+            go.GetComponent<Rigidbody>().isKinematic = true;
+        }
+    }
+
     #region LocalFunction
 
     /// <summary>
@@ -75,6 +110,8 @@ public class MachinesManager : MonoBehaviour {
 
         return go;
     }
+
+
 
     #endregion
 }

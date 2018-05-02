@@ -1,14 +1,14 @@
 10
 
 dir
-20032
+20267
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign
 http://192.168.1.105:8600/svn/rdc1
 
 
 
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-02T02:28:10.547659Z
+20267
 zhangguixin
 has-props
 
@@ -32,12 +32,9 @@ dir
 Assets
 dir
 
-Library
-dir
-
 .gitignore
 file
-
+20032
 
 
 
@@ -71,7 +68,7 @@ zhangguixin
 
 ExportModel.unitypackage
 file
-
+20032
 
 
 
@@ -114,7 +111,7 @@ dir
 
 README.md
 file
-
+20032
 
 
 
