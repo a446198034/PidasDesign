@@ -63,26 +63,35 @@ public class MachinesManager : MonoBehaviour {
         Vector3 offsetPos = SecondPoint.position - FirstPoint.position;
         float DistanceWithTwoPoint = Vector3.Distance(SecondPoint.position,FirstPoint.position);
         float Width = WeiLanObj.GetComponent<Renderer>().bounds.size.x * WeiLanObj.transform.localScale.x;
+        
+        float angle = Vector3.Angle(FirstPoint.right,offsetPos);
+        angle = 180 - angle;
+
+        //判断方向
+        angle = SecondPoint.position.z < FirstPoint.position.z ? angle * -1 : angle;
 
         int count = (int)GlogalData.getNumByFloat(DistanceWithTwoPoint / Width,0);
-
+         
         for (int i = 0; i < count; i++)
         {
             GameObject go = Instantiate(WeiLanObj);
             Vector3 pos = FirstPoint.position + offsetPos / count * 1.0f * i;
             go.transform.position = pos;
+            ampm.AddWeiLanToList(go);
+            go.transform.SetParent(AddMachineParentObj.transform);
 
-            Quaternion lookQua = Quaternion.LookRotation(offsetPos);
-            go.transform.rotation = lookQua;
             Vector3 r = go.transform.rotation.eulerAngles;
-            r.x = -90;
-            r.z = 180;
+            r.y = angle;
             go.transform.rotation = Quaternion.Euler(r);
-            
+
 
             go.GetComponent<Rigidbody>().isKinematic = true;
         }
+
+        //GetComponent<AddMachineConnectWithMenu>().CallPanelToShowOnWeiLanPanel();
     }
+
+   
 
     #region LocalFunction
 

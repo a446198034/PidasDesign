@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/UI%20-%20BUILDER/Source%20Files/Panels/Panels@1x-assets/PopUpArrows
 http://192.168.1.105:8600/svn/rdc1
 
@@ -604,40 +604,6 @@ has-props
 
 666
 
-PopUpArrowsRadius_6px_Stroke_1px.png
-file
-
-
-
-
-2018-04-08T07:10:03.048230Z
-a93594610714dba0d30c4c0544ddce8f
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1140
-
 PopUpArrowsRadius_24px_Stroke_10px.png
 file
 
@@ -671,6 +637,40 @@ has-props
 
 
 1026
+
+PopUpArrowsRadius_6px_Stroke_1px.png
+file
+
+
+
+
+2018-04-08T07:10:03.048230Z
+a93594610714dba0d30c4c0544ddce8f
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1140
 
 PopUpArrowsRadius_6px_Stroke_2px.png
 file
@@ -706,40 +706,6 @@ has-props
 
 999
 
-PopUpArrowsRadius_34px_Stroke_20px.png
-file
-
-
-
-
-2018-04-08T07:10:03.036229Z
-0fb2ed11b507e5116680d29fa69c1d3d
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1282
-
 PopUpArrowsRadius_24px_Stroke_12px.png
 file
 
@@ -773,6 +739,40 @@ has-props
 
 
 1065
+
+PopUpArrowsRadius_34px_Stroke_20px.png
+file
+
+
+
+
+2018-04-08T07:10:03.036229Z
+0fb2ed11b507e5116680d29fa69c1d3d
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1282
 
 PopUpArrowsRadius_6px_Stroke_4px.png
 file

@@ -7,7 +7,7 @@ MenuManager.cs
 K 25
 svn:wc:ra_dav:version-url
 V 113
-/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI/SettingPanel/MenuManager.cs
+/svn/rdc1/!svn/ver/20312/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI/SettingPanel/MenuManager.cs
 END
 SettingPanelConnectWithTransform.cs
 K 25
@@ -19,5 +19,11 @@ SettingPanelManager.cs
 K 25
 svn:wc:ra_dav:version-url
 V 121
-/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI/SettingPanel/SettingPanelManager.cs
+/svn/rdc1/!svn/ver/20312/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI/SettingPanel/SettingPanelManager.cs
+END
+AddMachineConnectWithMenu.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/rdc1/!svn/ver/20312/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI/SettingPanel/AddMachineConnectWithMenu.cs
 END

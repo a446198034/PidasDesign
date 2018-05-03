@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/UI%20-%20BUILDER/Source%20Files/Panels/Panels@2x-assets/Circles
 http://192.168.1.105:8600/svn/rdc1
 
@@ -128,40 +128,6 @@ has-props
 
 3876
 
-BigMiddleSize_Stroke_6px.png
-file
-
-
-
-
-2018-04-08T07:10:03.096232Z
-ba2f18536dd18ccbbe5acd64254bf6df
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5837
-
 CircleSmall_Stroke_16px.png
 file
 
@@ -196,14 +162,14 @@ has-props
 
 1266
 
-BigSize_Stroke_60px.png
+BigMiddleSize_Stroke_6px.png
 file
 
 
 
 
-2018-04-08T07:10:03.276243Z
-9c10722788642b603f377790dd8257bb
+2018-04-08T07:10:03.096232Z
+ba2f18536dd18ccbbe5acd64254bf6df
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -228,7 +194,7 @@ has-props
 
 
 
-12955
+5837
 
 CircleSmall_Fill.png
 file
@@ -263,6 +229,40 @@ has-props
 
 
 702
+
+BigSize_Stroke_60px.png
+file
+
+
+
+
+2018-04-08T07:10:03.276243Z
+9c10722788642b603f377790dd8257bb
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12955
 
 BigSize_Stroke_16px.png
 file
@@ -332,40 +332,6 @@ has-props
 
 7284
 
-MiddleSize_Stroke_2px.png
-file
-
-
-
-
-2018-04-08T07:10:03.724268Z
-45741923a07477a9c44788e85900fb1b
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2652
-
 CircleSmall_Stroke_1px.png
 file
 
@@ -399,6 +365,40 @@ has-props
 
 
 1044
+
+MiddleSize_Stroke_2px.png
+file
+
+
+
+
+2018-04-08T07:10:03.724268Z
+45741923a07477a9c44788e85900fb1b
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2652
 
 CircleSmall_Stroke_2px.png
 file
@@ -434,14 +434,14 @@ has-props
 
 1155
 
-MiddleSize_Stroke_4px.png
+BigSize_Stroke_1px.png
 file
 
 
 
 
-2018-04-08T07:10:03.728269Z
-1c33bcaecdd3b82c538ca1df8dd6be1b
+2018-04-08T07:10:03.273243Z
+b6c01fcbba0657d5d57b6c0f8589c5de
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -466,7 +466,7 @@ has-props
 
 
 
-2900
+9979
 
 BigSize_Stroke_100px.png
 file
@@ -502,14 +502,14 @@ has-props
 
 13391
 
-BigSize_Stroke_1px.png
+MiddleSize_Stroke_4px.png
 file
 
 
 
 
-2018-04-08T07:10:03.273243Z
-b6c01fcbba0657d5d57b6c0f8589c5de
+2018-04-08T07:10:03.728269Z
+1c33bcaecdd3b82c538ca1df8dd6be1b
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -534,7 +534,7 @@ has-props
 
 
 
-9979
+2900
 
 BigMiddleSize_Stroke_30px.png
 file

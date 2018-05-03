@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/UI%20-%20BUILDER/Prefabs/2.%20Ready-Made%20Component%20Elements/Toggles%20-%20Switches
 http://192.168.1.105:8600/svn/rdc1
 
@@ -332,40 +332,6 @@ zhangguixin
 
 7010
 
-Toggle_1.prefab
-file
-
-
-
-
-2018-04-08T07:10:00.700095Z
-91584b89706666f7e28f0595e17369ef
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6029
-
 Switch_10.prefab
 file
 
@@ -400,14 +366,14 @@ zhangguixin
 
 7015
 
-Switch_11.prefab
+Toggle_1.prefab
 file
 
 
 
 
-2018-04-08T07:10:00.671094Z
-459e069de638307a3108fdb678c06a00
+2018-04-08T07:10:00.700095Z
+91584b89706666f7e28f0595e17369ef
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -432,7 +398,41 @@ zhangguixin
 
 
 
-7064
+6029
+
+Toggle_2.prefab
+file
+
+
+
+
+2018-04-08T07:10:00.701095Z
+8ff9e38b662fdd5b679b017a8494de9c
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6029
 
 Switch_20.prefab
 file
@@ -468,14 +468,14 @@ zhangguixin
 
 10399
 
-Toggle_2.prefab
+Switch_11.prefab
 file
 
 
 
 
-2018-04-08T07:10:00.701095Z
-8ff9e38b662fdd5b679b017a8494de9c
+2018-04-08T07:10:00.671094Z
+459e069de638307a3108fdb678c06a00
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -500,7 +500,7 @@ zhangguixin
 
 
 
-6029
+7064
 
 Switch_12.prefab
 file

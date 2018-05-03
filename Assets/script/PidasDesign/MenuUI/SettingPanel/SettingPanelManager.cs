@@ -6,6 +6,10 @@ public class SettingPanelManager : MonoBehaviour {
     [Header("相机设置页面")]
     public GameObject CameraSettingPanelObj;
 
+    [Header("围栏设置页面")]
+    public GameObject WeiLanSettingPanelObj;
+
+
     SettingPanelConnectWithTransform spcwt;
 	// Use this for initialization
 	void Start () {
@@ -49,5 +53,29 @@ public class SettingPanelManager : MonoBehaviour {
 
 
     #endregion
+
+    #region WeiLan
+    /// <summary>
+    /// 呼出围栏设置页面
+    /// </summary>
+    /// <param name="go"></param>
+    public void CallOnWeiLanSetting( )
+    {
+        WeiLanSettingPanelObj.SetActive(true);
+        WeiLanSettingPanel wsp = WeiLanSettingPanelObj.GetComponent<WeiLanSettingPanel>();
+
+        wsp.InitWeiLanSettingPanel();
+    }
+
+    /// <summary>
+    /// 关闭围栏设置页面
+    /// </summary>
+    public void DisableWeiLanSetting()
+    {
+        WeiLanSettingPanelObj.SetActive(false);
+    }
+
+    #endregion
+
 
 }

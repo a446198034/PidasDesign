@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI/SettingPanel
 http://192.168.1.105:8600/svn/rdc1
 
@@ -26,19 +26,22 @@ has-props
 
 0e198a35-b08a-d34d-b01e-ff12bb4df6eb
 
+WeiLan
+dir
+
 TransformMessage
 dir
 
 MenuManager.cs
 file
+20312
 
 
 
-
-2018-04-17T09:49:22.310103Z
-4b855000fb2ba2380442f7caf6318c95
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-03T06:55:24.218965Z
+3f5bcf7bea65474c58db07e26568a435
+2018-05-03T07:32:04.237039Z
+20312
 zhangguixin
 
 
@@ -61,7 +64,7 @@ zhangguixin
 
 
 
-3668
+3801
 
 SettingPanelConnectWithTransform.cs
 file
@@ -105,14 +108,14 @@ dir
 
 SettingPanelManager.cs
 file
+20312
 
 
 
-
-2018-04-17T08:33:40.681000Z
-124418981e254201279e6c4bbecad05e
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-03T06:16:01.626832Z
+48082637bc8bdea87c47748f25c33576
+2018-05-03T07:32:04.237039Z
+20312
 zhangguixin
 
 
@@ -135,5 +138,39 @@ zhangguixin
 
 
 
-1472
+2121
+
+AddMachineConnectWithMenu.cs
+file
+20312
+
+
+
+2018-05-03T06:16:28.114347Z
+661ca8ebb28abbaeb01a4643e75515f7
+2018-05-03T07:32:04.237039Z
+20312
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+459
 

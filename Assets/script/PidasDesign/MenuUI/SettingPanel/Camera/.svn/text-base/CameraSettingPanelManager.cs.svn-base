@@ -117,7 +117,7 @@ public class CameraSettingPanelManager : MonoBehaviour {
     public void CallOnCameraSettingPanel(GameObject go)
     {
         CurControlObj = go;
-        CurMC = CurControlObj.GetComponent<Machine_Camera>();
+        CurMC = CurControlObj.GetComponent<Machine_Camera>(); 
         CurMttcc = CurControlObj.GetComponent<MachineTransformController>();
 
         BrandShowImg.sprite = cbm.getBrandByCameraFactoryType(CurMC.MyCamdao.CamFactorytype);

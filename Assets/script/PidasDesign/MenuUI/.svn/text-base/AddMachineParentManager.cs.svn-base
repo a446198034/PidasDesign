@@ -19,6 +19,9 @@ public class AddMachineParentManager : MonoBehaviour {
     [Header("下面的不用赋值存放相机的List")]
     public List<GameObject> CameraObjList;
 
+    [Header("不用赋值的存放围栏的List")]
+    public List<GameObject> WeiLanObjList;
+
     GameObject CurLeftControlObj;
     GameObject CurRightControlObj;
     /// <summary>
@@ -28,12 +31,14 @@ public class AddMachineParentManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         CameraObjList = new List<GameObject>();
+        WeiLanObjList = new List<GameObject>();
         ccss = ZhouBiaoXiObj.GetComponent<CoordinateSystem>();
         mm = MenuManagerObj.GetComponent<MenuManager>();
 
 	}
 
-    #region 公有方法
+
+    #region Camera
 
 
     /// <summary>
@@ -61,6 +66,11 @@ public class AddMachineParentManager : MonoBehaviour {
             case MachineType.Infrared: break;
             case MachineType.Microwave: break;
             case MachineType.Radar: break;
+            case MachineType.WeiLan:
+                WeiLanObjList.Remove(go);
+                Destroy(go);
+                break;
+
         }
         ccss.CallDisableZuoBiaoZhou();
     }
@@ -76,9 +86,21 @@ public class AddMachineParentManager : MonoBehaviour {
         return go;
     }
 
+
     #endregion
 
+    #region WeiLan
 
+    /// <summary>
+    /// 添加围栏
+    /// </summary>
+    /// <param name="go"></param>
+    public void AddWeiLanToList(GameObject go)
+    {
+        WeiLanObjList.Add(go);
+    }
+
+    #endregion
 
     // Update is called once per frame
     void Update () {
@@ -181,6 +203,21 @@ public class AddMachineParentManager : MonoBehaviour {
                 ccss.CallOnZhouBiaoZhou(CameraObjList[i].transform);
                 res = true;
                 CurMachineType = MachineType.Camera;
+            }
+        }
+
+        for (int i = 0; i < WeiLanObjList.Count; i++)
+        {
+            MachineHighLightController mhlc = WeiLanObjList[i].GetComponent<MachineHighLightController>();
+            mhlc.OnShowHighLight(false);
+            mhlc.MyStateControl(false);
+            if (WeiLanObjList[i].transform == tt)
+            {
+                mhlc.OnShowHighLight(true);
+                mhlc.MyStateControl(true);
+               // ccss.CallOnZhouBiaoZhou(WeiLanObjList[i].transform);
+                res = true;
+                CurMachineType = MachineType.WeiLan;
             }
         }
 

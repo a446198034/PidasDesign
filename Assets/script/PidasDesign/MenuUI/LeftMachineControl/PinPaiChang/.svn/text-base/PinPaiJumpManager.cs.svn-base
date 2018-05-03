@@ -14,6 +14,9 @@ public class PinPaiJumpManager : MonoBehaviour {
     [Header("摄像机品牌页")]
     public List<GameObject> CameraFactorySettingPanelObjList;
 
+    [Header("围栏品牌页")]
+    public List<GameObject> WeiLanFactorySettingPanelObjList;
+
     // Use this for initialization
     void Start () {
 	
@@ -30,12 +33,31 @@ public class PinPaiJumpManager : MonoBehaviour {
         SettingPanel.SetActive(true);
     }
 
+    /// <summary>
+    /// 显示设备厂商
+    /// </summary>
+    /// <param name="go"></param>
+    public void UIShowOnMachineFactory(GameObject go)
+    {
+        DisableAll();
+        go.SetActive(true);
+    }
 
     /// <summary>
-    /// 海康品牌按钮页面
+    /// 海康品牌按钮页面 XX
     /// </summary>
     /// <param name="go"></param>
     public void Camera_HaiKang_Btn(GameObject go)
+    {
+        DisableAll();
+        go.SetActive(true);
+    }
+
+    /// <summary>
+    /// 围栏厂家一的设置页面XX
+    /// </summary>
+    /// <param name="go"></param>
+    public void WeiLan_ChangJiaYi_Btn(GameObject go)
     {
         DisableAll();
         go.SetActive(true);
@@ -52,6 +74,12 @@ public class PinPaiJumpManager : MonoBehaviour {
         {
             gg.SetActive(false);
         }
+
+        foreach (GameObject gg in WeiLanFactorySettingPanelObjList)
+        {
+            gg.SetActive(false);
+        }
+
     }
 
 }

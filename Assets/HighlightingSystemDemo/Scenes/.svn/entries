@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/HighlightingSystemDemo/Scenes
 http://192.168.1.105:8600/svn/rdc1
 
@@ -25,40 +25,6 @@ has-props
 
 
 0e198a35-b08a-d34d-b01e-ff12bb4df6eb
-
-14 ClearFlags.unity
-file
-
-
-
-
-2016-02-08T16:54:33.000000Z
-9f084afbfd29df49d066e5f790e3ae59
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-34434
 
 06 Scripting.unity
 file
@@ -93,6 +59,40 @@ zhangguixin
 
 
 18814
+
+14 ClearFlags.unity
+file
+
+
+
+
+2016-02-08T16:54:33.000000Z
+9f084afbfd29df49d066e5f790e3ae59
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34434
 
 03 Transparency.unity
 file
@@ -366,40 +366,6 @@ zhangguixin
 
 115629
 
-18 VR.unity
-file
-
-
-
-
-2018-04-09T09:41:38.718526Z
-4cc38424cc02332f58ff165f6f2cd865
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-80569
-
 12 ViewportRect.unity
 file
 
@@ -434,14 +400,14 @@ zhangguixin
 
 91084
 
-11 RenderTexture.unity
+18 VR.unity
 file
 
 
 
 
-2016-02-08T16:54:38.000000Z
-c89756c0faebd5274ab36c857686018a
+2018-04-09T09:41:38.718526Z
+4cc38424cc02332f58ff165f6f2cd865
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -466,7 +432,7 @@ zhangguixin
 
 
 
-23745
+80569
 
 04 Occlusion.unity
 file
@@ -501,6 +467,40 @@ zhangguixin
 
 
 36014
+
+11 RenderTexture.unity
+file
+
+
+
+
+2016-02-08T16:54:38.000000Z
+c89756c0faebd5274ab36c857686018a
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23745
 
 02 Colors.unity
 file

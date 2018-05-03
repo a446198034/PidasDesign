@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI
 http://192.168.1.105:8600/svn/rdc1
 
@@ -31,14 +31,14 @@ dir
 
 AddMachineParentManager.cs
 file
+20312
 
 
 
-
-2018-04-17T09:49:44.833391Z
-a26bde282eab30197ce39549c7f05b02
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-03T06:43:57.290675Z
+aa6b8abb2cea09fad2f1cf0444e1fae4
+2018-05-03T07:32:04.237039Z
+20312
 zhangguixin
 
 
@@ -61,7 +61,7 @@ zhangguixin
 
 
 
-5176
+6281
 
 SettingPanel
 dir

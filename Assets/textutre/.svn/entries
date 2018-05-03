@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/textutre
 http://192.168.1.105:8600/svn/rdc1
 
@@ -25,6 +25,40 @@ has-props
 
 
 0e198a35-b08a-d34d-b01e-ff12bb4df6eb
+
+WayPointBgTexture.jpg
+file
+20312
+
+
+
+2017-07-22T03:03:35.000000Z
+dab54070d7be5e81f5bcdd8e3a4f89dc
+2018-05-03T07:32:04.237039Z
+20312
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10996
 
 Machine
 dir

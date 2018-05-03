@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/UI%20-%20BUILDER/Source%20Files/Panels/Panels@2x-assets/OneSidePanels
 http://192.168.1.105:8600/svn/rdc1
 
@@ -638,14 +638,14 @@ has-props
 
 1325
 
-OneSideCornerPanelRadius_12px_Stroke_4px.png
+OneSideCornerPanelRadius_50px_Stroke_2px.png
 file
 
 
 
 
-2018-04-08T07:10:05.227354Z
-626b24c10dc9cb1d4e379dd6d679677f
+2018-04-08T07:10:05.294358Z
+70701cd60d11855f2bc239ff9e901020
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -670,7 +670,7 @@ has-props
 
 
 
-653
+1365
 
 OneSideCornerPanelRadius_24px_Stroke_1px.png
 file
@@ -706,14 +706,14 @@ has-props
 
 921
 
-OneSideCornerPanelRadius_50px_Stroke_2px.png
+OneSideCornerPanelRadius_12px_Stroke_4px.png
 file
 
 
 
 
-2018-04-08T07:10:05.294358Z
-70701cd60d11855f2bc239ff9e901020
+2018-04-08T07:10:05.227354Z
+626b24c10dc9cb1d4e379dd6d679677f
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -738,75 +738,7 @@ has-props
 
 
 
-1365
-
-OneSideCornerPanelRadius_24px_Stroke_2px.png
-file
-
-
-
-
-2018-04-08T07:10:05.268357Z
-e10fdacf7f038a8168aa8124b384b5a2
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-923
-
-OneSideCornerPanelRadius_34px_Stroke_1px.png
-file
-
-
-
-
-2018-04-08T07:10:05.279357Z
-4f383654ab21ce1666481baf2704adf8
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1040
+653
 
 OneSideCornerPanelRadius_6px_Stroke_20px.png
 file
@@ -842,14 +774,14 @@ has-props
 
 595
 
-OneSideCornerPanelRadius_50px_Stroke_4px.png
+OneSideCornerPanelRadius_34px_Stroke_1px.png
 file
 
 
 
 
-2018-04-08T07:10:05.295358Z
-3ad731f3ccfd9a0eb7851707dd632e62
+2018-04-08T07:10:05.279357Z
+4f383654ab21ce1666481baf2704adf8
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -874,16 +806,16 @@ has-props
 
 
 
-1412
+1040
 
-OneSideCornerPanelRadius_34px_Stroke_2px.png
+OneSideCornerPanelRadius_24px_Stroke_2px.png
 file
 
 
 
 
-2018-04-08T07:10:05.282357Z
-6d38e942b7cb7d7ec88b7a31ec886708
+2018-04-08T07:10:05.268357Z
+e10fdacf7f038a8168aa8124b384b5a2
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -908,41 +840,7 @@ has-props
 
 
 
-1079
-
-OneSideCornerPanelRadius_12px_Stroke_6px.png
-file
-
-
-
-
-2018-04-08T07:10:05.228354Z
-065a1df9cdacbf095e9335ae31d47d93
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-677
+923
 
 OneSideCornerPanelRadius_1px_Fill.png
 file
@@ -978,6 +876,108 @@ has-props
 
 324
 
+OneSideCornerPanelRadius_12px_Stroke_6px.png
+file
+
+
+
+
+2018-04-08T07:10:05.228354Z
+065a1df9cdacbf095e9335ae31d47d93
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+677
+
+OneSideCornerPanelRadius_34px_Stroke_2px.png
+file
+
+
+
+
+2018-04-08T07:10:05.282357Z
+6d38e942b7cb7d7ec88b7a31ec886708
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1079
+
+OneSideCornerPanelRadius_50px_Stroke_4px.png
+file
+
+
+
+
+2018-04-08T07:10:05.295358Z
+3ad731f3ccfd9a0eb7851707dd632e62
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1412
+
 OneSideCornerPanelRadius_24px_Stroke_4px.png
 file
 
@@ -1012,40 +1012,6 @@ has-props
 
 949
 
-OneSideCornerPanelRadius_34px_Stroke_4px.png
-file
-
-
-
-
-2018-04-08T07:10:05.283357Z
-40b5a6d47fead26a147a1fc0aacb17e7
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1102
-
 OneSideCornerPanelRadius_50px_Stroke_6px.png
 file
 
@@ -1079,6 +1045,40 @@ has-props
 
 
 1451
+
+OneSideCornerPanelRadius_34px_Stroke_4px.png
+file
+
+
+
+
+2018-04-08T07:10:05.283357Z
+40b5a6d47fead26a147a1fc0aacb17e7
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1102
 
 OneSideCornerPanelRadius_24px_Stroke_6px.png
 file

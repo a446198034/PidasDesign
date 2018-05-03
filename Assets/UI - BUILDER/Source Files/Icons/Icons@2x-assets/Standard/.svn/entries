@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/UI%20-%20BUILDER/Source%20Files/Icons/Icons@2x-assets/Standard
 http://192.168.1.105:8600/svn/rdc1
 
@@ -25,40 +25,6 @@ has-props
 
 
 0e198a35-b08a-d34d-b01e-ff12bb4df6eb
-
-StandartIcon_22.png
-file
-
-
-
-
-2018-04-08T07:10:02.298187Z
-73e5e8ce7015b66aa7532aeff8e91e29
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2169
 
 StandartIcon_13.png
 file
@@ -94,14 +60,14 @@ has-props
 
 2205
 
-StandartIcon_23.png
+StandartIcon_22.png
 file
 
 
 
 
-2018-04-08T07:10:02.301187Z
-e615e3ff189471263cab4972aad25e71
+2018-04-08T07:10:02.298187Z
+73e5e8ce7015b66aa7532aeff8e91e29
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -126,7 +92,7 @@ has-props
 
 
 
-2164
+2169
 
 StandartIcon_14.png
 file
@@ -162,14 +128,14 @@ has-props
 
 376
 
-StandartIcon_15.png
+StandartIcon_23.png
 file
 
 
 
 
-2018-04-08T07:10:02.188180Z
-47ccf208ebc79c2c262b47bee214580b
+2018-04-08T07:10:02.301187Z
+e615e3ff189471263cab4972aad25e71
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -194,7 +160,7 @@ has-props
 
 
 
-327
+2164
 
 StandartIcon_24.png
 file
@@ -230,14 +196,14 @@ has-props
 
 395
 
-StandartIcon_25.png
+StandartIcon_15.png
 file
 
 
 
 
-2018-04-08T07:10:02.304187Z
-961838890983733a2d404d722267c3fd
+2018-04-08T07:10:02.188180Z
+47ccf208ebc79c2c262b47bee214580b
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -262,7 +228,7 @@ has-props
 
 
 
-2506
+327
 
 StandartIcon_16.png
 file
@@ -298,14 +264,14 @@ has-props
 
 2013
 
-StandartIcon_17.png
+StandartIcon_25.png
 file
 
 
 
 
-2018-04-08T07:10:02.289186Z
-c589ff407153ece0b2a01858839b1e43
+2018-04-08T07:10:02.304187Z
+961838890983733a2d404d722267c3fd
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -330,7 +296,7 @@ has-props
 
 
 
-2044
+2506
 
 StandartIcon_26.png
 file
@@ -365,6 +331,40 @@ has-props
 
 
 389
+
+StandartIcon_17.png
+file
+
+
+
+
+2018-04-08T07:10:02.289186Z
+c589ff407153ece0b2a01858839b1e43
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2044
 
 StandartIcon_18.png
 file

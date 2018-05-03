@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign
 http://192.168.1.105:8600/svn/rdc1
 
@@ -31,14 +31,14 @@ dir
 
 GlogalData.cs
 file
+20312
 
 
 
-
-2018-04-12T01:44:14.743020Z
-998e11b31d1dd6391f5b2ca2dd2bceab
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-02T08:51:12.537325Z
+427ac657410145ceb7d5c1c94f0d525a
+2018-05-03T07:32:04.237039Z
+20312
 zhangguixin
 
 
@@ -61,12 +61,15 @@ zhangguixin
 
 
 
-3696
+3709
 
 Machine
 dir
 
 Mouse
+dir
+
+MeasureManager
 dir
 
 ZuoBiaoZhou

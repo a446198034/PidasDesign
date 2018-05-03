@@ -41,7 +41,8 @@ public class MenuManager : MonoBehaviour {
 
         MenuObj.transform.position = Input.mousePosition;
 
-
+        MenuObj.transform.FindChild("ProperyBtn").gameObject.SetActive(CurMachineType == MachineType.WeiLan? false : true);
+        
     }
 
 

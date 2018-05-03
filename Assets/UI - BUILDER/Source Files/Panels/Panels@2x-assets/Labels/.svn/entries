@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/UI%20-%20BUILDER/Source%20Files/Panels/Panels@2x-assets/Labels
 http://192.168.1.105:8600/svn/rdc1
 
@@ -672,40 +672,6 @@ has-props
 
 1328
 
-LabelRadius_12px_Stroke_4px.png
-file
-
-
-
-
-2018-04-08T07:10:04.540315Z
-1b7c62c1496d2703657a192e43af4d81
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1556
-
 LabelRadius_24px_Stroke_1px.png
 file
 
@@ -740,14 +706,14 @@ has-props
 
 1795
 
-LabelRadius_24px_Stroke_2px.png
+LabelRadius_12px_Stroke_4px.png
 file
 
 
 
 
-2018-04-08T07:10:04.692324Z
-a8e0d6d91e9f0ecd3a99aa73b27cc1f6
+2018-04-08T07:10:04.540315Z
+1b7c62c1496d2703657a192e43af4d81
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -772,41 +738,7 @@ has-props
 
 
 
-1739
-
-LabelRadius_34px_Stroke_1px.png
-file
-
-
-
-
-2018-04-08T07:10:04.761328Z
-abc974002762f69b346e26e64bf5109f
-2018-04-20T02:42:12.726496Z
-20032
-zhangguixin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2008
+1556
 
 LabelRadius_6px_Stroke_20px.png
 file
@@ -842,14 +774,14 @@ has-props
 
 1285
 
-LabelRadius_12px_Stroke_6px.png
+LabelRadius_34px_Stroke_1px.png
 file
 
 
 
 
-2018-04-08T07:10:04.542315Z
-8913757ff948ef8e8f92f9716ef6f093
+2018-04-08T07:10:04.761328Z
+abc974002762f69b346e26e64bf5109f
 2018-04-20T02:42:12.726496Z
 20032
 zhangguixin
@@ -874,7 +806,41 @@ has-props
 
 
 
-1525
+2008
+
+LabelRadius_24px_Stroke_2px.png
+file
+
+
+
+
+2018-04-08T07:10:04.692324Z
+a8e0d6d91e9f0ecd3a99aa73b27cc1f6
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1739
 
 LabelRadius_34px_Stroke_2px.png
 file
@@ -909,6 +875,40 @@ has-props
 
 
 2042
+
+LabelRadius_12px_Stroke_6px.png
+file
+
+
+
+
+2018-04-08T07:10:04.542315Z
+8913757ff948ef8e8f92f9716ef6f093
+2018-04-20T02:42:12.726496Z
+20032
+zhangguixin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1525
 
 LabelRadius_24px_Stroke_4px.png
 file

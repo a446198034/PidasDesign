@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI/SettingPanel/Camera
 http://192.168.1.105:8600/svn/rdc1
 
@@ -28,14 +28,14 @@ has-props
 
 CameraSettingPanelManager.cs
 file
+20312
 
 
 
-
-2018-04-11T09:50:56.137030Z
-02053a003dbdc8363e79ce9e87df5f07
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-02T03:23:54.555097Z
+6b6f0fc6b357340c33875b0b4f4694d0
+2018-05-03T07:32:04.237039Z
+20312
 zhangguixin
 
 
@@ -58,7 +58,7 @@ zhangguixin
 
 
 
-6801
+6802
 
 Button_Photoreceptor.cs
 file

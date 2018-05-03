@@ -1,7 +1,7 @@
 10
 
 dir
-20032
+20310
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI/LeftMachineControl/PinPaiChang
 http://192.168.1.105:8600/svn/rdc1
 
@@ -28,14 +28,14 @@ has-props
 
 PinPaiJumpManager.cs
 file
+20312
 
 
 
-
-2018-04-12T02:14:30.768891Z
-7fa22c6c792b8d98515c6d2c111a5795
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-02T06:48:37.883663Z
+c6b1b9b796622899e222d5a63136e7e2
+2018-05-03T07:32:04.237039Z
+20312
 zhangguixin
 
 
@@ -58,5 +58,5 @@ zhangguixin
 
 
 
-1238
+1939
 

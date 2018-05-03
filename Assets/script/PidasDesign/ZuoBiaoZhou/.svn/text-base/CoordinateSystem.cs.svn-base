@@ -97,6 +97,9 @@ public class CoordinateSystem : MonoBehaviour {
     /// </summary>
     public void UpdateZuoBiaoZhouPosAndQua()
     {
+        if (!MoveAxisObj.activeSelf || !RotateAxisObj.activeSelf)
+            return;
+
         transform.position = CurControlTran.position;
         transform.rotation = CurControlTran.rotation;
     }
