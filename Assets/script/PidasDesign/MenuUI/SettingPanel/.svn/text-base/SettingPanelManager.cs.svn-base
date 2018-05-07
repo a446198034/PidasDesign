@@ -9,6 +9,8 @@ public class SettingPanelManager : MonoBehaviour {
     [Header("围栏设置页面")]
     public GameObject WeiLanSettingPanelObj;
 
+    [Header("微波设置页面")]
+    public GameObject MicrowaveSettingPanelObj;
 
     SettingPanelConnectWithTransform spcwt;
 	// Use this for initialization
@@ -51,6 +53,41 @@ public class SettingPanelManager : MonoBehaviour {
         return cspm.getCurControlObj();
     }
 
+
+    #endregion
+
+    #region Microwave
+
+    /// <summary>
+    /// 显示微波设置页面
+    /// </summary>
+    /// <param name="go"></param>
+    public void CallOnMicrowaveSetting(GameObject go)
+    {
+        MicrowaveSettingPanelObj.SetActive(true);
+        MicrowaveSettingPanelManager mmm = MicrowaveSettingPanelObj.GetComponent<MicrowaveSettingPanelManager>();
+        mmm.initMicrowaveSettingPanel(go);
+    }
+
+    /// <summary>
+    /// 关闭微波设置页面
+    /// </summary>
+    public void DisableMicrowaveSetting()
+    {
+        MicrowaveSettingPanelManager mmm = MicrowaveSettingPanelObj.GetComponent<MicrowaveSettingPanelManager>();
+        mmm.CloseBtnCallBack();
+
+    }
+
+    /// <summary>
+    /// 返回微波面板正在操作的对象
+    /// </summary>
+    /// <returns></returns>
+    public GameObject getMicrowaveCurControlObj()
+    {
+        MicrowaveSettingPanelManager mmm = MicrowaveSettingPanelObj.GetComponent<MicrowaveSettingPanelManager>();
+        return mmm.getMicrowaveControlMicrowaveGroupObj();
+    }
 
     #endregion
 

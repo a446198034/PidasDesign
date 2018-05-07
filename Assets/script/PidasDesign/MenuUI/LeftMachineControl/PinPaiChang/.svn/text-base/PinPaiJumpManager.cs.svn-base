@@ -17,6 +17,9 @@ public class PinPaiJumpManager : MonoBehaviour {
     [Header("围栏品牌页")]
     public List<GameObject> WeiLanFactorySettingPanelObjList;
 
+    [Header("微波品牌页")]
+    public List<GameObject> MicrowaveFactorySettingPanelObjList;
+
     // Use this for initialization
     void Start () {
 	
@@ -76,6 +79,11 @@ public class PinPaiJumpManager : MonoBehaviour {
         }
 
         foreach (GameObject gg in WeiLanFactorySettingPanelObjList)
+        {
+            gg.SetActive(false);
+        }
+
+        foreach (GameObject gg in MicrowaveFactorySettingPanelObjList)
         {
             gg.SetActive(false);
         }

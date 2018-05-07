@@ -12,6 +12,7 @@ public class Equipment_Camera_Qiangji : Machine_Camera
     protected override void SonInit()
     {
         CamType = CameraMachineType.QiangJi;
+        setMachineType(MachineType.Camera);
     }
 
 }

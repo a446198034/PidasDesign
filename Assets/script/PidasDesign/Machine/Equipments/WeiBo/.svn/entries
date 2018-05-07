@@ -1,17 +1,17 @@
 10
 
 dir
-0
+20376
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/WeiBo
 http://192.168.1.105:8600/svn/rdc1
-add
 
 
 
-
-
+2018-05-07T02:33:25.636181Z
+20375
+zhangguixin
 has-props
-has-prop-mods
+
 
 
 
@@ -31,26 +31,168 @@ file
 
 
 
-add
+
+2018-05-04T02:52:18.006479Z
+8d0cb16d9655cf7d03fc1f768406b943
+2018-05-07T02:33:25.636181Z
+20375
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2420
+
+MicrowaveDao.cs
+file
+
+
+
+
+2018-05-04T09:40:16.832587Z
+d857d9ba24d68224363a30e3134fe4ca
+2018-05-07T02:33:25.636181Z
+20375
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+780
 
 MicrowaveGroupManager.cs
 file
 
 
 
-add
+
+2018-05-04T10:27:31.469719Z
+eb27112407150e8c5b84780432398f90
+2018-05-07T02:33:25.636181Z
+20375
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6047
 
 MicrowaveManager.cs
 file
 
 
 
-add
+
+2018-05-04T06:48:10.943980Z
+97932c05c1ba66675f0d6c5e8867fce3
+2018-05-07T02:33:25.636181Z
+20375
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2239
 
 Machine_Weibo.cs
 file
 
 
 
-add
+
+2018-05-04T02:41:35.396723Z
+9436974dd1d99df2a3281b81fee21c32
+2018-05-07T02:33:25.636181Z
+20375
+zhangguixin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+874
 

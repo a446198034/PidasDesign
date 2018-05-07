@@ -1,14 +1,14 @@
 10
 
 dir
-20310
+20376
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/MenuUI/SettingPanel
 http://192.168.1.105:8600/svn/rdc1
 
 
 
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-07T02:33:25.636181Z
+20375
 zhangguixin
 has-props
 
@@ -34,14 +34,14 @@ dir
 
 MenuManager.cs
 file
-20312
 
 
 
-2018-05-03T06:55:24.218965Z
-3f5bcf7bea65474c58db07e26568a435
-2018-05-03T07:32:04.237039Z
-20312
+
+2018-05-07T02:17:37.874066Z
+971e170bb798192088504f002772d201
+2018-05-07T02:33:25.636181Z
+20375
 zhangguixin
 
 
@@ -64,7 +64,7 @@ zhangguixin
 
 
 
-3801
+4265
 
 SettingPanelConnectWithTransform.cs
 file
@@ -72,10 +72,10 @@ file
 
 
 
-2018-04-17T09:29:39.308948Z
-f548ec63c7fbdb6e27735f0e415ea251
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-04T06:21:49.894549Z
+016984a88eeb47b40b24b51706d4b55e
+2018-05-07T02:33:25.636181Z
+20375
 zhangguixin
 
 
@@ -98,7 +98,7 @@ zhangguixin
 
 
 
-2783
+2879
 
 Camera
 dir
@@ -108,14 +108,14 @@ dir
 
 SettingPanelManager.cs
 file
-20312
 
 
 
-2018-05-03T06:16:01.626832Z
-48082637bc8bdea87c47748f25c33576
-2018-05-03T07:32:04.237039Z
-20312
+
+2018-05-07T02:14:36.561696Z
+6141baee167cc87edae601e162cc3310
+2018-05-07T02:33:25.636181Z
+20375
 zhangguixin
 
 
@@ -138,11 +138,11 @@ zhangguixin
 
 
 
-2121
+3279
 
 AddMachineConnectWithMenu.cs
 file
-20312
+
 
 
 
@@ -173,4 +173,7 @@ zhangguixin
 
 
 459
+
+Microwave
+dir
 

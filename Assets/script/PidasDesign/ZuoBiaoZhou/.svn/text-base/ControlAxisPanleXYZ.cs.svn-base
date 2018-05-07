@@ -46,7 +46,7 @@ public class ControlAxisPanleXYZ : MonoBehaviour {
                 if (hit.transform == transform)
                 {
                     CurControlTran = cs.getCurControlTran();
-                    CurControlTran.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+                    cs.OnControlisKinematic(true);
                     StartCoroutine(OnMouseDownToMovePlane());
                 }
             }

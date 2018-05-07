@@ -47,7 +47,7 @@ public class ControlAxisMoveXYZ : MonoBehaviour {
                 if (isTransformInList(hit.transform))
                 {
                     CurControlTran = cs.getCurControlTran();
-                    CurControlTran.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+                    cs.OnControlisKinematic(true);
                     StartCoroutine(OnMouseDownToMove());
                 }
             }

@@ -22,6 +22,9 @@ public class AddMachineParentManager : MonoBehaviour {
     [Header("不用赋值的存放围栏的List")]
     public List<GameObject> WeiLanObjList;
 
+    [Header("不用赋值的存放微波组合的List")]
+    public List<GameObject> MicrowaveGroupList;
+
     GameObject CurLeftControlObj;
     GameObject CurRightControlObj;
     /// <summary>
@@ -32,6 +35,7 @@ public class AddMachineParentManager : MonoBehaviour {
 	void Start () {
         CameraObjList = new List<GameObject>();
         WeiLanObjList = new List<GameObject>();
+        MicrowaveGroupList = new List<GameObject>();
         ccss = ZhouBiaoXiObj.GetComponent<CoordinateSystem>();
         mm = MenuManagerObj.GetComponent<MenuManager>();
 
@@ -64,7 +68,11 @@ public class AddMachineParentManager : MonoBehaviour {
                 Destroy(go);
                 break;
             case MachineType.Infrared: break;
-            case MachineType.Microwave: break;
+            case MachineType.Microwave:
+                GameObject groupObj = go.transform.parent.gameObject;
+                MicrowaveGroupList.Remove(groupObj);
+                Destroy(groupObj);
+                break;
             case MachineType.Radar: break;
             case MachineType.WeiLan:
                 WeiLanObjList.Remove(go);
@@ -98,6 +106,20 @@ public class AddMachineParentManager : MonoBehaviour {
     public void AddWeiLanToList(GameObject go)
     {
         WeiLanObjList.Add(go);
+    }
+
+    #endregion
+
+    #region Microwave
+
+    /// <summary>
+    /// 添加微波
+    /// </summary>
+    /// <param name="go"></param>
+    public void AddMicrowaveIntoList(GameObject go)
+    {
+        MicrowaveGroupList.Add(go);
+        
     }
 
     #endregion
@@ -190,6 +212,7 @@ public class AddMachineParentManager : MonoBehaviour {
     {
         bool res = false;
 
+        //camera
         for (int i = 0; i < CameraObjList.Count; i++)
         {
             MachineHighLightController mhlc = CameraObjList[i].GetComponent<MachineHighLightController>();
@@ -206,6 +229,7 @@ public class AddMachineParentManager : MonoBehaviour {
             }
         }
 
+        //WeiLan
         for (int i = 0; i < WeiLanObjList.Count; i++)
         {
             MachineHighLightController mhlc = WeiLanObjList[i].GetComponent<MachineHighLightController>();
@@ -219,6 +243,31 @@ public class AddMachineParentManager : MonoBehaviour {
                 res = true;
                 CurMachineType = MachineType.WeiLan;
             }
+        }
+
+        //Microwave
+        for (int i = 0; i < MicrowaveGroupList.Count; i++)
+        {
+            MicrowaveGroupManager mgm = MicrowaveGroupList[i].GetComponent<MicrowaveGroupManager>();
+            Transform FirstTT = mgm.isObjectInFirst(tt);
+            Transform SecondTT = mgm.isObjInSecond(tt);
+
+            if (null != FirstTT)
+            {
+                ccss.CallOnZhouBiaoZhou(FirstTT);
+                res = true;
+                CurMachineType = MachineType.Microwave;
+            }
+
+            if (null != SecondTT)
+            {
+                ccss.CallOnZhouBiaoZhou(SecondTT);
+                res = true;
+                CurMachineType = MachineType.Microwave;
+            }
+
+            if (null != FirstTT && null != SecondTT)
+                Debug.Log(" First 和 Second 两个都有值啊!!");
         }
 
         return res;

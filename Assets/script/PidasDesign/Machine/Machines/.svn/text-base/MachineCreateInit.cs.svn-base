@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 /// </summary>
 public class MachineCreateInit : MonoBehaviour {
 
-    
+    bool isControlGroup = false;
 
 	// Use this for initialization
 	void Start () {
@@ -28,13 +28,23 @@ public class MachineCreateInit : MonoBehaviour {
     /// </summary>
     public void CreateObjForFirst()
     {
-
+        isControlGroup = false;
         GetComponent<EquipmentSelfDetail>().MyEquipmentDao.setANewGuid();
         OnShowCollider(false);
         StartCoroutine(OnMouseOverToMove());
 
     }
 
+    /// <summary>
+    /// 创建物体后的移动操作  给组合设备用的
+    /// </summary>
+    public void CreateObjForInitWithMircowaveGroupMachine()
+    {
+        isControlGroup = true;
+        GetComponent<MicrowaveGroupManager>().setMachineId();
+        GetComponent<MicrowaveGroupManager>().OnShowCollider(false);
+        StartCoroutine(OnMouseOverToMove());
+    }
 
 
     #endregion
@@ -54,7 +64,9 @@ public class MachineCreateInit : MonoBehaviour {
             v = getPositionByRay();
 
 
-            transform.position = v;
+                transform.position = v;
+           
+
             yield return new WaitForFixedUpdate();
         }
 
@@ -67,7 +79,14 @@ public class MachineCreateInit : MonoBehaviour {
             Debug.Log("none");
         }
 
-        OnShowCollider(true);
+        if (isControlGroup)
+        {
+            GetComponent<MicrowaveGroupManager>().OnShowCollider(true);
+        }
+        else
+        {
+            OnShowCollider(true);
+        }
         
     }
 

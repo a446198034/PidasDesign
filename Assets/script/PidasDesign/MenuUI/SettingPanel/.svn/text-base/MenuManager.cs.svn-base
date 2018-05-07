@@ -35,8 +35,9 @@ public class MenuManager : MonoBehaviour {
     /// <param name="my"></param>
     public void CallOnRightMenu(GameObject go, MachineType my)
     {
-        CurControl = go;
         CurMachineType = my;
+
+        CurControl = CurMachineType == MachineType.Microwave? go.GetComponent<Machine_Weibo>().MyFatherManagerObj : go;
         MenuObj.SetActive(true);
 
         MenuObj.transform.position = Input.mousePosition;
@@ -124,7 +125,15 @@ public class MenuManager : MonoBehaviour {
                 break;
             case MachineType.Infrared: break;
             case MachineType.Radar: break;
-            case MachineType.Microwave: break;
+            case MachineType.Microwave:
+
+                if (CurControl.transform.parent.gameObject == spm.getMicrowaveCurControlObj())
+                {
+                    spm.DisableMicrowaveSetting();
+                    CallDisableTransformControlPanel();
+                }
+
+                break;
         }
         MenuObj.SetActive(false);
         ampm.RemoveObjInScene(CurControl,CurMachineType);
@@ -143,7 +152,9 @@ public class MenuManager : MonoBehaviour {
                 break;
             case MachineType.Infrared: break;
             case MachineType.Radar:break;
-            case MachineType.Microwave:break;
+            case MachineType.Microwave:
+                spm.CallOnMicrowaveSetting(CurControl.transform.parent.gameObject);
+                break;
         }
         MenuObj.SetActive(false);
         CallOnTransformMessagePanel();

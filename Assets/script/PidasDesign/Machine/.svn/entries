@@ -1,14 +1,14 @@
 10
 
 dir
-20310
+20376
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine
 http://192.168.1.105:8600/svn/rdc1
 
 
 
-2018-04-20T02:42:12.726496Z
-20032
+2018-05-07T02:34:31.671097Z
+20376
 zhangguixin
 has-props
 
@@ -31,14 +31,14 @@ dir
 
 MachinesManager.cs
 file
-20312
 
 
 
-2018-05-03T06:34:40.914852Z
-604c627d0f0923fc6d0806549fb7ba36
-2018-05-03T07:32:04.237039Z
-20312
+
+2018-05-04T03:27:17.166544Z
+f9e52949f31409bc6d59e39af32bd528
+2018-05-07T02:33:25.636181Z
+20375
 zhangguixin
 
 
@@ -61,7 +61,7 @@ zhangguixin
 
 
 
-3803
+4437
 
 Machines
 dir

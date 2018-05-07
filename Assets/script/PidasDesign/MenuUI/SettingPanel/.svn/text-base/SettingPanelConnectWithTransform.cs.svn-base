@@ -63,6 +63,10 @@ public class SettingPanelConnectWithTransform : MonoBehaviour {
     /// </summary>
     public void UpdateSliderValue()
     {
+        if (null == CurControlObj) return;
+
+        if (!CurControlObj.activeSelf) return;
+
         Vector3 v = CurControlObj.transform.rotation.eulerAngles;
 
         setRotationDao(HorizontalDao,v);

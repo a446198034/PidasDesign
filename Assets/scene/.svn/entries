@@ -1,14 +1,14 @@
 10
 
 dir
-20310
+20376
 http://192.168.1.105:8600/svn/rdc1/Source/3D_Unity/PidasDesign/Assets/scene
 http://192.168.1.105:8600/svn/rdc1
 
 
 
-2018-05-02T02:28:10.547659Z
-20267
+2018-05-07T02:33:25.636181Z
+20375
 zhangguixin
 has-props
 
@@ -28,14 +28,14 @@ has-props
 
 PiadsDesignScene.unity
 file
-20312
 
 
 
-2018-05-03T07:14:32.511643Z
-20d4909f48127870f953b711666a1deb
-2018-05-03T07:32:04.237039Z
-20312
+
+2018-05-07T02:31:54.454060Z
+9a879c510c12f443055a149400dc5052
+2018-05-07T02:33:25.636181Z
+20375
 zhangguixin
 
 
@@ -58,7 +58,7 @@ zhangguixin
 
 
 
-519527
+630524
 
 testHighLightScene.unity
 file

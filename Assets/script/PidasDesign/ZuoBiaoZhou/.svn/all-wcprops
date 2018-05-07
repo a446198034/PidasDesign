@@ -1,29 +1,29 @@
 K 25
 svn:wc:ra_dav:version-url
 V 90
-/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou
+/svn/rdc1/!svn/ver/20375/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou
 END
 CoordinateSystem.cs
 K 25
 svn:wc:ra_dav:version-url
 V 110
-/svn/rdc1/!svn/ver/20312/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou/CoordinateSystem.cs
+/svn/rdc1/!svn/ver/20375/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou/CoordinateSystem.cs
 END
 ControlAxisRotateXYZ.cs
 K 25
 svn:wc:ra_dav:version-url
 V 114
-/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou/ControlAxisRotateXYZ.cs
+/svn/rdc1/!svn/ver/20375/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou/ControlAxisRotateXYZ.cs
 END
 ControlAxisPanleXYZ.cs
 K 25
 svn:wc:ra_dav:version-url
 V 113
-/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou/ControlAxisPanleXYZ.cs
+/svn/rdc1/!svn/ver/20375/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou/ControlAxisPanleXYZ.cs
 END
 ControlAxisMoveXYZ.cs
 K 25
 svn:wc:ra_dav:version-url
 V 112
-/svn/rdc1/!svn/ver/20032/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou/ControlAxisMoveXYZ.cs
+/svn/rdc1/!svn/ver/20375/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/ZuoBiaoZhou/ControlAxisMoveXYZ.cs
 END
