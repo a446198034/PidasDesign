@@ -25,6 +25,9 @@ public class AddMachineParentManager : MonoBehaviour {
     [Header("不用赋值的存放微波组合的List")]
     public List<GameObject> MicrowaveGroupList;
 
+    [Header("不用赋值的存放红外对射的List")]
+    public List<GameObject> InfraredGroupList;
+
     GameObject CurLeftControlObj;
     GameObject CurRightControlObj;
     /// <summary>
@@ -36,6 +39,7 @@ public class AddMachineParentManager : MonoBehaviour {
         CameraObjList = new List<GameObject>();
         WeiLanObjList = new List<GameObject>();
         MicrowaveGroupList = new List<GameObject>();
+        InfraredGroupList = new List<GameObject>();
         ccss = ZhouBiaoXiObj.GetComponent<CoordinateSystem>();
         mm = MenuManagerObj.GetComponent<MenuManager>();
 
@@ -67,7 +71,11 @@ public class AddMachineParentManager : MonoBehaviour {
                 CameraObjList.Remove(go);
                 Destroy(go);
                 break;
-            case MachineType.Infrared: break;
+            case MachineType.Infrared:
+                GameObject InfraredgroupObj = go.transform.parent.gameObject;
+                InfraredGroupList.Remove(InfraredgroupObj);
+                Destroy(InfraredgroupObj);
+                break;
             case MachineType.Microwave:
                 GameObject groupObj = go.transform.parent.gameObject;
                 MicrowaveGroupList.Remove(groupObj);
@@ -121,6 +129,20 @@ public class AddMachineParentManager : MonoBehaviour {
         MicrowaveGroupList.Add(go);
         
     }
+
+    #endregion
+
+    #region Infrared
+
+    /// <summary>
+    /// 添加红外
+    /// </summary>
+    /// <param name="go"></param>
+    public void AddInfraredIntoList(GameObject go)
+    {
+        InfraredGroupList.Add(go);
+    }
+
 
     #endregion
 
@@ -244,6 +266,23 @@ public class AddMachineParentManager : MonoBehaviour {
                 CurMachineType = MachineType.WeiLan;
             }
         }
+
+        //Infrared
+        for (int i = 0; i < InfraredGroupList.Count; i++)
+        {
+            InfraredGroupManager igm = InfraredGroupList[i].GetComponent<InfraredGroupManager>();
+            Transform tf = igm.isObjectInList(tt);
+
+            if (null != tf)
+            {
+                ccss.CallOnZhouBiaoZhou(tf);
+                res = true;
+                CurMachineType = MachineType.Infrared;
+            }
+
+        }
+
+
 
         //Microwave
         for (int i = 0; i < MicrowaveGroupList.Count; i++)

@@ -17,6 +17,10 @@ public class MicrowaveSettingPanelManager : MonoBehaviour
     [Header("型号")]
     public Text IF_Machine_Version;
 
+    [Header("按钮及其文字")]
+    public GameObject ChangClickBtn;
+    public Text BtnStateText;
+
     [Header("场宽的slider")]
     public Slider Slider_ChangKuan;
     public Text Text_ChangKuan;
@@ -56,11 +60,14 @@ public class MicrowaveSettingPanelManager : MonoBehaviour
         h = GlogalData.getNumByFloat(h, 1);
         Slider_MachineHigh.value = h;
         Text_MachineHigh.text = h + " m";
+
+        bool s = Curmgm.getTeXiaoRend();
+        SetBtnState(!s);
     }
 
     public void CloseBtnCallBack()
     {
-        Curmgm.OnShowTeXiao(false);
+       // Curmgm.OnShowTeXiao(false);
         gameObject.SetActive(false);
     }
 
@@ -126,8 +133,16 @@ public class MicrowaveSettingPanelManager : MonoBehaviour
     {
         bool s = Curmgm.getTeXiaoRend();
         Curmgm.OnShowTeXiao(!s);
+
+        SetBtnState(s);
     }
 
+
+    void SetBtnState(bool s)
+    {
+        ChangClickBtn.GetComponent<Image>().color = s ? Color.white : Color.green;
+        BtnStateText.text = s ? "探测场已关闭" : "探测场已开启";
+    }
 
     #endregion
 

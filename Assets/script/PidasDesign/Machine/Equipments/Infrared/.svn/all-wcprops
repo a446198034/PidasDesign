@@ -3,3 +3,21 @@ svn:wc:ra_dav:version-url
 V 106
 /svn/rdc1/!svn/ver/20375/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Infrared
 END
+InfraredDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/rdc1/!svn/ver/20394/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Infrared/InfraredDao.cs
+END
+Machine_Infrared.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/rdc1/!svn/ver/20394/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Infrared/Machine_Infrared.cs
+END
+InfraredGroupManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/rdc1/!svn/ver/20394/Source/3D_Unity/PidasDesign/Assets/script/PidasDesign/Machine/Equipments/Infrared/InfraredGroupManager.cs
+END

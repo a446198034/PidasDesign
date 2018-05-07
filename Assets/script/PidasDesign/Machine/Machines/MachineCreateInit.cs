@@ -8,8 +8,8 @@ using UnityEngine.EventSystems;
 /// 所有的类都有 
 /// </summary>
 public class MachineCreateInit : MonoBehaviour {
-
-    bool isControlGroup = false;
+    
+    MachineType curMacineType = MachineType.Microwave;
 
 	// Use this for initialization
 	void Start () {
@@ -28,7 +28,7 @@ public class MachineCreateInit : MonoBehaviour {
     /// </summary>
     public void CreateObjForFirst()
     {
-        isControlGroup = false;
+        curMacineType = MachineType.Camera;
         GetComponent<EquipmentSelfDetail>().MyEquipmentDao.setANewGuid();
         OnShowCollider(false);
         StartCoroutine(OnMouseOverToMove());
@@ -36,16 +36,26 @@ public class MachineCreateInit : MonoBehaviour {
     }
 
     /// <summary>
-    /// 创建物体后的移动操作  给组合设备用的
+    /// 创建物体后的移动操作  给微波要用的
     /// </summary>
     public void CreateObjForInitWithMircowaveGroupMachine()
     {
-        isControlGroup = true;
+        curMacineType = MachineType.Microwave;
         GetComponent<MicrowaveGroupManager>().setMachineId();
         GetComponent<MicrowaveGroupManager>().OnShowCollider(false);
         StartCoroutine(OnMouseOverToMove());
     }
 
+    /// <summary>
+    /// 创建物体后的移动操作  给红外对射用的
+    /// </summary>
+    public void CreateObjForInitWithInfraredGroupMachine()
+    {
+        curMacineType = MachineType.Infrared;
+        GetComponent<InfraredGroupManager>().setMachineId();
+        GetComponent<InfraredGroupManager>().OnShowCollider(false);
+        StartCoroutine(OnMouseOverToMove());
+    }
 
     #endregion
 
@@ -79,9 +89,13 @@ public class MachineCreateInit : MonoBehaviour {
             Debug.Log("none");
         }
 
-        if (isControlGroup)
+        if (curMacineType == MachineType.Microwave)
         {
             GetComponent<MicrowaveGroupManager>().OnShowCollider(true);
+        }
+        else if (curMacineType == MachineType.Infrared)
+        {
+            GetComponent<InfraredGroupManager>().OnShowCollider(true);
         }
         else
         {

@@ -123,7 +123,15 @@ public class MenuManager : MonoBehaviour {
                 }
                         
                 break;
-            case MachineType.Infrared: break;
+            case MachineType.Infrared:
+
+                if (CurControl.transform.parent.gameObject == spm.getInfraredCurControlObj())
+                {
+                    spm.DisabelInfraredSetting();
+                    CallDisableTransformControlPanel();
+                }
+
+                break;
             case MachineType.Radar: break;
             case MachineType.Microwave:
 
@@ -150,7 +158,9 @@ public class MenuManager : MonoBehaviour {
             case MachineType.Camera:
                 spm.CallOnCameraSetting(CurControl);
                 break;
-            case MachineType.Infrared: break;
+            case MachineType.Infrared:
+                spm.CallOnInfraredSetting(CurControl.transform.parent.gameObject);
+                break;
             case MachineType.Radar:break;
             case MachineType.Microwave:
                 spm.CallOnMicrowaveSetting(CurControl.transform.parent.gameObject);

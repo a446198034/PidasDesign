@@ -27,16 +27,14 @@ public class MachinesManager : MonoBehaviour {
     [Header("微波组合")]
     public GameObject MicrowaveGroupObj;
 
+    [Header("红外对射组合")]
+    public GameObject InfraredGroupObj;
+
     // Use this for initialization
     void Start () {
         ampm = AddMachineParentObj.GetComponent<AddMachineParentManager>();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
     /// <summary>
     /// 创建来自相机的预制体
     /// </summary>
@@ -70,6 +68,22 @@ public class MachinesManager : MonoBehaviour {
         mc.CreateObjForInitWithMircowaveGroupMachine();
 
         ampm.AddMicrowaveIntoList(XinChuangJian);
+    }
+
+    /// <summary>
+    /// 创建红外对射组合的预制体
+    /// </summary>
+    public void InfraredCreateBtnCallback()
+    {
+        JianTouButtonObj.GetComponent<LeftMenuJianTouControl>().OnShowMenu();
+
+        GameObject xinChuangJIan = Instantiate(InfraredGroupObj);
+
+        xinChuangJIan.GetComponent<InfraredGroupManager>().initMySelf();
+        MachineCreateInit mc = xinChuangJIan.GetComponent<MachineCreateInit>();
+        mc.CreateObjForInitWithInfraredGroupMachine();
+
+        ampm.AddInfraredIntoList(xinChuangJIan);
     }
 
     /// <summary>

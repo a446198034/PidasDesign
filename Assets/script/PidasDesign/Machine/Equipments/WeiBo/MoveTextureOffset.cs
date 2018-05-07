@@ -31,7 +31,8 @@ public class MoveTextureOffset : MonoBehaviour
 		//showSameType  
 		//ShowSameType ();
 
-      
+
+
     }
 
     

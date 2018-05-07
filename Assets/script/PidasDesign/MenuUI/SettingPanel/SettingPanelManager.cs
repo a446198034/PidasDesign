@@ -12,11 +12,14 @@ public class SettingPanelManager : MonoBehaviour {
     [Header("微波设置页面")]
     public GameObject MicrowaveSettingPanelObj;
 
+    [Header("红外对射设置页面")]
+    public GameObject InfraredSettingPanelObj;
+
     SettingPanelConnectWithTransform spcwt;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         spcwt = GetComponent<SettingPanelConnectWithTransform>();
-	}
+    }
 
 
     #region Camera
@@ -90,6 +93,41 @@ public class SettingPanelManager : MonoBehaviour {
     }
 
     #endregion
+
+    #region Infrared
+
+    /// <summary>
+    /// 显示红外对射设置页面
+    /// </summary>
+    /// <param name="go"></param>
+    public void CallOnInfraredSetting(GameObject go)
+    {
+        InfraredSettingPanelObj.SetActive(true);
+        InfraredSettingPanelManager ispm = InfraredSettingPanelObj.GetComponent<InfraredSettingPanelManager>();
+        ispm.initInfraredSettingPanel(go);
+    }
+
+    /// <summary>
+    /// 关闭红外对射设置页面
+    /// </summary>
+    public void DisabelInfraredSetting()
+    {
+        InfraredSettingPanelManager ispm = InfraredSettingPanelObj.GetComponent<InfraredSettingPanelManager>();
+        ispm.CloseBtnCallBack();
+    }
+
+    /// <summary>
+    /// 返回红外对射设置页面
+    /// </summary>
+    /// <returns></returns>
+    public GameObject getInfraredCurControlObj()
+    {
+        InfraredSettingPanelManager ispm = InfraredSettingPanelObj.GetComponent<InfraredSettingPanelManager>();
+        return ispm.getInfraredControlGroupObj();
+    }
+
+    #endregion
+
 
     #region WeiLan
     /// <summary>
