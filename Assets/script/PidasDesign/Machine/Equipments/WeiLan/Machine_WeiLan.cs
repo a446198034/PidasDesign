@@ -13,5 +13,8 @@ public class Machine_WeiLan : EquipmentSelfDetail {
     public MachineType MyMachinetype = MachineType.WeiLan;
 
 
-
+    protected override void SonInit()
+    {
+        setMachineType(MyMachinetype);
+    }
 }

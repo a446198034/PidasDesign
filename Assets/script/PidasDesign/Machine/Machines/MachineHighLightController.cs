@@ -5,6 +5,7 @@ using System.Collections;
 public class MachineHighLightController : MonoBehaviour {
 
     HighLighMaterial hh;
+    EquipmentSelfDetail ess;
 
     bool isSlected = false;
     bool isDoingMeSelf = false; //用来检测我是否正在被操作
@@ -23,6 +24,7 @@ public class MachineHighLightController : MonoBehaviour {
     {
         CheckMaterialValue();
         hh.onShowHighLight(s);
+        ess.EquipmentHighOnOff(s);
     }
 
     public void MyStateControl(bool s)
@@ -62,8 +64,7 @@ public class MachineHighLightController : MonoBehaviour {
 
     #endregion
 
-    // Update is called once per frame
-    void Update () {}
+
 
 
     #region LocalFunction
@@ -73,9 +74,10 @@ public class MachineHighLightController : MonoBehaviour {
     /// </summary>
     void CheckMaterialValue()
     {
-        if (null == hh)
+        if (null == hh || null == ess)
         {
             hh = GetComponent<HighLighMaterial>();
+            ess = GetComponent<EquipmentSelfDetail>();
         }
     }
 

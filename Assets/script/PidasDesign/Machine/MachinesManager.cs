@@ -24,6 +24,9 @@ public class MachinesManager : MonoBehaviour {
     [Header("围栏")]
     public GameObject WeiLanObj;
 
+    [Header("微波组合")]
+    public GameObject MicrowaveGroupObj;
+
     // Use this for initialization
     void Start () {
         ampm = AddMachineParentObj.GetComponent<AddMachineParentManager>();
@@ -51,6 +54,22 @@ public class MachinesManager : MonoBehaviour {
         mc.CreateObjForFirst();
 
         ampm.AddCameraObj(XinChuangJian);
+    }
+
+    /// <summary>
+    /// 创建微波组合的预制体
+    /// </summary>
+    public void MicrowaveCreateBtnCallBack()
+    {
+        JianTouButtonObj.GetComponent<LeftMenuJianTouControl>().OnShowMenu();
+
+        GameObject XinChuangJian = Instantiate(MicrowaveGroupObj);
+
+        XinChuangJian.GetComponent<MicrowaveGroupManager>().initMySelf();
+        MachineCreateInit mc = XinChuangJian.GetComponent<MachineCreateInit>();
+        mc.CreateObjForInitWithMircowaveGroupMachine();
+
+        ampm.AddMicrowaveIntoList(XinChuangJian);
     }
 
     /// <summary>
@@ -123,4 +142,5 @@ public class MachinesManager : MonoBehaviour {
 
 
     #endregion
+
 }

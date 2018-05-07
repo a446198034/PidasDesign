@@ -20,8 +20,9 @@ public class CoordinateSystem : MonoBehaviour {
 
     Transform CurControlTran;
     ControlAxis CurControlAxis = ControlAxis.Axis_X;
-	// Use this for initialization
-	void Start () {
+    MachineType CurMachineType = MachineType.Camera;
+    // Use this for initialization
+    void Start () {
         liandongff = MessageLiandongObj.GetComponent<LianDongFromTransfromAndAxisAndSlider>();
 	}
 
@@ -34,12 +35,28 @@ public class CoordinateSystem : MonoBehaviour {
     /// <param name="tf"></param>
     public void CallOnZhouBiaoZhou(Transform tf)
     {
-        transform.position = tf.position;
-        CurControlTran = tf;
         MoveAxisObj.SetActive(true);
         PanelAxisObj.SetActive(true);
         RotateAxisObj.SetActive(false);
-        CurControlTran.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+
+        EquipmentSelfDetail ess = tf.gameObject.GetComponent<EquipmentSelfDetail>();
+        CurMachineType = ess.getMyMachineType();
+
+        //微波这种组合类型的要区别对待
+        if (CurMachineType == MachineType.Microwave)
+        {
+            MicrowaveManager mm = tf.gameObject.GetComponent<Machine_Weibo>().MyFatherManagerObj.GetComponent<MicrowaveManager>();
+            CurControlTran = tf.gameObject.GetComponent<Machine_Weibo>().MyFatherManagerObj.transform;
+        }
+        else
+        {
+            CurControlTran = tf;
+        }
+
+        transform.position = CurControlTran.position;
+
+        SacelCoordinateSysytem();
+        OnControlisKinematic(true);
     }
 
     /// <summary>
@@ -49,7 +66,7 @@ public class CoordinateSystem : MonoBehaviour {
     {
         if (null != CurControlTran)
         {
-            CurControlTran.gameObject.GetComponent<Rigidbody>().isKinematic = false;
+            OnControlisKinematic(false);
         }
         MoveAxisObj.SetActive(false);
         PanelAxisObj.SetActive(false);
@@ -97,16 +114,38 @@ public class CoordinateSystem : MonoBehaviour {
     /// </summary>
     public void UpdateZuoBiaoZhouPosAndQua()
     {
-        if (!MoveAxisObj.activeSelf || !RotateAxisObj.activeSelf)
+        if (!MoveAxisObj.activeSelf && !RotateAxisObj.activeSelf)
             return;
+
 
         transform.position = CurControlTran.position;
         transform.rotation = CurControlTran.rotation;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
     public Transform getCurControlTran()
     {
         return CurControlTran;
+    }
+
+    /// <summary>
+    /// isKinematic
+    /// </summary>
+    /// <param name="s"></param>
+    public void OnControlisKinematic(bool s)
+    {
+        if (CurMachineType == MachineType.Microwave)
+        {
+            //组合类型的Collider 会有冲突
+         //   CurControlTran.gameObject.GetComponent<Machine_Weibo>().MyFatherManagerObj.GetComponent<MicrowaveManager>().OnControlKinematic(s);
+        }
+        else
+        {
+            CurControlTran.gameObject.GetComponent<Rigidbody>().isKinematic = s;
+        }
     }
 
     /// <summary>
@@ -125,16 +164,7 @@ public class CoordinateSystem : MonoBehaviour {
     {
         if (Input.GetAxis("Mouse ScrollWheel") != 0 || Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.LeftAlt))
         {
-            float f = Vector3.Distance(Camera.main.transform.position,transform.position);
-            float temp = f / DistanceTemp;
-
-            Vector3 v = Vector3.one;
-            if (temp > 1)
-            {
-                v *= temp / 2.0f;
-            }
-
-            transform.localScale = v;
+            SacelCoordinateSysytem();
         }
 
 
@@ -158,8 +188,22 @@ public class CoordinateSystem : MonoBehaviour {
 
     }
 
+    /// <summary>
+    /// 缩放坐标轴
+    /// </summary>
+    void SacelCoordinateSysytem()
+    {
+        float f = Vector3.Distance(Camera.main.transform.position, transform.position);
+        float temp = f / DistanceTemp;
 
-    
+        Vector3 v = Vector3.one;
+        if (temp > 1)
+        {
+            v *= temp / 2.0f;
+        }
+
+        transform.localScale = v;
+    }
 
 
     
